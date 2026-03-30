@@ -1,0 +1,23 @@
+title: "bakodramane's Blog"
+description: "Articles and insights"
+url: "https://bakodramane.github.io"
+baseurl: ""
+theme: minima
+author:
+  name: "bakodramane"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
