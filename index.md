@@ -31,8 +31,8 @@ description: "Weekly practical updates on AI tools, survey methodology, administ
   </div>
   <div class="topic-grid">
     <article class="topic-card">
-      <h3>AI for Surveys</h3>
-      <p>Tools and methods for questionnaire design, data collection, coding, quality control, and respondent interaction.</p>
+      <h3>AI for Surveys and Censuses</h3>
+      <p>Tools and methods for questionnaire design, data collection, respondent interaction, quality control, coding, data processing and cleaning, tabulation and data analysis, reporting and dissemination..</p>
     </article>
     <article class="topic-card">
       <h3>Administrative Data</h3>
