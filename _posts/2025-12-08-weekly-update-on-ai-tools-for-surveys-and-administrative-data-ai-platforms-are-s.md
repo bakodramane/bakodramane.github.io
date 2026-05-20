@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI platforms are shifting the paradigm from periodic, static surveys to dynamic, continuous insight generation"
 date: 2025-12-08
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI platforms are shifting the paradigm from periodic, static surveys to dynamic..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

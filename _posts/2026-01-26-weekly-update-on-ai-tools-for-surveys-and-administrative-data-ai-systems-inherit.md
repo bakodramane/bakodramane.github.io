@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI systems inherit and amplify data quality issues"
 date: 2026-01-26
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI systems inherit and amplify data quality issues."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

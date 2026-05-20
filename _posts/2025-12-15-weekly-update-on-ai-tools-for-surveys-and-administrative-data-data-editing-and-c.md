@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Data Editing and Cleaning Academic research has long explored the automation of data editing and imputation"
 date: 2025-12-15
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Data Editing and Cleaning Academic research has long explored the automation of..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

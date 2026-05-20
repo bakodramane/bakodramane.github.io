@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Key applications in data imputation, automated coding, and data quality control"
 date: 2026-02-02
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Key applications in data imputation, automated coding, and data quality control."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Machine learning models can also identify sophisticated fraud patterns that might be missed by human reviewers"
 date: 2026-02-09
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Machine learning models can also identify sophisticated fraud patterns that might..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data:"
 date: 2026-02-16
+author: Dramane Bako
+description: "Coverage Period: 16–22 February 2026"
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

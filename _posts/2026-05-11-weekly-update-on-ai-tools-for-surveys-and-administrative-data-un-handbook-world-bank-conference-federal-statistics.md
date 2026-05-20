@@ -3,6 +3,10 @@ layout: post
 title: "Weekly update on AI tools for surveys and administrative data: UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and AI Day for Federal Statistics 2026"
 date: 2026-05-11
 author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and..."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
 ---
 
 ## 🇬🇧 English

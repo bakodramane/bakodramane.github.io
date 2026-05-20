@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI-assisted survey creation to real-time feedback intelligence"
 date: 2025-10-27
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI assisted survey creation to real time feedback intelligence."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

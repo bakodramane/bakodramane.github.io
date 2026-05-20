@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: DataWrangler, another open-source tool, offers an interactive and visual approach to data cleaning"
 date: 2025-09-08
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering DataWrangler, another open source tool, offers an interactive and visual approach..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

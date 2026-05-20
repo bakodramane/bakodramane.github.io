@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Comprehensive research of current developments, artificial intelligence 15–21 September 2025"
 date: 2025-09-15
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Comprehensive research of current developments, artificial intelligence 15–21..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

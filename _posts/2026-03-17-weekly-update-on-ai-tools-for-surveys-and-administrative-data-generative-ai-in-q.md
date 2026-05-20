@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Generative AI in Questionnaire Development"
 date: 2026-03-17
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Generative AI in Questionnaire Development."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

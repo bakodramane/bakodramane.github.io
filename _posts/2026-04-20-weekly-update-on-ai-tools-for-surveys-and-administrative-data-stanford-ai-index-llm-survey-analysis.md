@@ -3,6 +3,10 @@ layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Stanford AI Index 2026, LLM-assisted survey analysis, and AI adoption in the US economy"
 date: 2026-04-20
 author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Stanford AI Index 2026, LLM assisted survey analysis, and AI adoption in the US..."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
 ---
 
 ## 🇬🇧 English

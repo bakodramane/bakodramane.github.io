@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data:"
 date: 2025-11-17
+author: Dramane Bako
+description: "Digital twins, on the other hand, are individual level AI replicas built from detailed customer data"
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

@@ -1,10 +1,26 @@
-title: "bakodramane's Blog"
-description: "Articles and insights"
+title: "Dramane Bako | AI for Official Statistics"
+tagline: "Weekly insights on AI, surveys, censuses, administrative data, and official statistics"
+description: "A professional blog by Dramane Bako sharing weekly updates on artificial intelligence, survey methodology, administrative data, agricultural statistics, and responsible AI use in official statistics."
 url: "https://bakodramane.github.io"
 baseurl: ""
 theme: minima
 author:
-  name: "bakodramane"
+  name: "Dramane Bako"
+  email:
+  url: "https://bakodramane.github.io/about/"
+
+twitter:
+  username:
+  card: summary_large_image
+
+social:
+  name: "Dramane Bako"
+  links:
+    - "https://www.linkedin.com/in/bakodramane/"
+    - "https://www.researchgate.net/profile/Dramane-Bako"
+
+logo: "/assets/img/social-preview.png"
+image: "/assets/img/social-preview.png"
 
 # Build settings
 markdown: kramdown
@@ -14,6 +30,25 @@ permalink: /:year/:month/:day/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Dramane Bako"
+      categories:
+        - AI
+        - Survey Research
+        - Weekly Update
+      tags:
+        - AI
+        - surveys
+        - official-statistics
+        - administrative-data
+      lang: en
 
 # Exclude from processing
 exclude:

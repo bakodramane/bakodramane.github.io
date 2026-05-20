@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: data imputation, respondent clustering, and the prediction of health-related risks from survey data"
 date: 2026-03-20
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering data imputation, respondent clustering, and the prediction of health related risks..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

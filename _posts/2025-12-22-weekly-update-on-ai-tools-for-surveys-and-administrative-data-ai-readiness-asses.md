@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI Readiness Assessment Toolkit to help NSOs benchmark their progress"
 date: 2025-12-22
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI Readiness Assessment Toolkit to help NSOs benchmark their progress."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

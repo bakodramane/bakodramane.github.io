@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data:"
 date: 2025-11-03
+author: Dramane Bako
+description: "Modernize their operations and enhance the quality of their outputs"
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

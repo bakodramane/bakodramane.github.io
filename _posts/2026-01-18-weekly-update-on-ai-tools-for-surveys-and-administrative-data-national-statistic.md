@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: National statistical offices (NSOs) are increasingly exploring and implementing AI to modernize their operations"
 date: 2026-01-18
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering National statistical offices (NSOs) are increasingly exploring and implementing AI..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

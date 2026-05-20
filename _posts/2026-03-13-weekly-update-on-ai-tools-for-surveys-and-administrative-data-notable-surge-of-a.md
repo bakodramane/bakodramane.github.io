@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: notable surge of activity at the intersection of Artificial Intelligence and survey research"
 date: 2026-03-13
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering notable surge of activity at the intersection of Artificial Intelligence and survey..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

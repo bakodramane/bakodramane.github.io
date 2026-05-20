@@ -3,6 +3,10 @@ layout: post
 title: "Weekly update on AI tools for surveys and administrative data: MCP servers for statistics, poverty prediction, and data quality"
 date: 2026-04-13
 author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering MCP servers for statistics, poverty prediction, and data quality."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
 ---
 
 ## 🇬🇧 English

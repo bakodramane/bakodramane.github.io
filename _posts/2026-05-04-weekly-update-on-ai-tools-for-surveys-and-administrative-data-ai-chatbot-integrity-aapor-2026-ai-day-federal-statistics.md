@@ -3,6 +3,10 @@ layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI chatbot integrity in online surveys, AAPOR 2026 highlights, and AI Day for Federal Statistics"
 date: 2026-05-04
 author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI chatbot integrity in online surveys, AAPOR 2026 highlights, and AI Day for..."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
 ---
 
 ## 🇬🇧 English

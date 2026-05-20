@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data:"
 date: 2025-11-10
+author: Dramane Bako
+description: "The Productivity Paradox and Trust Deficit A significant tension has emerged alongside these productivity gains"
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

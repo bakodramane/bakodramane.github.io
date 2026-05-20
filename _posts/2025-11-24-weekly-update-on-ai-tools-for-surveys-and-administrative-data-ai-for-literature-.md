@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data:  AI for literature searches, manuscript drafting, and data analysis"
 date: 2025-11-24
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI for literature searches, manuscript drafting, and data analysis."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

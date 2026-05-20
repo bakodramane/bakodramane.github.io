@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Practical benefits of AI in improving the efficiency and quality of survey instruments"
 date: 2025-10-05
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Practical benefits of AI in improving the efficiency and quality of survey instruments."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Key Developments from National Statistical Offices"
 date: 2025-12-29
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Key Developments from National Statistical Offices."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

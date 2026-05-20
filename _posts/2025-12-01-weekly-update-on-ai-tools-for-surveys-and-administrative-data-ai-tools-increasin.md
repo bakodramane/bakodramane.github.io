@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AI tools increasingly accessible to non-technical users, democratizing the research process"
 date: 2025-12-01
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI tools increasingly accessible to non technical users, democratizing the research..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

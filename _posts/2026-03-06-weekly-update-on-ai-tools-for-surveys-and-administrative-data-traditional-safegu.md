@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Traditional safeguards, such as attention checks, are often costly, reactive, and inconsistent"
 date: 2026-03-06
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Traditional safeguards, such as attention checks, are often costly, reactive, and..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

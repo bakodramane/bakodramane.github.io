@@ -2,6 +2,8 @@
 layout: post
 title: "Weekly update on AI tools for surveys and administrative data: Census Bureau AI Integration"
 date: 2026-01-12
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering Census Bureau AI Integration."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en

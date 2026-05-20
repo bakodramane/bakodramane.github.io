@@ -3,6 +3,10 @@ layout: post
 title: "Weekly update on AI tools for surveys and administrative data: AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics"
 date: 2026-05-18
 author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
 ---
 
 ## 🇬🇧 English

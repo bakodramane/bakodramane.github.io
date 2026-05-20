@@ -2,9 +2,10 @@
 layout: page
 title: About
 permalink: /about/
+description: "About Dramane Bako and the focus of this blog on AI, surveys, administrative data, agricultural statistics, and official statistics."
 ---
 
-Welcome to my blog!
+# About this blog
 
 I am Dramane Bako, a statistician and data scientist specialising in survey methodology, administrative data, agricultural statistics, and the application of artificial intelligence and machine learning to official statistics.
 
@@ -14,6 +15,7 @@ My aim is to translate fast-moving AI developments into practical insights for s
 
 The views expressed here are personal.
 
-LinkedIn: [https://www.linkedin.com/in/bakodramane/](https://www.linkedin.com/in/bakodramane/)
+Connect with me:
 
-ResearchGate: [https://www.researchgate.net/profile/Dramane-Bako](https://www.researchgate.net/profile/Dramane-Bako)
+- [LinkedIn](https://www.linkedin.com/in/bakodramane/)
+- [ResearchGate](https://www.researchgate.net/profile/Dramane-Bako)

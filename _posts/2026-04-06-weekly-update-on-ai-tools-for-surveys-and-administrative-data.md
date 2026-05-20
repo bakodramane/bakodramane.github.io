@@ -1,8 +1,13 @@
-# Weekly update on AI tools for surveys and administrative data: AI adoption, LLM evaluation, and StatGPT
-
-Date: 2026-04-06
-
-
+---
+layout: post
+title: "Weekly update on AI tools for surveys and administrative data: AI adoption, LLM evaluation, and StatGPT"
+date: 2026-04-06
+author: Dramane Bako
+description: "Weekly update on AI tools for surveys and administrative data covering AI adoption, LLM evaluation, and StatGPT."
+categories: [AI, Survey Research, Weekly Update]
+tags: [AI, surveys, official-statistics, administrative-data]
+lang: en
+---
 
 ## 🇬🇧 English
 
