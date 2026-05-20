@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AI Readiness Assessment Toolkit to help NSOs benchmark their progress"
+title: "AI Readiness Assessment Toolkit to help NSOs benchmark their progress"
 date: 2025-12-22
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI Readiness Assessment Toolkit to help NSOs benchmark their progress."
+description: "This week's update on artificial intelligence in survey research highlights significant advancements across the entire survey lifecycle, from data..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 22–28 December 2025
 
 Key words: AI, survey research, official statistics, machine learning, data quality, automation, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This week's update on artificial intelligence in survey research highlights significant advancements across the entire survey lifecycle, from data cleaning and collection to analysis and dissemination. Key developments include the use of large language models (LLMs) for data restoration and as a replacement for traditional survey methods, new frameworks for detecting AI-generated survey responses, and the release of comprehensive AI-readiness guides for national statistical offices. These trends indicate a rapid maturation of AI applications in the field, moving from experimental use cases to integrated, production-level systems.
 
@@ -59,11 +58,11 @@ Privacy-Preserving AI
 
 As data accessibility becomes a priority under new regulations like the U.S. Evidence Act, protecting respondent privacy is paramount. A paper on arXiv details the development of CenSyn, a machine learning framework for creating synthetic public-use microdata samples (PUMS) for the U.S. Census Bureau's business surveys [5]. This approach generates artificial data that preserves the statistical properties of the original restricted-use data without containing any real individual or business records. This allows for wider public access to valuable data for research and policymaking while adhering to strict confidentiality requirements.
 
-Conclusion
+## **Conclusion**
 
 The developments of the past week demonstrate a clear and accelerating trend: AI is no longer a peripheral technology in survey research but is becoming a core component of modern data collection, processing, and analysis. From restoring historical data to creating new real-time indicators and ensuring data quality, AI is reshaping the field. For researchers and statistical offices, the key challenge is no longer whether to adopt AI, but how to do so responsibly, ethically, and effectively.
 
-References
+## **References**
 
 [1] Mun, S., Lee, D., Yoo, J., & Lee, S. (2025). Reweaving the Threads of Korean History: AI-Driven Restoration of the Daegu-bu Household Registers (1681–1876). Scientific Data. https://www.nature.com/articles/s41597-025-06299-5
 
@@ -95,7 +94,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 22–28 décembre 2025
 
@@ -141,7 +139,7 @@ IA préservant la confidentialité
 
 Alors que l'accessibilité des données devient une priorité en vertu de nouvelles réglementations comme le U.S. Evidence Act, la protection de la vie privée des répondants est primordiale. Un article sur arXiv détaille le développement de CenSyn, un cadre d'apprentissage automatique pour la création d'échantillons de microdonnées à usage public (PUMS) synthétiques pour les enquêtes commerciales du Bureau du recensement des États-Unis [5]. Cette approche génère des données artificielles qui préservent les propriétés statistiques des données originales à usage restreint sans contenir d'enregistrements individuels ou commerciaux réels. Cela permet un accès public plus large à des données précieuses pour la recherche et l'élaboration des politiques tout en respectant des exigences strictes de confidentialité.
 
-Conclusion
+## **Conclusion**
 
 Les développements de la semaine dernière démontrent une tendance claire et accélérée : l'IA n'est plus une technologie périphérique dans la recherche par sondage, mais devient un composant essentiel de la collecte, du traitement et de l'analyse des données modernes. De la restauration des données historiques à la création de nouveaux indicateurs en temps réel et à l'assurance de la qualité des données, l'IA remodèle le domaine. Pour les chercheurs et les offices statistiques, le principal défi n'est plus de savoir s'il faut adopter l'IA, mais comment le faire de manière responsable, éthique et efficace.
 

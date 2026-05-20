@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AI chatbot integrity in online surveys, AAPOR 2026 highlights, and AI Day for Federal Statistics"
+title: "AI Chatbot Integrity, AAPOR 2026 and AI Day for Federal Statistics"
 date: 2026-05-04
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI chatbot integrity in online surveys, AAPOR 2026 highlights, and AI Day for..."
+description: "A new preprint study by Prolific researchers finds that fewer than 1% of approximately 4,800 online survey responses across 12 platforms were likely..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
@@ -11,17 +11,15 @@ lang: en
 
 ## 🇬🇧 English
 
-**Weekly update on AI tools for surveys and administrative data: AI chatbot integrity in online surveys, AAPOR 2026 highlights, and AI Day for Federal Statistics**
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms...) and administrative data for official statistics.
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 27 April – 4 May 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, chatbot detection, AAPOR, LLM, questionnaire translation, federal statistics
 
-### Key Takeaways
+## **Key Takeaways**
 
 - **A new preprint study** by Prolific researchers finds that fewer than 1% of approximately 4,800 online survey responses across 12 platforms were likely completed by AI chatbots, challenging widespread fears about AI infiltration of survey data. Amazon Mechanical Turk was a notable outlier, with approximately 16% of responses flagged.
 - **The AAPOR 81st Annual Conference** (Los Angeles, May 13–15, 2026) features a rich programme of AI-related sessions, including evaluations of LLMs for complex survey data analysis, AI-assisted questionnaire translation, and multi-agent LLM simulations for opinion modelling.
@@ -64,7 +62,7 @@ Kenett advocates for a transition from the traditional enumerative context of su
 
 The paper surveys a range of techniques including decision trees, Bayesian networks, structural equation models, and deep learning approaches, situating them within the broader landscape of survey methodology. It serves as a useful reference for practitioners seeking to integrate AI tools into survey analysis workflows.
 
-### References
+## **References**
 
 [1] Gordon, A. et al. (2026). Are AI chatbots infiltrating online survey data? Not yet. PsyArXiv preprint. https://retractionwatch.com/2026/04/30/are-ai-chatbots-infiltrating-online-survey-data-not-yet-says-new-study/
 [2] AAPOR 81st Annual Conference. American Association for Public Opinion Research. https://www.aapor.org/conference/
@@ -81,7 +79,6 @@ The paper surveys a range of techniques including decision trees, Bayesian netwo
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d’IA pour les enquêtes (ménages, individus, exploitations agricoles...) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (FAO Statistics Division, Rome, Italie)
 
 Période couverte : 27 avril – 4 mai 2026
 

@@ -13,6 +13,7 @@ description: "Weekly practical updates on AI tools, survey methodology, administ
     </p>
     <div class="hero__actions">
       <a class="button button--primary" href="#latest-posts">Read latest posts</a>
+      <a class="button" href="{{ '/archive/' | relative_url }}">Browse all posts</a>
       <a class="button" href="{{ '/about/' | relative_url }}">About Dramane</a>
     </div>
   </div>
@@ -32,7 +33,7 @@ description: "Weekly practical updates on AI tools, survey methodology, administ
   <div class="topic-grid">
     <article class="topic-card">
       <h3>AI for Surveys and Censuses</h3>
-      <p>Tools and methods for questionnaire design, data collection, respondent interaction, quality control, coding, data processing and cleaning, tabulation and data analysis, reporting and dissemination..</p>
+      <p>Tools and methods for questionnaire design, data collection, respondent interaction, quality control, coding, data processing and cleaning, tabulation, data analysis, reporting and dissemination.</p>
     </article>
     <article class="topic-card">
       <h3>Administrative Data</h3>
@@ -51,7 +52,10 @@ description: "Weekly practical updates on AI tools, survey methodology, administ
       <p class="eyebrow">Latest</p>
       <h2>Recent posts</h2>
     </div>
-    <a class="rss-link" href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+    <div class="section-links">
+      <a class="rss-link" href="{{ '/archive/' | relative_url }}">All posts</a>
+      <a class="rss-link" href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+    </div>
   </div>
 
   <div class="post-grid">

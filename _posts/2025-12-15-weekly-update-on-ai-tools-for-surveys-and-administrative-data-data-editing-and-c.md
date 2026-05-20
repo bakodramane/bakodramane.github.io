@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Data Editing and Cleaning Academic research has long explored the automation of data editing and imputation"
+title: "Data Editing, Cleaning and Imputation Automation"
 date: 2025-12-15
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Data Editing and Cleaning Academic research has long explored the automation of..."
+description: "This week has seen a significant focus on the enterprise adoption of AI, with major reports from OpenAI, EY, and Gallup highlighting the rapid integration..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 15–21 December 2025
 
 Key words: AI, survey research, official statistics, machine learning, data quality, automation, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This week has seen a significant focus on the enterprise adoption of AI, with major reports from OpenAI, EY, and Gallup highlighting the rapid integration of AI into the workplace and its impact on productivity. For survey researchers and statistical offices, this translates to a growing availability of sophisticated AI-powered tools for data cleaning, analysis, and reporting. However, concerns about data quality, AI safety, and the transparency of AI models are also prominent themes.
 
@@ -69,11 +68,11 @@ Global AI Landscape
 
 Stanford University's 2025 Global AI Vibrancy Tool provides a snapshot of the global AI landscape. The United States and China continue to lead, with India making a dramatic climb to third place [18]. The rankings are based on a wide range of indicators, including AI research, talent, and infrastructure.
 
-Conclusion
+## **Conclusion**
 
 The use of AI in survey research is rapidly evolving, with new tools and techniques emerging at a remarkable pace. While the potential for AI to improve efficiency and generate deeper insights is undeniable, it is crucial for researchers and statistical offices to remain vigilant about data quality, AI safety, and transparency. As AI becomes more deeply integrated into the survey lifecycle, a continued focus on best practices and rigorous evaluation will be essential to harnessing its full potential.
 
-References
+## **References**
 
 [1] The state of enterprise AI
 
@@ -121,7 +120,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 15–21 décembre 2025
 
@@ -177,7 +175,7 @@ Paysage mondial de l'IA
 
 L'outil Global AI Vibrancy 2025 de l'Université de Stanford offre un aperçu du paysage mondial de l'IA. Les États-Unis et la Chine continuent de dominer, l'Inde réalisant une ascension spectaculaire à la troisième place [18]. Les classements sont basés sur un large éventail d'indicateurs, y compris la recherche en IA, les talents et l'infrastructure.
 
-Conclusion
+## **Conclusion**
 
 L'utilisation de l'IA dans la recherche par sondage évolue rapidement, avec de nouveaux outils et techniques qui émergent à un rythme remarquable. Si le potentiel de l'IA pour améliorer l'efficacité et générer des informations plus approfondies est indéniable, il est crucial pour les chercheurs et les bureaux de statistique de rester vigilants quant à la qualité des données, à la sécurité de l'IA et à la transparence. À mesure que l'IA s'intègre plus profondément dans le cycle de vie des enquêtes, une attention continue aux meilleures pratiques et à une évaluation rigoureuse sera essentielle pour exploiter tout son potentiel.
 

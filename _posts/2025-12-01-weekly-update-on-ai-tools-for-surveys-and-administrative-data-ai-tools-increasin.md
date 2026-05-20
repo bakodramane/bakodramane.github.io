@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AI tools increasingly accessible to non-technical users, democratizing the research process"
+title: "Accessible AI Tools and Democratized Research Workflows"
 date: 2025-12-01
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI tools increasingly accessible to non technical users, democratizing the research..."
+description: "This report provides a summary of new developments in the application of Artificial Intelligence (AI) for survey research and household surveys, with a..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 01–07 December 2025
 
 Key words: AI, survey research, official statistics, data quality, household surveys, data analysis
 
-Introduction
+## **Introduction**
 
 This report provides a summary of new developments in the application of Artificial Intelligence (AI) for survey research and household surveys, with a focus on data editing, cleaning, processing, analysis, reporting, and dissemination. The findings are intended to be useful for researchers and statistical offices seeking to understand and leverage emerging AI technologies.
 
@@ -47,7 +46,7 @@ Conclusion and Future Outlook
 
 The developments of the past week highlight a clear trend towards the operationalization of AI in survey research. From AI-native platforms that accelerate the entire research lifecycle to the growing importance of data quality and the emergence of synthetic audiences, AI is poised to have a transformative impact on the field. For researchers and statistical offices, the key to leveraging these technologies will be to invest in data quality, build institutional capacity, and adopt a culture of continuous learning and experimentation.
 
-References
+## **References**
 
 [1] Forbes Technology Council. "The Rise Of AI-Native Research Is Reshaping Business Decisions." November 26, 2025.
 
@@ -77,13 +76,12 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 01–07 décembre 2025
 
 Mots-clés : IA, recherche par sondage, statistiques officielles, qualité des données, enquêtes auprès des ménages, analyse de données
 
-Introduction
+## **Introduction**
 
 Ce rapport fournit un résumé des nouveaux développements dans l'application de l'intelligence artificielle (IA) pour la recherche par sondage et les enquêtes auprès des ménages, en se concentrant sur l'édition, le nettoyage, le traitement, l'analyse, la création de rapports et la diffusion des données. Les résultats sont destinés à être utiles aux chercheurs et aux bureaux de statistique qui cherchent à comprendre et à exploiter les technologies émergentes de l'IA.
 

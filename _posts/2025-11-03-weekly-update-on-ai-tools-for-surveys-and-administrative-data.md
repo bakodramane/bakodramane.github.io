@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data:"
+title: "AI in Official Statistics, Survey Tools, LLMs and Synthetic Data"
 date: 2025-11-03
 author: Dramane Bako
-description: "Modernize their operations and enhance the quality of their outputs"
+description: "This weekly update provides a comprehensive overview of the latest developments in the application of Artificial Intelligence (AI) in survey research and..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -11,23 +11,22 @@ lang: en
 
 ## 🇬🇧 English
 
-Modernize their operations and enhance the quality of their outputs
+
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 03–09 November 2025
 
 Key words: AI, survey research, administrative data, official statistics, machine learning, data quality, automation, household surveys
 
-Introduction
+## **Introduction**
 
 This weekly update provides a comprehensive overview of the latest developments in the application of Artificial Intelligence (AI) in survey research and household surveys. The rapid advancements in AI are transforming the entire survey lifecycle, from data collection and processing to analysis and dissemination. This report is designed for researchers and statistical offices to stay informed about the opportunities and challenges presented by these new technologies.
 
 This week's key developments include new research on the integration of AI in official statistics, the emergence of sophisticated AI-powered survey tools, the growing role of Large Language Models (LLMs) in questionnaire design and analysis, and the increasing use of synthetic data. We will explore each of these areas in detail, providing insights from recent publications and industry reports.
 
-1. AI in Official Statistics: A Paradigm Shift
+## **AI in Official Statistics: A Paradigm Shift**
 
 The integration of AI and Machine Learning (ML) into the production of official statistics is a top priority for statistical offices worldwide. A recent paper from Statistics Spain (INE) highlights a quality-oriented approach to using statistical learning models to improve accuracy, cost-efficiency, timeliness, and other critical aspects of statistical products [1]. The authors distinguish between two main approaches for using AI/ML in official statistics:
 
@@ -41,7 +40,7 @@ In a similar vein, Eurostat recently hosted a webinar on the opportunities and c
 
 operations.
 
-2. The Rise of AI-Powered Survey Tools
+## **The Rise of AI-Powered Survey Tools**
 
 The market for survey software is rapidly evolving with the integration of AI. New tools are emerging that automate and enhance various stages of the survey process, from creation and analysis to reporting. A recent review of AI survey tools highlights several key capabilities that are becoming increasingly common [3, 4]:
 
@@ -55,7 +54,7 @@ Automated Reporting and Visualization: AI can generate visual dashboards and ins
 
 Several tools are at the forefront of this trend. For example, quantilope's quinn acts as an AI collaborative partner for building projects and analyzing results, while Zonka Feedback offers advanced features like emotion and theme detection, and predictive experience scoring [4]. These tools are not only making the survey process more efficient but are also enabling researchers to extract deeper and more nuanced insights from their data.
 
-3. The Growing Role of Large Language Models (LLMs)
+## **The Growing Role of Large Language Models (LLMs)**
 
 Large Language Models (LLMs) like ChatGPT are also beginning to make a significant impact on survey research. A recent arXiv paper introduces a benchmark called QASU (Questionnaire Analysis and Structural Understanding) to evaluate the ability of LLMs to understand and analyze questionnaire data [6]. The study found that the way a questionnaire is formatted and presented to an LLM can significantly impact its accuracy, with performance improvements of up to 8.8% observed with optimal formatting. This research provides valuable guidance for researchers looking to leverage LLMs for survey data analysis.
 
@@ -63,7 +62,7 @@ The paper also highlights a key limitation of current survey analysis tools like
 
 Beyond data analysis, LLMs are also being used to improve survey design. They can help researchers brainstorm questions, organize survey structure, and even test for potential biases in question wording. As these models become more sophisticated, they are likely to become an indispensable tool for survey researchers at every stage of the research process.
 
-4. The Promise and Peril of Synthetic Data
+## **The Promise and Peril of Synthetic Data**
 
 One of the most talked-about developments in market research is the use of synthetic data and AI-generated survey responses. A recent report from Qualtrics found that 73% of market researchers have already used synthetic responses at least once, with a third using them in the last 30 days [7]. The appeal of synthetic data is clear: it offers the potential for faster, cheaper, and more scalable research. It also provides a way to reach hard-to-access populations and protect the privacy of respondents.
 
@@ -71,7 +70,7 @@ However, the use of synthetic data is not without its challenges and limitations
 
 The debate over the role of synthetic data in survey research is likely to continue as the technology evolves. For now, it is a powerful tool that should be used with a clear understanding of its strengths and weaknesses.
 
-5. AI in Data Editing, Cleaning, and Processing
+## **AI in Data Editing, Cleaning, and Processing**
 
 A significant portion of the survey research workflow is dedicated to data editing, cleaning, and processing. AI and machine learning are making substantial inroads in automating and improving these tasks. The use of AI in this area is focused on increasing efficiency, reducing manual errors, and improving the overall quality of the data.
 
@@ -81,11 +80,11 @@ Another important application is in the automated coding and classification of o
 
 Furthermore, AI is being used for automated data cleaning to identify and correct errors, inconsistencies, and outliers in survey data. This can include tasks such as identifying duplicate responses, flagging inconsistent answers, and correcting data entry errors. By automating these tasks, AI can significantly reduce the time and effort required for data preparation, allowing researchers to focus on analysis and analysis and analysis and analysis and analysis and analysis and analysis and analyze and interpret the results.
 
-Conclusion
+## **Conclusion**
 
 The developments of the past week demonstrate the accelerating pace of AI adoption in survey research. From the foundational level of official statistics to the cutting edge of synthetic data, AI is reshaping every aspect of the survey lifecycle. For researchers and statistical offices, the key challenge will be to harness the power of these new tools while upholding the principles of data quality, accuracy, and ethical research. Staying informed about these developments is no longer just an option but a necessity for anyone involved in the field of survey research.
 
-References
+## **References**
 
 [1] Barragán, S., Pérez-Bote, A., Sáez, C., Salgado, D., & Sanguiao-Sande, L. (2025, October 28). Streamlining business functions in official statistical production with Machine Learning. arXiv. https://arxiv.org/html/2510.24394v1
 
@@ -115,19 +114,18 @@ Moderniser leurs opérations et améliorer la qualité de leurs productions
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 03–09 novembre 2025
 
 Mots-clés : IA, recherche par sondage, données administratives, statistiques officielles, apprentissage automatique, qualité des données, automatisation, enquêtes auprès des ménages
 
-Introduction
+## **Introduction**
 
 Cette mise à jour hebdomadaire offre un aperçu complet des derniers développements dans l'application de l'intelligence artificielle (IA) dans la recherche par sondage et les enquêtes auprès des ménages. Les avancées rapides de l'IA transforment l'ensemble du cycle de vie des enquêtes, de la collecte et du traitement des données à l'analyse et à la diffusion. Ce rapport est conçu pour que les chercheurs et les offices statistiques restent informés des opportunités et des défis présentés par ces nouvelles technologies.
 
 Les développements clés de cette semaine incluent de nouvelles recherches sur l'intégration de l'IA dans les statistiques officielles, l'émergence d'outils d'enquête sophistiqués alimentés par l'IA, le rôle croissant des grands modèles linguistiques (LLM) dans la conception et l'analyse de questionnaires, et l'utilisation croissante de données synthétiques. Nous explorerons chacun de ces domaines en détail, en fournissant des informations tirées de publications récentes et de rapports de l'industrie.
 
-1. L'IA dans les statistiques officielles : un changement de paradigme
+## **L'IA dans les statistiques officielles : un changement de paradigme**
 
 L'intégration de l'IA et de l'apprentissage automatique (ML) dans la production de statistiques officielles est une priorité absolue pour les offices statistiques du monde entier. Un article récent de Statistique Espagne (INE) met en évidence une approche axée sur la qualité pour l'utilisation de modèles d'apprentissage statistique afin d'améliorer la précision, la rentabilité, l'actualité et d'autres aspects critiques des produits statistiques [1]. Les auteurs distinguent deux approches principales pour l'utilisation de l'IA/ML dans les statistiques officielles :
 
@@ -141,7 +139,7 @@ Dans le même ordre d'idées, Eurostat a récemment organisé un webinaire sur l
 
 opérations.
 
-2. L'essor des outils d'enquête alimentés par l'IA
+## **L'essor des outils d'enquête alimentés par l'IA**
 
 Le marché des logiciels d'enquête évolue rapidement avec l'intégration de l'IA. De nouveaux outils émergent qui automatisent et améliorent les différentes étapes du processus d'enquête, de la création et de l'analyse au reporting. Un examen récent des outils d'enquête d'IA met en évidence plusieurs capacités clés qui deviennent de plus en plus courantes [3, 4] :
 
@@ -155,7 +153,7 @@ Reporting et visualisation automatisés : L'IA peut générer des tableaux de bo
 
 Plusieurs outils sont à l'avant-garde de cette tendance. Par exemple, quinn de quantilope agit comme un partenaire collaboratif d'IA pour la construction de projets et l'analyse des résultats, tandis que Zonka Feedback offre des fonctionnalités avancées comme la détection des émotions et des thèmes, et la notation prédictive de l'expérience [4]. Ces outils ne rendent pas seulement le processus d'enquête plus efficace, mais permettent également aux chercheurs d'extraire des informations plus profondes et plus nuancées de leurs données.
 
-3. Le rôle croissant des grands modèles linguistiques (LLM)
+## **Le rôle croissant des grands modèles linguistiques (LLM)**
 
 Les grands modèles linguistiques (LLM) comme ChatGPT commencent également à avoir un impact significatif sur la recherche par sondage. Un article récent d'arXiv présente un benchmark appelé QASU (Questionnaire Analysis and Structural Understanding) pour évaluer la capacité des LLM à comprendre et à analyser les données de questionnaire [6]. L'étude a révélé que la façon dont un questionnaire est formaté et présenté à un LLM peut avoir un impact significatif sur sa précision, avec des améliorations de performance allant jusqu'à 8,8 % observées avec un formatage optimal. Cette recherche fournit des conseils précieux aux chercheurs qui cherchent à exploiter les LLM pour l'analyse des données d'enquête.
 
@@ -163,7 +161,7 @@ L'article souligne également une limitation clé des outils d'analyse d'enquêt
 
 Au-delà de l'analyse des données, les LLM sont également utilisés pour améliorer la conception des enquêtes. Ils peuvent aider les chercheurs à trouver des questions, à organiser la structure de l'enquête et même à tester les biais potentiels dans la formulation des questions. À mesure que ces modèles deviennent plus sophistiqués, ils sont susceptibles de devenir un outil indispensable pour les chercheurs en sondage à chaque étape du processus de recherche.
 
-4. La promesse et le péril des données synthétiques
+## **La promesse et le péril des données synthétiques**
 
 L'un des développements les plus discutés dans la recherche marketing est l'utilisation de données synthétiques et de réponses d'enquête générées par l'IA. Un rapport récent de Qualtrics a révélé que 73 % des chercheurs marketing ont déjà utilisé des réponses synthétiques au moins une fois, un tiers les ayant utilisées au cours des 30 derniers jours [7]. L'attrait des données synthétiques est clair : elles offrent le potentiel d'une recherche plus rapide, moins chère et plus évolutive. Elles offrent également un moyen d'atteindre des populations difficiles d'accès et de protéger la vie privée des répondants.
 
@@ -171,6 +169,6 @@ Cependant, l'utilisation de données synthétiques n'est pas sans défis et limi
 
 Le débat sur le rôle des données synthétiques dans la recherche par sondage est susceptible de se poursuivre à mesure que la technologie évolue. Pour l'instant, c'est un outil puissant qui doit être utilisé avec une compréhension claire de ses forces et de ses faiblesses.
 
-5. L'IA dans l'édition, le nettoyage et le traitement des données
+## **L'IA dans l'édition, le nettoyage et le traitement des données**
 
 Une partie importante du flux de travail de la recherche par sondage est consacrée à l'édition, au nettoyage et au traitement des données. L'IA et l'apprentissage automatique font des progrès substantiels dans l'automatisation et l'amélioration de ces tâches. L'utilisation de l'IA dans ce

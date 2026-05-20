@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: notable surge of activity at the intersection of Artificial Intelligence and survey research"
+title: "AI and Survey Research: Key Publications and Developments"
 date: 2026-03-13
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering notable surge of activity at the intersection of Artificial Intelligence and survey..."
+description: "The past week has brought a notable surge of activity at the intersection of Artificial Intelligence and survey research. Flagship publications from the..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,17 +13,16 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 09–15 March 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 The past week has brought a notable surge of activity at the intersection of Artificial Intelligence and survey research. Flagship publications from the IMF, Eurostat, and India's Ministry of Statistics, alongside peer-reviewed studies on LLM-based imputation and survey bot detection, collectively signal that the field is moving from exploratory experimentation to operational deployment. At the same time, the 57th UN Statistical Commission and the UNECE Expert Meeting on Ethics in Official Statistics have placed governance, trust, and responsible AI firmly at the centre of institutional agendas. This report organises the week's key developments across the full survey data lifecycle.
 
-1. Survey Design and Questionnaire Development
+## **Survey Design and Questionnaire Development**
 
 1.1 AI-Assisted Instrument Design
 
@@ -39,7 +38,7 @@ A separate study published in the International Journal of Social Research Metho
 
 The implications for household surveys conducted via web panels are significant. Statistical offices relying on web-based data collection should consider the following mitigation strategies:
 
-2. Data Editing and Cleaning
+## **Data Editing and Cleaning**
 
 2.1 LLMs for Missing Data Imputation: A Large-Scale Benchmark
 
@@ -59,7 +58,7 @@ A complementary study on in-context learning for survey data imputation, present
 
 The manual coding of open-ended survey responses has long been a bottleneck in survey processing. AI-native platforms using NLP are now capable of identifying themes, scoring sentiment, and correlating qualitative findings with quantitative variables across thousands of responses in seconds. Industry analyses suggest that AI can reduce the open-ended response coding cycle from five to seven weeks to a matter of hours [8]. For national statistical offices that include open-ended questions in household surveys—such as questions on subjective well-being, reasons for non-participation in the labour market, or barriers to healthcare access—this represents a transformative efficiency gain.
 
-3. Data Processing and Statistical Analysis
+## **Data Processing and Statistical Analysis**
 
 3.1 Evaluating LLMs on Complex Survey Microdata
 
@@ -87,7 +86,7 @@ Model specification and overfitting: The automatic model selection capabilities 
 
 Integration of alternative data sources: The use of non-traditional data (satellite imagery, administrative records, mobile data) as predictors requires careful validation to ensure that the relationships observed in training data generalise to out-of-sample areas [10].
 
-4. Reporting and Dissemination
+## **Reporting and Dissemination**
 
 4.1 IMF StatGPT: Making Official Statistics AI-Ready
 
@@ -117,7 +116,7 @@ The information and communication sector leads adoption at 62.5%, followed by pr
 
 The 2025 ICT Household Survey introduced AI-specific questions for the first time, focusing on the conscious use of generative AI (e.g., ChatGPT, Copilot, Gemini) to create content in the past three months [13].
 
-5. Governance, Ethics, and Institutional Developments
+## **Governance, Ethics, and Institutional Developments**
 
 5.1 UNECE Expert Meeting on Ethics in Official Statistics (March 2026)
 
@@ -135,9 +134,7 @@ Public trust: The meeting concluded that public trust is a vital institutional a
 
 The 57th Session of the UN Statistical Commission, held in New York from 3–6 March 2026, was described by observers as having AI as its defining theme. Delegates tackled questions around AI readiness, threats to core statistical processes, and the modernisation of official statistics. A high-level side event on "AI-Readiness for Official Data and Statistics" emphasised that the objective of AI readiness is to ensure users receive accurate, timely, coherent, and contextually relevant data with clear provenance [15]. Saudi Arabia's General Authority for Statistics reported on its integration of AI and Geo-AI technologies into statistical operations as part of its digital transformation strategy.
 
-6. Key Resources and Tools
-
-7. Implications and Outlook
+## **Implications and Outlook**
 
 The developments of this week collectively point to several strategic priorities for researchers and statistical offices:
 
@@ -151,7 +148,7 @@ Strengthen survey quality controls for the AI age. The near-perfect performance 
 
 Engage with ethical and governance frameworks proactively. The UNECE meeting and the EU AI Act signal that the regulatory environment for AI in official statistics is crystallising rapidly. Statistical offices should engage with these frameworks now, establishing internal AI ethics guidelines and governance structures before deployment rather than after.
 
-References
+## **References**
 
 [1] Callegaro Research. (2026, March 7). Colloquium: A roadmap to AI assisted surveys. Unisanté. Retrieved from https://callegaroresearch.com/2026/03/07/colloquium-a-roadmap-to-ai-assisted-surveys/
 
@@ -195,7 +192,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 09–15 mars 2026
 
@@ -205,7 +201,7 @@ Résumé
 
 La semaine dernière a été marquée par une recrudescence notable d'activités à l'intersection de l'intelligence artificielle et de la recherche par sondage. Des publications phares du FMI, d'Eurostat et du ministère indien des Statistiques, ainsi que des études évaluées par des pairs sur l'imputation basée sur les LLM et la détection de robots d'enquête, signalent collectivement que le domaine passe de l'expérimentation exploratoire au déploiement opérationnel. Parallèlement, la 57e Commission de statistique des Nations Unies et la Réunion d'experts de la CEE-ONU sur l'éthique dans les statistiques officielles ont placé la gouvernance, la confiance et l'IA responsable fermement au centre des agendas institutionnels. Ce rapport organise les développements clés de la semaine à travers le cycle de vie complet des données d'enquête.
 
-1. Conception d'enquêtes et élaboration de questionnaires
+## **Conception d'enquêtes et élaboration de questionnaires**
 
 1.1 Conception d'instruments assistée par l'IA
 
@@ -221,7 +217,7 @@ Une étude distincte publiée dans l'International Journal of Social Research Me
 
 Les implications pour les enquêtes auprès des ménages menées via des panels web sont importantes. Les offices statistiques qui s'appuient sur la collecte de données via le web devraient envisager les stratégies d'atténuation suivantes :
 
-2. Édition et nettoyage des données
+## **Édition et nettoyage des données**
 
 2.1 LLM pour l'imputation des données manquantes : une évaluation à grande échelle
 
@@ -241,7 +237,7 @@ Une étude complémentaire sur l'apprentissage en contexte pour l'imputation de 
 
 Le codage manuel des réponses ouvertes aux enquêtes a longtemps été un goulot d'étranglement dans le traitement des enquêtes. Les plateformes natives d'IA utilisant le traitement du langage naturel sont désormais capables d'identifier des thèmes, d'évaluer le sentiment et de corréler des résultats qualitatifs avec des variables quantitatives sur des milliers de réponses en quelques secondes. Les analyses de l'industrie suggèrent que l'IA peut réduire le cycle de codage des réponses ouvertes de cinq à sept semaines à quelques heures [8]. Pour les offices statistiques nationaux qui incluent des questions ouvertes dans les enquêtes auprès des ménages – telles que des questions sur le bien-être subjectif, les raisons de la non-participation au marché du travail ou les obstacles à l'accès aux soins de santé – cela représente un gain d'efficacité transformateur.
 
-3. Traitement des données et analyse statistique
+## **Traitement des données et analyse statistique**
 
 3.1 Évaluation des LLM sur des microdonnées d'enquête complexes
 

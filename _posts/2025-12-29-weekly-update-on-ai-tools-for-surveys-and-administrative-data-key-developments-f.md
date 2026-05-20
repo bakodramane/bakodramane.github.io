@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Key Developments from National Statistical Offices"
+title: "Key Developments from National Statistical Offices"
 date: 2025-12-29
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Key Developments from National Statistical Offices."
+description: "This report provides a summary of recent developments in the application of Artificial Intelligence (AI) across the survey research lifecycle, with a..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 29 Dec–04 January 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, automation, household surveys
 
-Executive Summary
+## **Executive Summary**
 
 This report provides a summary of recent developments in the application of Artificial Intelligence (AI) across the survey research lifecycle, with a focus on data editing, cleaning, processing, analysis, reporting, and dissemination. The findings are intended to be useful for researchers and statistical offices.
 
@@ -57,11 +56,11 @@ Stream Processing: Frameworks like Kafka and Flink enable real-time validation a
 
 These technologies are directly applicable to survey data processing, allowing for the automatic detection of outliers, monitoring of data quality during collection, and identification of distribution shifts that may indicate sampling or collection issues.
 
-Conclusion
+## **Conclusion**
 
 The past week has seen significant developments in the application of AI in survey research. National statistical offices are leading the way in integrating AI into their core operations, from data collection to dissemination. The commercial sector is providing increasingly powerful and accessible AI-powered tools for every stage of the research lifecycle. The key trends observed are a move towards greater automation, real-time analysis and reporting, and the use of sophisticated machine learning techniques to improve data quality and methodological rigor. These developments are poised to transform the field of survey research, enabling faster, more efficient, and more insightful data collection and analysis.
 
-References
+## **References**
 
 [1] The Best AI Tools for Researchers and Data Analysts in 2025
 
@@ -87,7 +86,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 29 décembre – 04 janvier 2026
 
@@ -131,7 +129,7 @@ Traitement de flux : Des frameworks comme Kafka et Flink permettent la validatio
 
 Ces technologies sont directement applicables au traitement des données d'enquête, permettant la détection automatique des valeurs aberrantes, la surveillance de la qualité des données pendant la collecte et l'identification des changements de distribution qui peuvent indiquer des problèmes d'échantillonnage ou de collecte.
 
-Conclusion
+## **Conclusion**
 
 La semaine dernière a été marquée par des développements significatifs dans l'application de l'IA dans la recherche par sondage. Les offices nationaux de statistique sont à l'avant-garde de l'intégration de l'IA dans leurs opérations principales, de la collecte des données à la diffusion. Le secteur commercial fournit des outils basés sur l'IA de plus en plus puissants et accessibles pour chaque étape du cycle de vie de la recherche. Les principales tendances observées sont une évolution vers une plus grande automatisation, une analyse et un reporting en temps réel, et l'utilisation de techniques d'apprentissage automatique sophistiquées pour améliorer la qualité des données et la rigueur méthodologique. Ces développements sont sur le point de transformer le domaine de la recherche par sondage, permettant une collecte et une analyse de données plus rapides, plus efficaces et plus perspicaces.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AI platforms are shifting the paradigm from periodic, static surveys to dynamic, continuous insight generation"
+title: "AI Platforms and Continuous Insight Generation"
 date: 2025-12-08
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI platforms are shifting the paradigm from periodic, static surveys to dynamic..."
+description: "This week's update highlights significant advancements in the application of Artificial Intelligence (AI) across the entire survey research lifecycle..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 08–14 December 2025
 
 Key words: AI, survey research, official statistics, machine learning, data quality, automation, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This week's update highlights significant advancements in the application of Artificial Intelligence (AI) across the entire survey research lifecycle, from data collection and processing to analysis and dissemination. Key developments include the emergence of AI-Led Research Platforms (AIRPs) that enable continuous, model-driven insights, and the use of generative AI to automate survey programming, which has been shown to reduce programming time by as much as 50%. In the realm of official statistics, national statistical offices are successfully integrating AI to automate data encoding, achieving significant reductions in manual labor without compromising data quality. This report provides a comprehensive overview of these and other recent developments, offering valuable insights for researchers and statistical offices looking to leverage AI to enhance their survey operations.
 
@@ -51,11 +50,11 @@ Upcoming Events and Opportunities
 
 For those interested in exploring these topics further, the World Bank Group is hosting a conference titled "Better Data for Better Jobs and Lives: Innovations in Survey Measurement in the Age of AI" on December 8-9, 2025. This hybrid event will bring together researchers, survey methodologists, and development practitioners to discuss the latest innovations in survey design, measurement, and the application of AI in survey research [8].
 
-Conclusion
+## **Conclusion**
 
 The developments highlighted in this weekly update demonstrate the transformative potential of AI in survey research. From automating data collection and processing to enhancing data analysis and reporting, AI is enabling researchers and statistical offices to produce more timely, accurate, and insightful data. As these technologies continue to mature, they will undoubtedly play an increasingly central role in the future of survey research.
 
-References
+## **References**
 
 [1] GreenBook. (2025, October 14). AI Is Transforming Insights: Where Are We Today and Are We Going? Retrieved from https://www.greenbook.org/insights/the-prompt-ai/ai-is-transforming-insights-where-are-we-today-and-are-we-going
 
@@ -83,7 +82,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période de couverture : 08–14 décembre 2025
 
@@ -121,7 +119,7 @@ L'utilisation du big data et des techniques de calcul transforme également la r
 
 Pour ceux qui souhaitent approfondir ces sujets, le Groupe de la Banque mondiale organise une conférence intitulée "De meilleures données pour de meilleurs emplois et vies : innovations dans la mesure des enquêtes à l'ère de l'IA" les 8 et 9 décembre 2025. Cet événement hybride réunira des chercheurs, des méthodologistes d'enquête et des praticiens du développement pour discuter des dernières innovations en matière de conception d'enquêtes, de mesure et d'application de l'IA dans la recherche par sondage [8].
 
-Conclusion
+## **Conclusion**
 
 Les développements mis en évidence dans cette mise à jour hebdomadaire démontrent le potentiel transformateur de l'IA dans la recherche par sondage. De l'automatisation de la collecte et du traitement des données à l'amélioration de l'analyse et de la production de rapports, l'IA permet aux chercheurs et aux offices statistiques de produire des données plus opportunes, précises et pertinentes. À mesure que ces technologies continuent de mûrir, elles joueront sans aucun doute un rôle de plus en plus central dans l'avenir de la recherche par sondage.
 
