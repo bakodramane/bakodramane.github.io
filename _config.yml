@@ -26,6 +26,10 @@ image: "/assets/img/social-preview.png"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
+header_pages:
+  - about.md
+  - archive.md
+
 # Plugins
 plugins:
   - jekyll-feed

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AI systems inherit and amplify data quality issues"
+title: "AI Systems, Data Quality and Bias Risks"
 date: 2026-01-26
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI systems inherit and amplify data quality issues."
+description: "Artificial intelligence (AI) is rapidly transforming the landscape of survey research, offering unprecedented opportunities for innovation in data..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 26–01 February 2026
 
 Key words: AI, survey research, data quality, household surveys, data analysis
 
-Introduction
+## **Introduction**
 
 Artificial intelligence (AI) is rapidly transforming the landscape of survey research, offering unprecedented opportunities for innovation in data editing, cleaning, processing, analysis, reporting, and dissemination. This weekly update provides an overview of the latest developments in the use of AI in survey research and household surveys, with a focus on practical applications for researchers and statistical offices. The key trends observed this week include a heightened focus on data quality as a prerequisite for successful AI implementation, the emergence of new AI-powered tools for survey data analysis, and the development of government guidelines for creating AI-ready datasets.
 
@@ -49,11 +48,11 @@ Integrated Survey Analysis Platforms
 
 A recent review of the best survey analysis software for 2026 highlights the rise of integrated platforms that combine quantitative and qualitative analysis capabilities with AI-powered features [5]. Tools like Blix, Qualtrics XM, and SurveyMonkey offer a range of features, including automated theme extraction, sentiment analysis, and predictive modeling. These platforms are designed to streamline the entire survey analysis workflow, from data cleaning to report generation.
 
-Conclusion
+## **Conclusion**
 
 The developments of the past week underscore the transformative potential of AI in survey research. From improving data quality and automating data processing to enabling more sophisticated analysis and reporting, AI is poised to revolutionize the way we collect, analyze, and disseminate survey data. For researchers and statistical offices, the key to unlocking this potential lies in embracing a data-centric approach, investing in robust data quality frameworks, and strategically adopting the new generation of AI-powered tools and platforms.
 
-References
+## **References**
 
 [1] The True Cost of Poor Data Quality | IBM
 
@@ -77,13 +76,12 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 26 janvier – 01 février 2026
 
 Mots-clés : IA, recherche par sondage, qualité des données, enquêtes auprès des ménages, analyse de données
 
-Introduction
+## **Introduction**
 
 L'intelligence artificielle (IA) transforme rapidement le paysage de la recherche par sondage, offrant des opportunités sans précédent d'innovation dans l'édition, le nettoyage, le traitement, l'analyse, la production de rapports et la diffusion des données. Cette mise à jour hebdomadaire offre un aperçu des derniers développements dans l'utilisation de l'IA dans la recherche par sondage et les enquêtes auprès des ménages, en mettant l'accent sur les applications pratiques pour les chercheurs et les offices statistiques. Les principales tendances observées cette semaine incluent une attention accrue portée à la qualité des données comme prérequis à une implémentation réussie de l'IA, l'émergence de nouveaux outils basés sur l'IA pour l'analyse des données d'enquête, et le développement de lignes directrices gouvernementales pour la création de jeux de données prêts pour l'IA.
 
@@ -113,7 +111,7 @@ Plateformes intégrées d'analyse d'enquêtes
 
 Une revue récente des meilleurs logiciels d'analyse d'enquêtes pour 2026 met en évidence l'essor des plateformes intégrées qui combinent des capacités d'analyse quantitative et qualitative avec des fonctionnalités basées sur l'IA [5]. Des outils comme Blix, Qualtrics XM et SurveyMonkey offrent une gamme de fonctionnalités, notamment l'extraction automatique de thèmes, l'analyse des sentiments et la modélisation prédictive. Ces plateformes sont conçues pour rationaliser l'ensemble du flux de travail d'analyse d'enquêtes, du nettoyage des données à la génération de rapports.
 
-Conclusion
+## **Conclusion**
 
 Les développements de la semaine dernière soulignent le potentiel transformateur de l'IA dans la recherche par sondage. De l'amélioration de la qualité des données et de l'automatisation du traitement des données à la possibilité d'une analyse et d'une production de rapports plus sophistiquées, l'IA est sur le point de révolutionner la façon dont nous collectons, analysons et diffusons les données d'enquête. Pour les chercheurs et les offices statistiques, la clé pour libérer ce potentiel réside dans l'adoption d'une approche centrée sur les données, l'investissement dans des cadres robustes de qualité des données et l'adoption stratégique de la nouvelle génération d'outils et de plateformes basés sur l'IA.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Stanford AI Index 2026, LLM-assisted survey analysis, and AI adoption in the US economy"
+title: "Stanford AI Index 2026, LLM-assisted survey analysis, and AI adoption in the US economy"
 date: 2026-04-20
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Stanford AI Index 2026, LLM assisted survey analysis, and AI adoption in the US..."
+description: "Stanford's 2026 AI Index Report highlights that generative AI has reached a 53% population-level adoption rate within three years, with 58% of employees..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
@@ -11,17 +11,15 @@ lang: en
 
 ## 🇬🇧 English
 
-**Weekly update on AI tools for surveys and administrative data: Stanford AI Index 2026, LLM-assisted survey analysis, and AI adoption in the US economy**
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms...) and administrative data for official statistics.
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 14 – 20 April 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, statistical methods, data analysis, AI adoption
 
-### Key Takeaways
+## **Key Takeaways**
 
 - **Stanford's 2026 AI Index Report** highlights that generative AI has reached a 53% population-level adoption rate within three years, with 58% of employees globally reporting AI use at work. However, public anxiety is rising, and the U.S. public reports the lowest trust in its government to regulate AI effectively.
 - **The Federal Reserve** published a note on monitoring AI adoption in the U.S. economy, revealing that 18% of firms have adopted AI as of year-end 2025, and 78% of the labor force works at firms that have adopted AI.
@@ -54,7 +52,7 @@ Researchers from UC Berkeley and Microsoft Research proposed a novel approach to
 
 Prior methods attempted to steer LLMs using prompt engineering (describing subpopulations in the input prompt), but these approaches struggled to faithfully predict human response distributions. The study showed that fine-tuning on the SubPOP dataset greatly improved the match between LLM predictions and human responses across various subpopulations, reducing the LLM-human gap by up to 46% compared to baselines [5]. This advancement highlights the potential of survey-based fine-tuning to enable more efficient survey designs and accurate opinion prediction for diverse, real-world subpopulations.
 
-### References
+## **References**
 
 [1] Inside the AI Index: 12 Takeaways from the 2026 Report. Stanford HAI. https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report
 [2] Public Opinion | The 2026 AI Index Report. Stanford HAI. https://hai.stanford.edu/ai-index/2026-ai-index-report/public-opinion
@@ -70,7 +68,6 @@ Prior methods attempted to steer LLMs using prompt engineering (describing subpo
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (FAO Statistics Division, Rome, Italie)
 
 Période couverte : 14 – 20 avril 2026
 

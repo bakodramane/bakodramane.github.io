@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: DataWrangler, another open-source tool, offers an interactive and visual approach to data cleaning"
+title: "DataWrangler and Visual Data Cleaning"
 date: 2025-09-08
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering DataWrangler, another open source tool, offers an interactive and visual approach..."
+description: "This report provides a comprehensive overview of the latest AI-powered tools and methods transforming the landscape of data editing, cleaning, processing..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 08–14 September 2025
 
 Key words: AI, administrative data, machine learning, data quality, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This report provides a comprehensive overview of the latest AI-powered tools and methods transforming the landscape of data editing, cleaning, processing, analysis, reporting, and dissemination. As of September 2025, the field is characterized by a rapid shift towards more intelligent, automated, and accessible solutions, driven by advancements in natural language processing (NLP), machine learning (ML), and cloud computing. For researchers and statistical offices, these innovations offer unprecedented opportunities to enhance data quality, accelerate analysis, and derive deeper insights from complex datasets.
 
@@ -27,7 +26,7 @@ Key trends identified in this report include the rise of conversational AI inter
 
 This report is structured to provide a detailed analysis of the current tool ecosystem, categorized by functionality, followed by an in-depth examination of key technology trends, vendor landscapes, and pricing models. It concludes with specific recommendations tailored to the unique needs of statistical offices, research institutions, and smaller research teams, along with a forward-looking perspective on the future of AI in data-centric professions.
 
-1. Introduction: The AI-Driven Transformation of Data Workflows
+## **Introduction: The AI-Driven Transformation of Data Workflows**
 
 The traditional paradigms of data management and analysis are undergoing a profound transformation, catalyzed by the increasing sophistication and accessibility of artificial intelligence. For decades, data professionals have relied on a combination of manual processes, rule-based systems, and statistical software to navigate the complexities of data editing, cleaning, and analysis. While effective, these methods have often been characterized by their labor-intensive nature, steep learning curves, and limited capacity to handle the sheer volume and velocity of modern data.
 
@@ -35,7 +34,7 @@ Today, a new generation of AI-powered tools is emerging to address these challen
 
 This report aims to provide a comprehensive and up-to-date overview of this rapidly evolving landscape, with a specific focus on the tools and methods that are most relevant to the work of researchers and statistical offices. By understanding the capabilities and limitations of these new technologies, data professionals can make more informed decisions about how to best leverage AI to enhance their work, improve the quality of their data, and unlock new frontiers of discovery.
 
-2. AI-Powered Data Editing and Cleaning Tools
+## **AI-Powered Data Editing and Cleaning Tools**
 
 The foundation of any robust analysis lies in the quality of the underlying data. Historically, data editing and cleaning have been among the most time-consuming and manual aspects of the research process, often accounting for up to 80% of a data professional's time. The advent of AI is rapidly changing this paradigm, with a new generation of tools designed to automate and enhance the process of data quality management.
 
@@ -67,7 +66,7 @@ Numerous AI is a prime example of this trend, offering a powerful AI-powered too
 
 Trifacta, now part of the Alteryx family, has long been recognized for its innovative approach to data preparation. The platform's AI-powered engine can automatically detect patterns and anomalies in the data and suggest intelligent transformations to clean and structure the data. This predictive transformation capability, combined with a visual and interactive interface, makes Trifacta a powerful tool for accelerating the data preparation process and improving data quality.
 
-References
+## **References**
 
 [1] TechDogs. (2024, December 24). Top 5 Data Cleansing Tools Of 2025. Retrieved from https://www.techdogs.com/td-articles/product-mine/top-5-data-cleansing-tools-of-2025
 
@@ -77,7 +76,7 @@ References
 
 [4] Numerous.ai. (2024, December 22). Top 10 Data Cleaning AI Tools in 2025. Retrieved from https://numerous.ai/blog/data-cleaning-ai
 
-3. AI-Powered Data Processing and Analysis Tools
+## **AI-Powered Data Processing and Analysis Tools**
 
 Once data has been cleaned and prepared, the next critical step is to extract meaningful insights through processing and analysis. This is another area where AI is making a significant impact, with a new generation of tools designed to automate complex analytical tasks, uncover hidden patterns, and make advanced analytics more accessible to a broader range of users. These tools leverage a variety of AI techniques, including machine learning, natural language processing, and deep learning, to provide capabilities that were once the exclusive domain of expert data scientists.
 
@@ -109,7 +108,7 @@ ChatGPT, powered by OpenAI's GPT models, has demonstrated impressive capabilitie
 
 Claude, developed by Anthropic, is another powerful LLM that has shown promise for data analysis. Its large context window, which allows it to process and analyze large amounts of text at once, makes it particularly well-suited for tasks that involve summarizing and synthesizing information from multiple sources.
 
-References
+## **References**
 
 [5] Domo. (2024, November 20). The Top 9 AI Reporting Tools in 2025. Retrieved from https://www.domo.com/learn/article/ai-reporting-tools
 
@@ -119,7 +118,7 @@ References
 
 [8] Powerdrill.ai. (2025, September 1). Top 15 AI Chatbots for Exploratory Data Analysis in September, 2025. Retrieved from https://powerdrill.ai/blog/top-ai-chatbots-for-exploratory-data-analysis
 
-4. AI-Powered Data Reporting and Dissemination Tools
+## **AI-Powered Data Reporting and Dissemination Tools**
 
 The final stage of the data lifecycle, reporting and dissemination, is where insights are communicated to stakeholders and the value of the data is ultimately realized. AI is also transforming this stage, with a new generation of tools designed to automate the creation of reports, dashboards, and visualizations, and to make data-driven storytelling more engaging and impactful.
 
@@ -149,7 +148,7 @@ Juice Analytics is a company that has long been focused on the art and science o
 
 SR Analytics has written about the importance of AI-powered data storytelling, arguing that traditional dashboards often fail because they show data, not stories. They advocate for a new generation of AI-powered dashboards that can not only present data but also explain why metrics are changing and what to do next. This vision of AI-powered data storytelling, which combines data visualization with automated insights and recommendations, represents the future of data communication [12].
 
-References
+## **References**
 
 [9] Whatagraph. (2025, February 19). 9 Best AI Reporting Tools in 2025. Retrieved from https://whatagraph.com/blog/articles/ai-reporting-tools
 
@@ -159,7 +158,7 @@ References
 
 [12] SR Analytics. (2025, August 25). Why Data Storytelling Wins—AI Dashboards Explained. Retrieved from https://sranalytics.io/blog/ai-data-storytelling-dashboards/
 
-5. Conclusion and Recommendations
+## **Conclusion and Recommendations**
 
 The landscape of AI-powered tools for data professionals is evolving at an unprecedented pace. The tools and methods highlighted in this report represent a significant leap forward in our ability to edit, clean, process, analyze, and disseminate data. For researchers and statistical offices, these advancements offer a unique opportunity to enhance the quality and efficiency of their work, and to unlock new insights from their data.
 
@@ -189,7 +188,7 @@ Budget-Conscious Recommendation: A combination of Numerous AI for spreadsheet-ba
 
 Microsoft-Integrated Recommendation: For teams already using the Microsoft ecosystem, Power BI offers a powerful and seamlessly integrated solution for data analysis and visualization. Its native AI capabilities and its ability to connect to a wide range of data sources make it a versatile tool for small research teams.
 
-6. Full List of References
+## **Full List of References**
 
 [1] TechDogs. (2024, December 24). Top 5 Data Cleansing Tools Of 2025. Retrieved from https://www.techdogs.com/td-articles/product-mine/top-5-data-cleansing-tools-of-2025
 
@@ -225,7 +224,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 08–14 septembre 2025
 
@@ -239,7 +237,7 @@ Les principales tendances identifiées dans ce rapport incluent l'essor des inte
 
 Ce rapport est structuré pour fournir une analyse détaillée de l'écosystème actuel des outils, classés par fonctionnalité, suivie d'un examen approfondi des principales tendances technologiques, des paysages des fournisseurs et des modèles de tarification. Il se termine par des recommandations spécifiques adaptées aux besoins uniques des offices statistiques, des instituts de recherche et des petites équipes de recherche, ainsi que par une perspective prospective sur l'avenir de l'IA dans les professions axées sur les données.
 
-1. Introduction : La transformation des flux de travail de données par l'IA
+## **Introduction : La transformation des flux de travail de données par l'IA**
 
 Les paradigmes traditionnels de la gestion et de l'analyse des données subissent une profonde transformation, catalysée par la sophistication et l'accessibilité croissantes de l'intelligence artificielle. Pendant des décennies, les professionnels des données se sont appuyés sur une combinaison de processus manuels, de systèmes basés sur des règles et de logiciels statistiques pour naviguer dans les complexités de l'édition, du nettoyage et de l'analyse des données. Bien qu'efficaces, ces méthodes ont souvent été caractérisées par leur nature laborieuse, leurs courbes d'apprentissage abruptes et leur capacité limitée à gérer le volume et la vitesse des données modernes.
 
@@ -247,7 +245,7 @@ Aujourd'hui, une nouvelle génération d'outils basés sur l'IA émerge pour rel
 
 Ce rapport vise à fournir un aperçu complet et à jour de ce paysage en évolution rapide, en mettant l'accent sur les outils et les méthodes les plus pertinents pour le travail des chercheurs et des offices statistiques. En comprenant les capacités et les limites de ces nouvelles technologies, les professionnels des données peuvent prendre des décisions plus éclairées sur la meilleure façon d'exploiter l'IA pour améliorer leur travail, la qualité de leurs données et ouvrir de nouvelles frontières de découverte.
 
-2. Outils d'édition et de nettoyage de données basés sur l'IA
+## **Outils d'édition et de nettoyage de données basés sur l'IA**
 
 La base de toute analyse robuste réside dans la qualité des données sous-jacentes. Historiquement, l'édition et le nettoyage des données ont été parmi les aspects les plus chronophages et manuels du processus de recherche, représentant souvent jusqu'à 80 % du temps d'un professionnel des données. L'avènement de l'IA change rapidement ce paradigme, avec une nouvelle génération d'outils conçus pour automatiser et améliorer le processus de gestion de la qualité des données.
 

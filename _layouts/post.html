@@ -9,7 +9,11 @@ layout: default
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
       {% if page.categories.size > 0 %}
-        <span>{{ page.categories | join: ", " }}</span>
+        <span class="post-meta__group" aria-label="Categories">
+          {% for category in page.categories %}
+            <span class="meta-badge">{{ category }}</span>
+          {% endfor %}
+        </span>
       {% endif %}
     </p>
 

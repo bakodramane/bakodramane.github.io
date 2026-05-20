@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics"
+title: "AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics"
 date: 2026-05-18
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics."
+description: "The AAPOR 81st Annual Conference underscored the cautious integration of LLMs in survey research, emphasizing responsible frameworks for translation..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
@@ -11,13 +11,11 @@ lang: en
 
 ## 🇬🇧 English
 
-**Weekly update on AI tools for surveys and administrative data: AAPOR 81st Conference, IAOS Vilnius, and AI Governance in Official Statistics**
 
-Prepared by: Dramane Bako, Statistician/Data Scientist, FAO Statistics Division, Rome, Italy  
 Coverage period: May 11–18, 2026  
 Keywords: AI tools, surveys, administrative data, large language models, official statistics, AI governance, survey methodology, machine learning, data quality
 
-### Key Takeaways
+## **Key Takeaways**
 
 - The AAPOR 81st Annual Conference underscored the cautious integration of LLMs in survey research, emphasizing responsible frameworks for translation, analysis, and voice-based surveys.  
 - IAOS 2026 highlighted AI’s transformative potential in official statistics, with significant focus on AI governance, responsible use, and broad international collaboration.  
@@ -28,7 +26,7 @@ Keywords: AI tools, surveys, administrative data, large language models, officia
 
 ---
 
-1. **AAPOR 81st Annual Conference: Responsible AI Integration in Survey Research**
+## **AAPOR 81st Annual Conference: Responsible AI Integration in Survey Research**
 
 The American Association for Public Opinion Research convened its 81st Annual Conference in Los Angeles, advancing discourse on AI integration in survey methodology. A highlight was the release of the Task Force Report "Responsible AI Integration in Survey Research" (Rothschild et al., 2026), which offers a comprehensive framework for deploying large language models (LLMs) as AI interviewers. The report addresses critical survey components including questionnaire translation accuracy, complex survey data analysis workflows, and novel voice-based survey modalities, thereby setting a foundation for ethical and methodologically sound AI adoption.
 
@@ -46,7 +44,7 @@ The conference also hosted a session led by the UN Statistics Division focusing 
 
 ---
 
-2. **IAOS 2026 Conference: AI Governance and Official Statistics Transformation**
+## **IAOS 2026 Conference: AI Governance and Official Statistics Transformation**
 
 The 20th IAOS Conference in Vilnius gathered officials and statisticians from over 100 countries under the theme "Data Revolution: Reshaping Official Statistics." The conference foregrounded AI governance, with May 11 short courses equipping participants on responsible AI use tailored for official statistics production. This educational component emphasized frameworks and policy considerations, reflecting growing awareness of AI challenges such as algorithmic transparency, bias, and accountability.
 
@@ -56,7 +54,7 @@ The IAOS forum also fostered dialogue on cross-border cooperation to tackle AI-r
 
 ---
 
-3. **Development Research and AI: Insights from IFPRI’s May 13 Blog**
+## **Development Research and AI: Insights from IFPRI’s May 13 Blog**
 
 The International Food Policy Research Institute (IFPRI) underscored in a recent blog that AI’s strength in pattern recognition is constrained by its limited understanding of contextual realities, necessitating robust, high-quality data inputs. Co-authors Kalle Hirvonen and Jessica Leight argue that data scarcity in low-income countries remains a critical bottleneck for AI-driven insights, especially in development contexts where informal economies are poorly documented.
 
@@ -66,7 +64,7 @@ The blog also highlights the Project APE initiative at the University of Zurich,
 
 ---
 
-4. **Survey-aware Machine Learning (SaML): Addressing Bias and Validity in Health Data**
+## **Survey-aware Machine Learning (SaML): Addressing Bias and Validity in Health Data**
 
 An arXiv preprint (Oh et al., 2026) advances methodological rigor in applying ML to complex health surveys by detailing Survey-aware Machine Learning (SaML). The paper identifies a prevalent pitfall: many ML models neglect critical survey design features such as primary sampling units, stratification, and sampling weights, leading to biased estimation and deficits in population-level generalizability.
 
@@ -88,7 +86,7 @@ SaML’s comprehensive checklist offers a valuable operational tool, especially 
 
 ---
 
-5. **AI in Administrative Data: Lessons from Kenya’s Means-Testing Investigation**
+## **AI in Administrative Data: Lessons from Kenya’s Means-Testing Investigation**
 
 Investigative reporting by Lighthouse Reports, The Guardian, and Africa Uncensored brought to light flaws in Kenya’s Social Health Authority (SHA) AI-based means-testing algorithm. The model, which predicts household income from 43 proxy variables, systematically imposed higher healthcare costs on the poorest citizens due to biased model design and proxy limitations.
 
@@ -98,7 +96,7 @@ For the survey research community, this investigation serves as a cautionary tal
 
 ---
 
-6. **LLM Oversight: Emerging Regulatory Frameworks in Official Statistics**
+## **LLM Oversight: Emerging Regulatory Frameworks in Official Statistics**
 
 A recent article in npj Digital Medicine (published May 15, 2026) proposes a novel taxonomy and monitoring framework for large language models, emphasizing the insufficiency of existing regulatory approaches given their generative, probabilistic characteristics. The paper lays out multiple dimensions of LLM capability (e.g., factuality, bias, interpretability), monitoring metrics, and governance considerations necessary for responsible deployment.
 
@@ -110,7 +108,7 @@ Aligning with AAPOR’s responsible AI guidelines, this emerging scholarship off
 
 ---
 
-7. **IAOS 2026 Session: AI & ML in Official Statistics — Key Insights**
+## **IAOS 2026 Session: AI & ML in Official Statistics — Key Insights**
 
 The IAOS 2026 conference session on "AI & ML in Official Statistics (1)" was held on Tuesday, 12 May 2026, from 4:30 p.m. to 6 p.m. in the ZETA 2 room in Vilnius, Lithuania. Chaired by Dominik Rozkrut, the session explored the transformative potential of Artificial Intelligence (AI) and Machine Learning (ML) technologies across various facets of official statistics. Highlighting innovations from digital twins and decision support systems to AI-driven data collection and hierarchical classification, the session addressed critical challenges including organizational readiness, transparency, and the integration of heterogeneous data sources. The presentations collectively illustrated advanced AI methodologies applied to survey methodology and administrative data, with direct implications for improving timeliness, accuracy, and usability of statistical outputs.
 
@@ -175,7 +173,6 @@ Continuous monitoring of deployed AI systems in administrative settings, informe
 
 **Mise à jour hebdomadaire sur les outils d’IA pour les enquêtes et les données administratives : 81e conférence AAPOR, IAOS Vilnius et gouvernance de l’IA dans les statistiques officielles**
 
-Préparé par : Dramane Bako, Statisticien/Data Scientist, Division des Statistiques de la FAO, Rome, Italie  
 Période couverte : 11–18 mai 2026  
 Mots-clés : outils d’IA, enquêtes, données administratives, grands modèles de langage, statistiques officielles, gouvernance de l’IA, méthodologie d’enquête, apprentissage automatique, qualité des données
 
@@ -190,7 +187,7 @@ Mots-clés : outils d’IA, enquêtes, données administratives, grands modèles
 
 ---
 
-1. **81e conférence annuelle de l’AAPOR : Intégration responsable de l’IA dans la recherche par sondage**
+## **81e conférence annuelle de l’AAPOR : Intégration responsable de l’IA dans la recherche par sondage**
 
 L’American Association for Public Opinion Research a tenu sa 81e conférence annuelle à Los Angeles, faisant progresser le débat sur l’intégration de l’IA dans la méthodologie des enquêtes. Un moment fort a été la publication du rapport du groupe de travail « Responsible AI Integration in Survey Research » (Rothschild et al., 2026), qui propose un cadre complet pour déployer les grands modèles de langage (LLM) comme intervieweurs IA. Le rapport aborde des composantes essentielles des enquêtes telles que la précision de la traduction des questionnaires, les flux d’analyse des données complexes et les modalités innovantes d’enquêtes vocales, posant ainsi les bases d’une adoption éthique et méthodologiquement solide de l’IA.
 
@@ -208,7 +205,7 @@ La conférence a également accueilli une session dirigée par la Division des S
 
 ---
 
-2. **Conférence IAOS 2026 : Gouvernance de l’IA et transformation des statistiques officielles**
+## **Conférence IAOS 2026 : Gouvernance de l’IA et transformation des statistiques officielles**
 
 La 20e conférence IAOS à Vilnius a réuni des responsables et statisticiens de plus de 100 pays sous le thème « Révolution des données : remodeler les statistiques officielles ». La conférence a mis en avant la gouvernance de l’IA, avec des cours courts le 11 mai destinés à équiper les participants à une utilisation responsable de l’IA adaptée à la production de statistiques officielles. Cette composante pédagogique a insisté sur les cadres et considérations politiques, témoignant d’une prise de conscience grandissante des défis liés à l’IA tels que la transparence algorithmique, les biais et la responsabilité.
 
@@ -218,7 +215,7 @@ Le forum IAOS a également favorisé le dialogue sur la coopération transfronta
 
 ---
 
-3. **Recherche en développement et IA : enseignements du blog de l’IFPRI du 13 mai**
+## **Recherche en développement et IA : enseignements du blog de l’IFPRI du 13 mai**
 
 L’International Food Policy Research Institute (IFPRI) a souligné dans un blog récent que la force de l’IA en reconnaissance de motifs est limitée par sa compréhension restreinte des réalités contextuelles, nécessitant des données robustes et de haute qualité. Les coauteurs Kalle Hirvonen et Jessica Leight affirment que la rareté des données dans les pays à faible revenu reste un goulot d’étranglement critique pour les analyses basées sur l’IA, surtout dans les contextes de développement où les économies informelles sont peu documentées.
 
@@ -228,7 +225,7 @@ Le blog met également en avant l’initiative Project APE de l’Université de
 
 ---
 
-4. **Survey-aware Machine Learning (SaML) : traiter biais et validité dans les données sanitaires**
+## **Survey-aware Machine Learning (SaML) : traiter biais et validité dans les données sanitaires**
 
 Un preprint arXiv (Oh et al., 2026) fait progresser la rigueur méthodologique de l’application du ML aux enquêtes sanitaires complexes en détaillant le Survey-aware Machine Learning (SaML). L’article identifie une erreur répandue : beaucoup de modèles ML négligent les caractéristiques essentielles du design d’enquête, telles que les unités primaires d’échantillonnage, la stratification et les poids d’échantillonnage, conduisant à des estimations biaisées et une généralisation insuffisante au niveau populationnel.
 
@@ -250,7 +247,7 @@ La checklist exhaustive de SaML constitue un outil opérationnel précieux, nota
 
 ---
 
-5. **L’IA dans les données administratives : enseignements de l’enquête sur les tests de moyens au Kenya**
+## **L’IA dans les données administratives : enseignements de l’enquête sur les tests de moyens au Kenya**
 
 Des enquêtes journalistiques de Lighthouse Reports, The Guardian, et Africa Uncensored ont révélé des défauts dans l’algorithme de test de moyens basé sur l’IA de la Social Health Authority (SHA) du Kenya. Le modèle, qui prédit le revenu des ménages à partir de 43 variables proxy, a imposé systématiquement des coûts de santé plus élevés aux citoyens les plus pauvres en raison d’un biais dans la conception du modèle et des limites des proxys.
 
@@ -260,7 +257,7 @@ Pour la communauté de la recherche par sondage, cette enquête sert de mise en 
 
 ---
 
-6. **Surveillance des LLM : cadres réglementaires émergents en statistiques officielles**
+## **Surveillance des LLM : cadres réglementaires émergents en statistiques officielles**
 
 Un article récent dans npj Digital Medicine (publié le 15 mai 2026) propose une nouvelle taxonomie et un cadre de suivi pour les grands modèles de langage, soulignant l’insuffisance des approches réglementaires actuelles au regard de leurs caractéristiques génératives et probabilistes. L’article expose plusieurs dimensions des capacités des LLM (e.g., factualité, biais, interprétabilité), des métriques de suivi, et des considérations de gouvernance nécessaires à un déploiement responsable.
 
@@ -269,7 +266,7 @@ Ce travail a un impact direct pour le domaine des statistiques officielles, où 
 S’alignant avec les directives responsables en IA de l’AAPOR, cette recherche émergente offre des feuilles de route politiques pragmatiques pour anticiper et mitiger les risques uniques posés par les LLM dans la collecte et la diffusion des données, assurant confiance et fi
 
 
-7. **Session IAOS 2026 : IA & ML en statistiques officielles — Principaux enseignements**
+## **Session IAOS 2026 : IA & ML en statistiques officielles — Principaux enseignements**
 
 La session de la conférence IAOS 2026 intitulée « AI & ML in Official Statistics (1) » s’est tenue le mardi 12 mai 2026, de 16h30 à 18h, dans la salle ZETA 2 à Vilnius, Lituanie. Animée par Dominik Rozkrut, la session a exploré le potentiel transformateur des technologies d’Intelligence Artificielle (IA) et de Machine Learning (ML) dans divers aspects des statistiques officielles. Mettant en lumière des innovations allant des jumeaux numériques et systèmes d’aide à la décision à la collecte de données pilotée par IA ainsi que la classification hiérarchique, la session a abordé des défis cruciaux tels que la préparation organisationnelle, la transparence et l’intégration de sources de données hétérogènes. Les présentations ont illustré collectivement des méthodologies avancées d’IA appliquées à la méthodologie des enquêtes et aux données administratives, avec des implications directes pour améliorer la rapidité, la précision et l’utilisabilité des résultats statistiques.
 

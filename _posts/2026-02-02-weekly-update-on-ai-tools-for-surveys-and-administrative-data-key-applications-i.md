@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Key applications in data imputation, automated coding, and data quality control"
+title: "Data Imputation, Automated Coding and Data Quality Control"
 date: 2026-02-02
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Key applications in data imputation, automated coding, and data quality control."
+description: "This week’s update on the use of Artificial Intelligence (AI) in survey research highlights significant advancements in data processing, analysis, and..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,17 +13,16 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 02–08 February 2026
 
 Key words: AI, survey research, machine learning, data quality, household surveys, data analysis
 
-1. Introduction
+## **Introduction**
 
 This week’s update on the use of Artificial Intelligence (AI) in survey research highlights significant advancements in data processing, analysis, and reporting. The key trend is a move towards a human-led, AI-enhanced research model, where AI accelerates workflows without replacing human interpretation [7]. National statistical offices, such as the UK's Office for National Statistics (ONS) and the US Department of Labor (DOL), are actively integrating AI to improve the quality and efficiency of their data operations [3, 4]. This report details new developments in AI-powered tools and methods for data editing, cleaning, processing, analysis, and dissemination, offering valuable insights for researchers and statistical offices.
 
-2. AI in Data Collection, Editing, and Processing
+## **AI in Data Collection, Editing, and Processing**
 
 Recent developments show a strong focus on using AI to improve data quality and efficiency from the initial stages of data collection and processing. Key applications include data imputation, automated coding, and data quality control.
 
@@ -39,7 +38,7 @@ The US Department of Labor (DOL) has deployed several AI systems to automate dat
 
 The emergence of low-code AI data quality tools is democratizing data quality management [5]. These tools provide visual interfaces and pre-built AI models that allow business analysts and researchers to automate data cleansing and validation without extensive coding knowledge. Key features include intelligent deduplication, automated format standardization, and AI-powered anomaly detection [5].
 
-3. AI in Data Analysis and Reporting
+## **AI in Data Analysis and Reporting**
 
 3.1. AI-Powered Survey Analysis
 
@@ -53,15 +52,15 @@ A study in Digital Health demonstrates the application of multiple machine learn
 
 Several new platforms are using AI to automate the generation of reports and visualizations from survey data. Displayr, for example, is an AI-powered survey analysis and reporting platform that uses AI for text analytics, data cleaning, and narrative drafting [7]. Other tools, such as Quillit and Condens, focus on turning qualitative data from interviews and focus groups into structured, citation-ready insights [7].
 
-4. AI Tools and Platforms for Researchers
+## **AI Tools and Platforms for Researchers**
 
 A variety of AI-powered tools are now available to support researchers throughout the research lifecycle. A recent review of AI research tools identified the following key categories and top-rated tools [1]:
 
-5. Conclusion
+## **Conclusion**
 
 The developments from this week underscore the rapid integration of AI into survey research. From improving data quality at the source to accelerating analysis and reporting, AI is offering powerful new capabilities to researchers and statistical offices. The most successful applications will be those that combine the power of AI with the critical thinking and subject matter expertise of human researchers. As the UK's Office for National Statistics notes, the goal is to "harness that potential responsibly" to improve the quality and resilience of our core statistics [4].
 
-References
+## **References**
 
 [1] I tested the 6 best AI tools for research in 2026, and here's my honest take | The Jotform Blog
 
@@ -89,17 +88,16 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 02–08 février 2026
 
 Mots-clés : IA, recherche par sondage, apprentissage automatique, qualité des données, enquêtes auprès des ménages, analyse de données
 
-1. Introduction
+## **Introduction**
 
 La mise à jour de cette semaine sur l'utilisation de l'intelligence artificielle (IA) dans la recherche par sondage met en lumière des avancées significatives dans le traitement, l'analyse et la production de rapports de données. La tendance clé est une évolution vers un modèle de recherche dirigé par l'humain et amélioré par l'IA, où l'IA accélère les flux de travail sans remplacer l'interprétation humaine [7]. Les offices statistiques nationaux, tels que l'Office for National Statistics (ONS) du Royaume-Uni et le Département du Travail (DOL) des États-Unis, intègrent activement l'IA pour améliorer la qualité et l'efficacité de leurs opérations de données [3, 4]. Ce rapport détaille les nouveaux développements des outils et méthodes basés sur l'IA pour l'édition, le nettoyage, le traitement, l'analyse et la diffusion des données, offrant des informations précieuses aux chercheurs et aux offices statistiques.
 
-2. L'IA dans la collecte, l'édition et le traitement des données
+## **L'IA dans la collecte, l'édition et le traitement des données**
 
 Les développements récents montrent une forte concentration sur l'utilisation de l'IA pour améliorer la qualité et l'efficacité des données dès les premières étapes de la collecte et du traitement des données. Les applications clés incluent l'imputation de données, le codage automatisé et le contrôle qualité des données.
 
@@ -115,7 +113,7 @@ Le Département du Travail (DOL) des États-Unis a déployé plusieurs systèmes
 
 L'émergence d'outils d'IA à faible code pour la qualité des données démocratise la gestion de la qualité des données [5]. Ces outils fournissent des interfaces visuelles et des modèles d'IA pré-construits qui permettent aux analystes commerciaux et aux chercheurs d'automatiser le nettoyage et la validation des données sans connaissances approfondies en codage. Les fonctionnalités clés incluent la déduplication intelligente, la normalisation automatisée des formats et la détection d'anomalies basée sur l'IA [5].
 
-3. L'IA dans l'analyse et la production de rapports de données
+## **L'IA dans l'analyse et la production de rapports de données**
 
 3.1. Analyse d'enquête basée sur l'IA
 
@@ -129,11 +127,11 @@ Une étude dans Digital Health démontre l'application de plusieurs algorithmes 
 
 Plusieurs nouvelles plateformes utilisent l'IA pour automatiser la génération de rapports et de visualisations à partir des données d'enquête. Displayr, par exemple, est une plateforme d'analyse et de reporting d'enquêtes basée sur l'IA qui utilise l'IA pour l'analyse de texte, le nettoyage des données et la rédaction narrative [7]. D'autres outils, tels que Quillit et Condens, se concentrent sur la transformation des données qualitatives issues d'entretiens et de groupes de discussion en informations structurées et prêtes à être citées [7].
 
-4. Outils et plateformes d'IA pour les chercheurs
+## **Outils et plateformes d'IA pour les chercheurs**
 
 Une variété d'outils basés sur l'IA sont désormais disponibles pour soutenir les chercheurs tout au long du cycle de vie de la recherche. Une revue récente des outils de recherche en IA a identifié les catégories clés et les outils les mieux notés suivants [1] :
 
-5. Conclusion
+## **Conclusion**
 
 Les développements de cette semaine soulignent l'intégration rapide de l'IA dans la recherche par sondage. De l'amélioration de la qualité des données à la source à l'accélération de l'analyse et de la production de rapports, l'IA offre de nouvelles capacités puissantes aux chercheurs et aux offices statistiques. Les applications les plus réussies seront celles qui combinent la puissance de l'IA avec la pensée critique et l'expertise thématique des chercheurs humains. Comme le note l'Office for National Statistics du Royaume-Uni, l'objectif est de "exploiter ce potentiel de manière responsable" pour améliorer la qualité et la résilience de nos statistiques fondamentales [4].
 

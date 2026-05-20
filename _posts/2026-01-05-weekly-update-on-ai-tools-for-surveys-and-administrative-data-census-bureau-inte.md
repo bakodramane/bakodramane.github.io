@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Census Bureau Integrates AI into Business Survey The U.S"
+title: "Census Bureau AI Integration in Business Surveys"
 date: 2026-01-05
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Census Bureau Integrates AI into Business Survey The U.S."
+description: "This report provides a summary of new developments in the application of Artificial Intelligence (AI) within survey research and household surveys. It..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,17 +13,16 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 05–11 January 2026
 
 Key words: AI, survey research, official statistics, data quality, automation, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This report provides a summary of new developments in the application of Artificial Intelligence (AI) within survey research and household surveys. It covers recent trends in data editing, cleaning, processing, analysis, reporting, and dissemination, offering valuable insights for researchers and statistical offices.
 
-Key Developments This Week
+## **Key Developments This Week**
 
 This week's key developments highlight significant advancements in the integration of AI by national statistical offices, the evolution of commercial survey platforms, and ongoing academic research into AI-driven data processing methodologies.
 
@@ -55,7 +54,7 @@ A Growing Focus on Data Quality and Interpretability: As AI models become more c
 
 The Widening AI Skills Gap: The rapid advancement of AI tools is creating a skills gap in data management. A recent survey indicated that 62% of organizations see AI data management as a top skills gap [5]. For statistical offices, this highlights an urgent need for training and capacity building to enable their staff to effectively utilize these new technologies.
 
-References
+## **References**
 
 [1] U.S. Census Bureau. (2025, December 31). Business Trends and Outlook Survey Data Release.
 
@@ -77,7 +76,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 05–11 janvier 2026
 

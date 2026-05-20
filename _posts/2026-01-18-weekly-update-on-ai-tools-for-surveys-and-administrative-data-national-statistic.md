@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: National statistical offices (NSOs) are increasingly exploring and implementing AI to modernize their operations"
+title: "National Statistical Offices and AI Modernization"
 date: 2026-01-18
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering National statistical offices (NSOs) are increasingly exploring and implementing AI..."
+description: "The past week has seen significant discussions and research on the dual role of AI in survey research, highlighting both its potential to enhance..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,7 +13,6 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 18–25 January 2026
 
@@ -37,11 +36,11 @@ Further studies published in Nature and Science have shown that AI chatbots can 
 
 "These findings reveal a critical vulnerability in our data infrastructure, rendering most current detection methods obsolete and posing a potential existential threat to unsupervised online research." — Sean Westwood, Dartmouth College [7]
 
-Conclusion
+## **Conclusion**
 
 The developments of the past week illustrate the transformative potential of AI in survey research, as well as the significant challenges it presents. For researchers and statistical offices, the key will be to harness the power of AI to improve efficiency and data quality, while simultaneously developing robust methods to safeguard against the threats of AI-powered fraud and manipulation. As AI continues to evolve, a proactive and critical approach to its adoption will be essential for maintaining the integrity and credibility of survey research.
 
-References
+## **References**
 
 [1] Institute of Network Cultures | Digital Tribulations 2: Interview with Oscar D’Alva on Platformed Regimes of Quantification in Official Statistics
 
@@ -67,7 +66,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 18-25 janvier 2026
 
@@ -91,7 +89,7 @@ D'autres études publiées dans Nature et Science ont montré que les chatbots I
 
 « Ces découvertes révèlent une vulnérabilité critique dans notre infrastructure de données, rendant la plupart des méthodes de détection actuelles obsolètes et posant une menace existentielle potentielle à la recherche en ligne non supervisée. » — Sean Westwood, Dartmouth College [7]
 
-Conclusion
+## **Conclusion**
 
 Les développements de la semaine dernière illustrent le potentiel transformateur de l'IA dans la recherche par sondage, ainsi que les défis importants qu'elle présente. Pour les chercheurs et les instituts de statistique, la clé sera d'exploiter la puissance de l'IA pour améliorer l'efficacité et la qualité des données, tout en développant simultanément des méthodes robustes pour se prémunir contre les menaces de fraude et de manipulation alimentées par l'IA. À mesure que l'IA continue d'évoluer, une approche proactive et critique de son adoption sera essentielle pour maintenir l'intégrité et la crédibilité de la recherche par sondage.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Generative AI in Questionnaire Development"
+title: "Generative AI in Questionnaire Development"
 date: 2026-03-17
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Generative AI in Questionnaire Development."
+description: "The integration of Artificial Intelligence (AI) into survey research and official statistics has accelerated markedly in early 2026. National Statistical..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,19 +13,18 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 16–22 March 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 The integration of Artificial Intelligence (AI) into survey research and official statistics has accelerated markedly in early 2026. National Statistical Offices (NSOs) and research institutions are moving beyond experimental phases into operational deployment of AI tools across the entire survey data lifecycle — from questionnaire design and data collection through editing, analysis, and dissemination. Key developments this week include the IMF's launch of StatGPT for structured querying of official statistics [1], India's MoSPI deploying an AI chatbot and Model Context Protocol (MCP) server for its national statistical platform [2], and the release of a new transformer-based imputation model (NAIM) outperforming classical machine learning methods on tabular survey data [3]. The Open Agentic Survey Interview System (OASIS) has emerged as a significant open-source tool enabling AI-powered conversational interviewing at scale [4]. Concurrently, governance bodies such as UNECE are reinforcing frameworks for responsible AI use in official statistics, while Eurostat's 2026 training programme expands capacity-building in AI and machine learning for statisticians [5].
 
 At a Glance: Key Developments This Week
 
-1. Data Collection and Questionnaire Design
+## **Data Collection and Questionnaire Design**
 
 Traditional survey data collection methods — Computer-Assisted Personal Interviewing (CAPI) and Computer-Assisted Telephone Interviewing (CATI) — are being augmented and, in some research contexts, replaced by AI-driven conversational agents. The Open Agentic Survey Interview System (OASIS), launched in early 2026, represents a significant step in this direction [4]. Built on FAIR principles (Findable, Accessible, Interoperable, Reusable), OASIS is a fully open-source, self-hosted platform that allows researchers to deploy AI-powered interviewers capable of conducting semi-structured and fully open-ended interviews at scale. The system supports both real-time voice-to-voice conversations (using OpenAI Realtime or Gemini Live) and text-based chat, with configurable adaptive follow-up probing and structured protocols uploadable via CSV or JSON [4].
 
@@ -35,7 +34,7 @@ Generative AI in Questionnaire Development
 
 Generative AI is increasingly applied in the design phase of survey instruments. Recent studies demonstrate the capability of LLMs to assist in crafting survey scale items, adapting existing validated instruments, and generating cognitive interview probes [7]. Research published in Frontiers in Digital Health (2025) argues that AI-driven semantic analysis can meaningfully inform qualitative methods such as cognitive interviewing, thereby improving the precision and respondent-friendliness of questionnaire items [8]. The Adaptive Questionnaire Design Using AI Agents framework, developed for people profiling, further illustrates how AI agents can dynamically select survey content based on respondent characteristics, reducing questionnaire length and respondent burden [9].
 
-2. Data Editing, Cleaning, and Processing
+## **Data Editing, Cleaning, and Processing**
 
 Transformer-Based Imputation for Tabular Survey Data
 
@@ -51,7 +50,7 @@ The coding of open-ended survey responses — assigning categorical labels to fr
 
 For NSOs conducting large-scale household surveys with open-ended modules (e.g., on reasons for poverty, health-seeking behaviour, or labour market experiences), these tools offer a scalable path to systematic qualitative data processing.
 
-3. Data Analysis and Estimation
+## **Data Analysis and Estimation**
 
 Machine Learning for Poverty Mapping and Welfare Estimation
 
@@ -65,7 +64,7 @@ Synthetic data — artificial datasets generated to replicate the statistical pr
 
 However, a 2026 analysis by Leger Research highlights important limitations: synthetic data tends to reflect average or mainstream patterns, with extreme or emotionally charged responses underrepresented; it is highly dependent on the quality and recency of training data; and traditional significance testing and confidence intervals are not directly applicable, requiring alternative validation approaches [16]. For official statistics, these limitations reinforce the view that synthetic data should complement rather than replace primary survey data collection.
 
-4. Reporting and Dissemination
+## **Reporting and Dissemination**
 
 StatGPT: LLMs for Structured Querying of Official Statistics
 
@@ -87,7 +86,7 @@ Singapore's DOS AI and Generative AI Playbook
 
 The Department of Statistics Singapore (DOS) published its AI and Generative AI Playbook in February 2026, providing guidance on practical applications of AI in statistics and data analytics [18]. The playbook outlines DOS's AI journey and key considerations for responsible AI use in an official statistics context, serving as a model for other NSOs developing their own AI governance frameworks.
 
-5. Governance, Privacy, and Responsible AI
+## **Governance, Privacy, and Responsible AI**
 
 Statistical Disclosure Control and Differential Privacy
 
@@ -97,7 +96,7 @@ Responsible AI Framework for Official Statistics
 
 The UNECE's Responsible AI for Official Statistics Framework (2025) provides a comprehensive, principle-based approach to governing the use of AI and machine learning in NSOs [20]. The framework addresses key concerns including algorithmic transparency, bias detection, human oversight, and the need for explainable AI in high-stakes statistical applications. As AI tools become embedded in core statistical production processes, adherence to such frameworks will be essential for maintaining public trust in official statistics.
 
-6. Capacity Building and Training
+## **Capacity Building and Training**
 
 Eurostat's 2026 Training Programme
 
@@ -123,7 +122,7 @@ Anthropic's deployment of Claude as an AI conversational interviewer to conduct 
 
 Resources and Tools
 
-References
+## **References**
 
 [1] StatGPT: AI for Official Statistics. (2026, March 10). International Monetary Fund. https://www.imf.org/en/publications/departmental-papers-policy-papers/issues/2026/03/10/statgpt-ai-for-official-statistics-573514
 
@@ -177,7 +176,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 16–22 mars 2026
 
@@ -189,7 +187,7 @@ L'intégration de l'Intelligence Artificielle (IA) dans la recherche par sondage
 
 En un coup d'œil : Développements clés cette semaine
 
-1. Collecte de données et conception de questionnaires
+## **Collecte de données et conception de questionnaires**
 
 Les méthodes traditionnelles de collecte de données d'enquête — l'interview assistée par ordinateur en face à face (CAPI) et l'interview téléphonique assistée par ordinateur (CATI) — sont augmentées et, dans certains contextes de recherche, remplacées par des agents conversationnels basés sur l'IA. L'Open Agentic Survey Interview System (OASIS), lancé début 2026, représente une étape significative dans cette direction [4]. Construit sur les principes FAIR (Facile à trouver, Accessible, Interopérable, Réutilisable), OASIS est une plateforme entièrement open-source et auto-hébergée qui permet aux chercheurs de déployer des intervieweurs basés sur l'IA capables de mener des entretiens semi-structurés et entièrement ouverts à grande échelle. Le système prend en charge à la fois les conversations vocales en temps réel (utilisant OpenAI Realtime ou Gemini Live) et le chat textuel, avec une exploration adaptative configurable et des protocoles structurés téléchargeables via CSV ou JSON [4].
 
@@ -199,7 +197,7 @@ L'IA générative dans le développement de questionnaires
 
 L'IA générative est de plus en plus appliquée dans la phase de conception des instruments d'enquête. Des études récentes démontrent la capacité des LLM à aider à l'élaboration d'éléments d'échelle d'enquête, à l'adaptation d'instruments validés existants et à la génération de sondes d'entretien cognitif [7]. Une recherche publiée dans Frontiers in Digital Health (2025) soutient que l'analyse sémantique basée sur l'IA peut éclairer de manière significative les méthodes qualitatives telles que l'entretien cognitif, améliorant ainsi la précision et la convivialité des éléments de questionnaire pour les répondants [8]. Le cadre de conception de questionnaire adaptatif utilisant des agents IA, développé pour le profilage des personnes, illustre en outre comment les agents IA peuvent sélectionner dynamiquement le contenu de l'enquête en fonction des caractéristiques des répondants, réduisant ainsi la longueur du questionnaire et la charge des répondants [9].
 
-2. Édition, nettoyage et traitement des données
+## **Édition, nettoyage et traitement des données**
 
 Imputation basée sur les transformeurs pour les données d'enquête tabulaires
 
@@ -215,7 +213,7 @@ Le codage des réponses ouvertes aux enquêtes — l'attribution d'étiquettes c
 
 Pour les ONS menant des enquêtes auprès des ménages à grande échelle avec des modules ouverts (par exemple, sur les raisons de la pauvreté, les comportements de recherche de soins de santé ou les expériences sur le marché du travail), ces outils offrent une voie évolutive vers un traitement systématique des données qualitatives.
 
-3. Analyse et estimation des données
+## **Analyse et estimation des données**
 
 Apprentissage automatique pour la cartographie de la pauvreté et l'estimation du bien-être
 

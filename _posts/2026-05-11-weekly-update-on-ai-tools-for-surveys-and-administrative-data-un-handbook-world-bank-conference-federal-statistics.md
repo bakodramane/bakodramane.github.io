@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and AI Day for Federal Statistics 2026"
+title: "UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and AI Day for Federal Statistics 2026"
 date: 2026-05-11
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and..."
+description: "The UN Statistics Division hosted a webinar on April 30, 2026 previewing Chapter 7 of the newly adopted Handbook of Surveys on Households and Individuals..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
@@ -11,17 +11,15 @@ lang: en
 
 ## 🇬🇧 English
 
-**Weekly update on AI tools for surveys and administrative data: UN Handbook on Household Surveys, World Bank Conference on Survey Measurement, and AI Day for Federal Statistics 2026**
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms...) and administrative data for official statistics.
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 4 – 11 May 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, UN handbook, World Bank LSMS, federal statistics, LLM, data processing, occupation coding
 
-### Key Takeaways
+## **Key Takeaways**
 
 - **The UN Statistics Division** hosted a webinar on April 30, 2026 previewing Chapter 7 of the newly adopted *Handbook of Surveys on Households and Individuals*, with a forward-looking discussion on AI-assisted coding, imputation, and multimedia data capture in household surveys.
 - **The World Bank** published six key takeaways from the inaugural Conference on Innovations in Survey Measurement in the Age of AI (December 2025), confirming that LLMs are already being used to classify occupations, code open-ended responses, and analyse qualitative data at scale — while household surveys remain the essential backbone of development data.
@@ -117,7 +115,6 @@ The finding also raises a methodological question: as AI tools become embedded i
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles...) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 4 – 11 mai 2026
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: Practical benefits of AI in improving the efficiency and quality of survey instruments"
+title: "AI Benefits for Survey Instrument Design"
 date: 2025-10-05
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering Practical benefits of AI in improving the efficiency and quality of survey instruments."
+description: "This inaugural issue of the Weekly Update on AI in Survey Research highlights the transformative impact of artificial intelligence across the entire..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,13 +13,12 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 29 Sep–05 October 2025
 
 Key words: AI, survey research, official statistics, machine learning, data quality, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This inaugural issue of the Weekly Update on AI in Survey Research highlights the transformative impact of artificial intelligence across the entire survey lifecycle. Recent developments demonstrate a significant acceleration in the adoption of AI, with statistical organizations and research institutions increasingly leveraging machine learning and generative AI to enhance data quality, improve efficiency, and unlock new analytical insights. Key trends this week include the growing use of AI for data editing and cleaning, the emergence of sophisticated AI-powered survey platforms, and a strong focus on developing methodological frameworks for responsible AI integration.
 
@@ -117,7 +116,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période de couverture : 29 septembre – 05 octobre 2025
 

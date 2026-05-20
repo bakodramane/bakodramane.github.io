@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data: MCP servers for statistics, poverty prediction, and data quality"
+title: "MCP Servers for Statistics, Poverty Prediction and Data Quality"
 date: 2026-04-13
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering MCP servers for statistics, poverty prediction, and data quality."
+description: "MCP servers are emerging as a new frontier for AI-enabled statistical dissemination: National statistical offices from India (MoSPI), Mexico (INEGI), and..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
@@ -11,17 +11,15 @@ lang: en
 
 ## 🇬🇧 English
 
-**Weekly update on AI tools for surveys and administrative data: MCP servers for statistics, poverty prediction, and data quality**
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms...) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 7 – 13 April 2026
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, statistical methods, data analysis
 
-### Key Takeaways
+## **Key Takeaways**
 
 **MCP servers are emerging as a new frontier for AI-enabled statistical dissemination:** National statistical offices from India (MoSPI), Mexico (INEGI), and the OECD presented their experiences using Model Context Protocol (MCP) servers to enable AI-powered access to official statistics, marking a significant step in how statistical agencies interact with AI systems.
 
@@ -33,19 +31,9 @@ Key words: AI, survey research, official statistics, machine learning, data qual
 
 **Small area estimation is gaining institutional momentum:** The Statistical Society of Australia's upcoming seminar on challenges and advances in official statistics will feature presentations on small area estimation in Indonesia and census coverage methodology, reflecting the growing importance of model-based approaches for producing reliable local-level statistics.
 
-### 1. Data Editing and Error Detection
-
-### 2. Data Cleaning and Imputation
-
-### 3. Natural Language Processing and LLMs for Survey Design
-
-### 4. AI for Survey Data Processing, Coding, and Classification
-
 ### 5. Machine Learning and AI for Survey Data Analysis, Weighting, and Estimation
 
 The World Bank's **Poverty Prediction Challenge**, launched in November 2025 and closed in February 2026, represents a landmark application of machine learning to household survey data [1]. The competition attracted 1,322 participants from diverse analytical backgrounds who were asked to predict household-level expenditure and poverty rates using structured survey data. Top-performing solutions relied on machine learning approaches, ensemble methods, and careful cross-survey validation techniques. A key finding is that **calibration of model outputs** — ensuring predicted poverty rates accurately reflect real-world population patterns — is critical for policy-relevant applications [1]. The challenge contributes to the World Bank's broader Real-Time Monitoring agenda, which aims to combine traditional household surveys with innovative predictive methods to provide more timely welfare indicators between survey rounds.
-
-### 6. AI in Survey Reporting, Visualization, and Dissemination
 
 ### 7. AI in Survey Methodology
 
@@ -59,7 +47,7 @@ A new arXiv preprint (April 2026) evaluated six leading data quality tools — G
 
 A comprehensive 2026 analysis of LLM hallucination rates found that across 37 models, hallucination rates range from 15% to 52%, with most models clustering in the 20%–27% range [5]. The study identifies **data limitations (30%) and the probabilistic nature of LLMs (25%)** as the primary drivers of hallucinations. For statistical applications, these findings underscore the importance of retrieval-augmented generation (RAG) approaches and structured API access — such as MCP servers — as mitigation strategies when deploying LLMs in official statistics contexts. The 37-percentage-point performance gap between the best and worst models also highlights the need for careful model selection and evaluation before deploying LLMs in survey data workflows.
 
-### References
+## **References**
 
 [1] Poverty Prediction Challenge: Advancing Real-Time Monitoring of Poverty through Data Science. World Bank. https://www.worldbank.org/en/topic/measuringpoverty/brief/poverty-prediction-challenge
 
@@ -81,7 +69,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives destinées aux statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Data scientist (Division des Statistiques de la FAO, Rome, Italie)
 
 Période couverte : 7 – 13 avril 2026
 
@@ -99,19 +86,9 @@ Mots-clés : IA, recherche par enquête, statistiques officielles, apprentissage
 
 **L'estimation en petits domaines gagne en dynamique institutionnelle :** Le prochain séminaire de la Statistical Society of Australia portera sur les défis et avancées en statistiques officielles, avec des présentations sur l'estimation en petits domaines en Indonésie et la méthodologie de couverture du recensement, reflétant l'importance croissante des approches basées sur les modèles pour produire des statistiques locales fiables.
 
-### 1. Édition des données et détection des erreurs
-
-### 2. Nettoyage des données et imputation
-
-### 3. Traitement du langage naturel et LLM pour la conception d'enquêtes
-
-### 4. IA pour le traitement, le codage et la classification des données d'enquête
-
 ### 5. Apprentissage automatique et IA pour l'analyse, le pondération et l'estimation des données d'enquête
 
 Le **Poverty Prediction Challenge** de la Banque mondiale, lancé en novembre 2025 et clôturé en février 2026, représente une application majeure de l'apprentissage automatique aux données d'enquêtes ménages [1]. La compétition a attiré 1 322 participants issus de divers horizons analytiques, invités à prédire les dépenses des ménages et les taux de pauvreté à partir de données d'enquête structurées. Les solutions les plus performantes reposaient sur des approches d'apprentissage automatique, des méthodes d'ensemble et des techniques rigoureuses de validation croisée entre enquêtes. Une conclusion clé est que **la calibration des sorties des modèles** — garantissant que les taux de pauvreté prédits reflètent fidèlement les réalités démographiques — est essentielle pour les applications à visée politique [1]. Ce challenge s'inscrit dans l'agenda plus large de la Banque mondiale sur le suivi en temps réel, qui vise à combiner les enquêtes ménages traditionnelles avec des méthodes prédictives innovantes pour fournir des indicateurs de bien-être plus rapides entre les cycles d'enquête.
-
-### 6. IA dans le reporting, la visualisation et la diffusion des enquêtes
 
 ### 7. IA en méthodologie d'enquête
 

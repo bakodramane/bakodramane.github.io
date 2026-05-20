@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Weekly update on AI tools for surveys and administrative data:  AI for literature searches, manuscript drafting, and data analysis"
+title: "AI for literature searches, manuscript drafting, and data analysis"
 date: 2025-11-24
 author: Dramane Bako
-description: "Weekly update on AI tools for surveys and administrative data covering AI for literature searches, manuscript drafting, and data analysis."
+description: "This weekly update provides a summary of recent developments in the application of Artificial Intelligence (AI) within survey research and household..."
 categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, statistics, official-statistics, bilingual]
 lang: en
@@ -13,17 +13,16 @@ lang: en
 
 This article is part of weekly updates on new developments in the use of AI methods and tools of surveys (households, individuals, farms…) and administrative data for official statistics
 
-Prepared by: Dramane Bako, Statistician/Data scientist (FAO Statistics Division, Rome, Italy)
 
 Coverage Period: 24–30 November 2025
 
 Key words: AI, survey research, official statistics, machine learning, data quality, household surveys, data analysis
 
-Executive Summary
+## **Executive Summary**
 
 This weekly update provides a summary of recent developments in the application of Artificial Intelligence (AI) within survey research and household surveys. The report covers key areas including data editing, cleaning, processing, analysis, reporting, and dissemination, with a focus on implications for researchers and national statistical offices [1].
 
-Key Developments This Week
+## **Key Developments This Week**
 
 This week's developments highlight a significant and accelerating trend: the rapid integration of AI into all stages of the survey lifecycle. From automated data processing to sophisticated analytical models and new methods for dissemination, AI is reshaping the landscape of survey research. However, this rapid adoption is accompanied by growing concerns about research integrity, data quality, and the potential for misuse.
 
@@ -61,11 +60,11 @@ U.S. Census Bureau Embraces AI in Business Survey
 
 In a significant development for official statistics, the U.S. Census Bureau has added new questions on artificial intelligence to its Business Trends and Outlook Survey (BTOS) [10]. This large-scale, biweekly survey of 1.2 million businesses will now collect data on AI adoption and its impact on the economy. The inclusion of these questions signals the growing recognition of AI's importance in business operations and the need for official statistics to track its impact.
 
-Conclusion
+## **Conclusion**
 
 The developments from the past week demonstrate a clear and accelerating trend of AI integration across the entire survey research lifecycle. While the potential for efficiency gains and deeper insights is immense, the field must also grapple with the significant challenges posed by AI, particularly in the areas of research integrity and data quality. For researchers and statistical offices, the key will be to embrace these new technologies while simultaneously developing the necessary governance frameworks, validation techniques, and ethical guidelines to ensure the continued production of high-quality, reliable data.
 
-References
+## **References**
 
 [1] Anadolu Agency. (2025, November 20). AI use surges in global research offices but staff warn it poses major integrity risks. https://www.aa.com.tr/en/science-technology/ai-use-surges-in-global-research-offices-but-staff-warn-it-poses-major-integrity-risks/3749193
 
@@ -97,7 +96,6 @@ Contact: bakodramane@gmail.com
 
 Cet article fait partie des mises à jour hebdomadaires sur les nouveaux développements dans l'utilisation des méthodes et outils d'IA pour les enquêtes (ménages, individus, exploitations agricoles…) et les données administratives pour les statistiques officielles.
 
-Préparé par : Dramane Bako, Statisticien/Scientifique des données (Division des statistiques de la FAO, Rome, Italie)
 
 Période couverte : 24–30 novembre 2025
 
@@ -143,7 +141,7 @@ Le U.S. Census Bureau adopte l'IA dans son enquête auprès des entreprises
 
 Dans un développement significatif pour les statistiques officielles, le U.S. Census Bureau a ajouté de nouvelles questions sur l'intelligence artificielle à son enquête sur les tendances et les perspectives des entreprises (BTOS) [10]. Cette enquête à grande échelle, bihebdomadaire, menée auprès de 1,2 million d'entreprises, recueillera désormais des données sur l'adoption de l'IA et son impact sur l'économie. L'inclusion de ces questions signale la reconnaissance croissante de l'importance de l'IA dans les opérations commerciales et la nécessité pour les statistiques officielles de suivre son impact.
 
-Conclusion
+## **Conclusion**
 
 Les développements de la semaine dernière démontrent une tendance claire et accélérée de l'intégration de l'IA dans l'ensemble du cycle de vie de la recherche par sondage. Bien que le potentiel de gains d'efficacité et d'informations plus approfondies soit immense, le domaine doit également faire face aux défis importants posés par l'IA, en particulier dans les domaines de l'intégrité de la recherche et de la qualité des données. Pour les chercheurs et les offices de statistique, la clé sera d'adopter ces nouvelles technologies tout en développant simultanément les cadres de gouvernance, les techniques de validation et les directives éthiques nécessaires pour assurer la production continue de données fiables et de haute qualité.
 
