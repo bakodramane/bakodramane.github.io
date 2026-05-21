@@ -1,7 +1,8 @@
 ---
+title: "Home"
 layout: default
-title: Home
-description: "Choose English or French to browse weekly updates on AI tools for surveys, censuses and administrative data systems."
+description: Choose English or French to browse weekly updates on AI tools for surveys,
+  censuses and administrative data systems.
 lang: en
 ---
 
