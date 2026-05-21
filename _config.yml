@@ -27,8 +27,9 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
 header_pages:
+  - en.md
+  - fr.md
   - about.md
-  - archive.md
 
 # Plugins
 plugins:

@@ -2,31 +2,21 @@
 layout: page
 title: Archive
 permalink: /archive/
-description: "All posts from Dramane Bako's blog on AI tools, surveys, administrative data and official statistics."
+description: "Choose the English or French archive for Dramane Bako's bilingual blog."
+lang: en
 ---
 
-# All posts
+# Archive
 
-Browse all posts in reverse chronological order.
+Choose a language-specific archive:
 
-<div class="archive-list">
-  {% for post in site.posts %}
-    <article class="archive-item">
-      <p class="post-card__meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        {% if post.categories.size > 0 %}
-          <span>{{ post.categories | first }}</span>
-        {% endif %}
-      </p>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.description | default: post.excerpt | strip_html | strip | truncate: 190 }}</p>
-      {% if post.tags.size > 0 %}
-        <div class="tag-list" aria-label="Post tags">
-          {% for tag in post.tags limit:4 %}
-            <span>{{ tag }}</span>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </article>
-  {% endfor %}
+<div class="language-selector language-selector--compact">
+  <a class="language-card" href="{{ '/en/' | relative_url }}" hreflang="en">
+    <span class="language-card__label">English</span>
+    <span>All posts</span>
+  </a>
+  <a class="language-card" href="{{ '/fr/' | relative_url }}" hreflang="fr">
+    <span class="language-card__label">Français</span>
+    <span>Tous les articles</span>
+  </a>
 </div>

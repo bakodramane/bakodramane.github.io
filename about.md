@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 description: "About Dramane Bako and the focus of this blog on AI, surveys, administrative data, agricultural statistics, and official statistics."
+lang: en
 ---
 
 # About this blog

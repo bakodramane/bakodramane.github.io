@@ -2,13 +2,19 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-    <p class="footer-heading">Dramane Bako | AI tools for surveys, administrative data and official statistics.</p>
+    {% if page.lang == "fr" %}
+      <p class="footer-heading">Dramane Bako | Outils d'IA pour les enquêtes, les données administratives et les statistiques officielles.</p>
+    {% else %}
+      <p class="footer-heading">Dramane Bako | AI tools for surveys, administrative data and official statistics.</p>
+    {% endif %}
     <p class="footer-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ '/en/' | relative_url }}">English</a>
+      <span aria-hidden="true">/</span>
+      <a href="{{ '/fr/' | relative_url }}">Français</a>
+      <span aria-hidden="true">/</span>
       <a href="{{ '/about/' | relative_url }}">About</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ '/archive/' | relative_url }}">Archive</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
     </p>
   </div>
 </footer>
