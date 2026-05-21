@@ -31,6 +31,21 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
+
+    {% if page.translation_key %}
+      {% assign translations = site.posts | where: "translation_key", page.translation_key %}
+      {% for translation in translations %}
+        {% if translation.lang != page.lang %}
+          <p class="translation-link">
+            {% if page.lang == "fr" %}
+              <a href="{{ translation.url | relative_url }}" hreflang="en">Read in English</a>
+            {% else %}
+              <a href="{{ translation.url | relative_url }}" hreflang="fr">Lire en français</a>
+            {% endif %}
+          </p>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
