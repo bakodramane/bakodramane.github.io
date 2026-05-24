@@ -4,17 +4,31 @@
   <div class="wrapper footer-grid">
     <div>
       <p class="footer-heading">AI for Official Statistics</p>
-      <p class="footer-description">A personal knowledge hub by Dramane Bako on responsible AI, data science and official statistics.</p>
-      <p class="footer-disclaimer">Views are personal and do not represent any institution.</p>
+      {% if page.lang == "fr" %}
+        <p class="footer-description">Un hub personnel de connaissances par Dramane Bako sur l'IA responsable, la science des données et les statistiques officielles.</p>
+        <p class="footer-disclaimer">Les opinions exprimées sont personnelles et ne représentent aucune institution.</p>
+      {% else %}
+        <p class="footer-description">A personal knowledge hub by Dramane Bako on responsible AI, data science and official statistics.</p>
+        <p class="footer-disclaimer">Views are personal and do not represent any institution.</p>
+      {% endif %}
     </div>
 
-    <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/topics/' | relative_url }}">Topics</a>
-      <a href="{{ '/weekly-monitor/' | relative_url }}">Weekly Monitor</a>
-      <a href="{{ '/archive/' | relative_url }}">Archive</a>
-      <a href="{{ '/about/' | relative_url }}">About</a>
-      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Navigation de pied de page{% else %}Footer navigation{% endif %}">
+      {% if page.lang == "fr" %}
+        <a href="{{ '/' | relative_url }}">Accueil</a>
+        <a href="{{ '/topics/' | relative_url }}">Thèmes</a>
+        <a href="{{ '/weekly-monitor/' | relative_url }}">Veille hebdomadaire</a>
+        <a href="{{ '/archive/' | relative_url }}">Archives</a>
+        <a href="{{ '/about/' | relative_url }}">À propos</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      {% else %}
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/topics/' | relative_url }}">Topics</a>
+        <a href="{{ '/weekly-monitor/' | relative_url }}">Weekly Monitor</a>
+        <a href="{{ '/archive/' | relative_url }}">Archive</a>
+        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      {% endif %}
     </nav>
 
     {% if site.social.links %}

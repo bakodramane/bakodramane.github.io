@@ -69,7 +69,7 @@ lang: en
     <a class="section-link" href="{{ '/topics/' | relative_url }}">All topics</a>
   </div>
   <div class="topic-grid topic-grid--compact">
-    <a class="topic-card" href="{{ '/topics/#surveys-censuses' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#ai-surveys-censuses' | relative_url }}">
       <h3>AI for surveys and censuses</h3>
       <p>Questionnaires, field operations, processing and production workflows.</p>
     </a>
@@ -81,23 +81,23 @@ lang: en
       <h3>Agricultural statistics and WCA 2030</h3>
       <p>Emerging AI use cases for agricultural census and survey systems.</p>
     </a>
-    <a class="topic-card" href="{{ '/topics/#governance-ethics' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#ai-governance-ethics-quality' | relative_url }}">
       <h3>AI governance and ethics</h3>
       <p>Responsible adoption, transparency, risk management and institutional readiness.</p>
     </a>
-    <a class="topic-card" href="{{ '/topics/#quality-editing-imputation' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#data-cleaning-editing-imputation-validation' | relative_url }}">
       <h3>Data quality, editing and imputation</h3>
       <p>Methods for validation, anomaly detection, cleaning and missing data treatment.</p>
     </a>
-    <a class="topic-card" href="{{ '/topics/#dissemination-access' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#dissemination-dashboards-chatbots-data-access' | relative_url }}">
       <h3>Dissemination, chatbots and data access</h3>
       <p>AI-assisted publishing, user support and responsible data access.</p>
     </a>
-    <a class="topic-card" href="{{ '/topics/#survey-aware-ml' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#survey-methodology-machine-learning' | relative_url }}">
       <h3>Survey-aware machine learning</h3>
       <p>Models that respect weights, designs, sampling structure and population inference.</p>
     </a>
-    <a class="topic-card" href="{{ '/topics/#tools-platforms' | relative_url }}">
+    <a class="topic-card" href="{{ '/topics/#tools-libraries-platforms' | relative_url }}">
       <h3>Tools and platforms</h3>
       <p>Practical tools, platforms and reproducible workflows for statistical teams.</p>
     </a>

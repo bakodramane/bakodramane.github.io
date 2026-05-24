@@ -5,7 +5,29 @@
       <span class="site-title__byline">Dramane Bako</span>
     </a>
 
-    <nav class="site-nav" aria-label="Primary navigation">
+    {% if page.lang == "fr" %}
+      {% assign nav_items = "Accueil:/,Thèmes:/topics/,Veille hebdomadaire:/weekly-monitor/,Outils:/tools/,Méthodes:/methods/,Cas d’utilisation:/use-cases/,Ressources:/resources/,Archives:/archive/,À propos:/about/" | split: "," %}
+    {% else %}
+      {% assign nav_items = "Home:/,Topics:/topics/,Weekly Monitor:/weekly-monitor/,Tools:/tools/,Methods:/methods/,Use Cases:/use-cases/,Resources:/resources/,Archive:/archive/,About:/about/" | split: "," %}
+    {% endif %}
+
+    {% assign english_url = "/en/" %}
+    {% assign french_url = "/fr/" %}
+    {% if page.translation_key %}
+      {% assign translations = site.posts | where: "translation_key", page.translation_key %}
+      {% for translation in translations %}
+        {% if translation.lang == "en" %}
+          {% assign english_url = translation.url %}
+        {% elsif translation.lang == "fr" %}
+          {% assign french_url = translation.url %}
+        {% endif %}
+      {% endfor %}
+    {% elsif page.url == "/" %}
+      {% assign english_url = "/en/" %}
+      {% assign french_url = "/fr/" %}
+    {% endif %}
+
+    <nav class="site-nav" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Primary navigation{% endif %}">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger" class="nav-toggle">
         <span class="menu-icon" aria-hidden="true">
@@ -17,7 +39,6 @@
       </label>
 
       <div class="trigger nav-menu">
-        {% assign nav_items = "Home:/,Topics:/topics/,Weekly Monitor:/weekly-monitor/,Tools:/tools/,Methods:/methods/,Use Cases:/use-cases/,Resources:/resources/,Archive:/archive/,About:/about/" | split: "," %}
         {% for item in nav_items %}
           {% assign item_parts = item | split: ":" %}
           {% assign item_label = item_parts[0] %}
@@ -31,9 +52,9 @@
           <a class="page-link{% if is_active %} is-active{% endif %}" href="{{ item_url | relative_url }}">{{ item_label }}</a>
         {% endfor %}
 
-        <span class="language-switch" aria-label="Language sections">
-          <a class="language-switch__link{% if page.url == '/en/' or page.lang == 'en' %} is-active{% endif %}" href="{{ '/en/' | relative_url }}" hreflang="en">EN</a>
-          <a class="language-switch__link{% if page.url == '/fr/' or page.lang == 'fr' %} is-active{% endif %}" href="{{ '/fr/' | relative_url }}" hreflang="fr">FR</a>
+        <span class="language-switch" aria-label="{% if page.lang == 'fr' %}Langues{% else %}Languages{% endif %}">
+          <a class="language-switch__link{% if page.lang == 'en' %} is-active{% endif %}" href="{{ english_url | relative_url }}" hreflang="en">English</a>
+          <a class="language-switch__link{% if page.lang == 'fr' %} is-active{% endif %}" href="{{ french_url | relative_url }}" hreflang="fr">Français</a>
         </span>
       </div>
     </nav>

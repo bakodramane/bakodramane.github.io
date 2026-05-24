@@ -1,10 +1,17 @@
 {% assign post_item = include.post %}
 {% assign excerpt_limit = include.excerpt_limit | default: 190 %}
 {% assign tag_limit = include.tag_limit | default: 4 %}
-{% assign read_label = include.read_label | default: "Read more" %}
+{% if include.read_label %}
+  {% assign read_label = include.read_label %}
+{% elsif post_item.lang == "fr" %}
+  {% assign read_label = "Lire la suite" %}
+{% else %}
+  {% assign read_label = "Read more" %}
+{% endif %}
 {% assign date_format = include.date_format | default: "%B %-d, %Y" %}
+{% assign search_text = post_item.title | append: " " | append: post_item.description | append: " " | append: post_item.tags | append: " " | append: post_item.categories | downcase | escape %}
 
-<article class="post-card">
+<article class="post-card" data-search="{{ search_text }}" data-lang="{{ post_item.lang }}">
   <p class="post-card__meta">
     <time datetime="{{ post_item.date | date_to_xmlschema }}">{{ post_item.date | date: date_format }}</time>
     {% if post_item.lang %}
