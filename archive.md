@@ -2,21 +2,31 @@
 layout: page
 title: Archive
 permalink: /archive/
-description: "Choose the English or French archive for Dramane Bako's bilingual blog."
+description: "Chronological archive of AI for Official Statistics posts by Dramane Bako."
 lang: en
 ---
 
-# Archive
+<p class="page-lede">A chronological view of all posts in the AI for Official Statistics knowledge hub, including English and French updates.</p>
 
-Choose a language-specific archive:
+<div class="archive-toolbar" aria-label="Archive browsing options">
+  <div>
+    <p class="eyebrow">Browse</p>
+    <h2>Chronological archive</h2>
+  </div>
+  <div class="archive-toolbar__links">
+    <a href="{{ '/en/' | relative_url }}" hreflang="en">English posts</a>
+    <a href="{{ '/fr/' | relative_url }}" hreflang="fr">Articles en français</a>
+    <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a>
+  </div>
+</div>
 
-<div class="language-selector language-selector--compact">
-  <a class="language-card" href="{{ '/en/' | relative_url }}" hreflang="en">
-    <span class="language-card__label">English</span>
-    <span>All posts</span>
-  </a>
-  <a class="language-card" href="{{ '/fr/' | relative_url }}" hreflang="fr">
-    <span class="language-card__label">Français</span>
-    <span>Tous les articles</span>
-  </a>
+<div class="filter-placeholder">
+  <strong>Future filtering area.</strong>
+  <span>Phase 2 can add topic, language and search filters once the taxonomy is refined.</span>
+</div>
+
+<div class="archive-list archive-list--cards">
+  {% for post in site.posts %}
+    {% include post-card.html post=post excerpt_limit=210 tag_limit=4 heading_level="h2" %}
+  {% endfor %}
 </div>

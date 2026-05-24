@@ -1,20 +1,35 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
-    {% if page.lang == "fr" %}
-      <p class="footer-heading">Dramane Bako | Outils d'IA pour les enquêtes, les données administratives et les statistiques officielles.</p>
-    {% else %}
-      <p class="footer-heading">Dramane Bako | AI tools for surveys, administrative data and official statistics.</p>
-    {% endif %}
-    <p class="footer-links">
+  <div class="wrapper footer-grid">
+    <div>
+      <p class="footer-heading">AI for Official Statistics</p>
+      <p class="footer-description">A personal knowledge hub by Dramane Bako on responsible AI, data science and official statistics.</p>
+      <p class="footer-disclaimer">Views are personal and do not represent any institution.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer navigation">
       <a href="{{ '/' | relative_url }}">Home</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ '/en/' | relative_url }}">English</a>
-      <span aria-hidden="true">/</span>
-      <a href="{{ '/fr/' | relative_url }}">Français</a>
-      <span aria-hidden="true">/</span>
+      <a href="{{ '/topics/' | relative_url }}">Topics</a>
+      <a href="{{ '/weekly-monitor/' | relative_url }}">Weekly Monitor</a>
+      <a href="{{ '/archive/' | relative_url }}">Archive</a>
       <a href="{{ '/about/' | relative_url }}">About</a>
-    </p>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+
+    {% if site.social.links %}
+      <div class="footer-social">
+        <p class="footer-subheading">Profiles</p>
+        {% for profile in site.social.links %}
+          {% if profile contains "linkedin.com" %}
+            <a href="{{ profile }}">LinkedIn</a>
+          {% elsif profile contains "researchgate.net" %}
+            <a href="{{ profile }}">ResearchGate</a>
+          {% else %}
+            <a href="{{ profile }}">Profile</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
   </div>
 </footer>

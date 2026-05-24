@@ -1,6 +1,6 @@
-title: "Dramane Bako | AI for Official Statistics"
-tagline: "Weekly insights on AI, surveys, censuses, administrative data, and official statistics"
-description: "A professional blog by Dramane Bako sharing weekly updates on artificial intelligence, survey and census methodology, administrative data, agricultural statistics, and responsible AI use in official statistics."
+title: "AI for Official Statistics | Dramane Bako"
+tagline: "Practical, source-grounded insights on AI tools, methods and governance for official statistics"
+description: "AI for Official Statistics: practical insights on AI tools, methods and governance for surveys, censuses, administrative data and agricultural statistics."
 url: "https://bakodramane.github.io"
 baseurl: ""
 theme: minima
@@ -27,8 +27,13 @@ markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
 header_pages:
-  - en.md
-  - fr.md
+  - topics.md
+  - weekly-monitor.md
+  - tools.md
+  - methods.md
+  - use-cases.md
+  - resources.md
+  - archive.md
   - about.md
 
 # Plugins
