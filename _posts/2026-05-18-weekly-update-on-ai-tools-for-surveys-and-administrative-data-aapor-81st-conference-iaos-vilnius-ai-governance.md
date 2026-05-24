@@ -8,6 +8,16 @@ categories: [AI, Survey Research, Weekly Update]
 tags: [AI, surveys, official-statistics, administrative-data]
 lang: en
 translation_key: 2026-05-18-weekly-update-on-ai-tools-for-surveys-and-administrative-data-aapor-81st-conference-iaos-vilnius-ai-governance
+coverage_period: "May 11-18, 2026"
+source_count: "6 major developments"
+key_takeaways:
+  - "AAPOR and IAOS discussions point to cautious but practical integration of LLMs in survey research and official statistics."
+  - "Governance, validation and fairness auditing remain central for AI systems used with survey and administrative data."
+  - "Survey-aware machine learning is becoming an important bridge between classical survey methodology and modern AI workflows."
+why_it_matters: "The update connects AI governance, survey methodology and administrative data quality in ways that are directly relevant to statistical production systems."
+practical_action: "Use the highlighted developments as prompts for an internal review of AI readiness, model validation and human oversight practices."
+last_updated: 2026-05-18
+toc: true
 ---
 
 Coverage period: May 11–18, 2026

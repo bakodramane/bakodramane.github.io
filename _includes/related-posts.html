@@ -1,0 +1,28 @@
+{% assign label_related = include.label | default: "Related posts" %}
+{% assign label_read = include.read_label | default: "Read more" %}
+{% assign related_count = 0 %}
+
+<section class="post-related" aria-labelledby="related-posts-heading">
+  <h2 id="related-posts-heading">{{ label_related }}</h2>
+  <div class="post-grid post-grid--related">
+    {% for candidate in site.posts %}
+      {% if related_count < 3 and candidate.url != page.url and candidate.lang == page.lang %}
+        {% assign is_related = false %}
+        {% for tag in page.tags %}
+          {% if candidate.tags contains tag %}
+            {% assign is_related = true %}
+          {% endif %}
+        {% endfor %}
+        {% for category in page.categories %}
+          {% if candidate.categories contains category %}
+            {% assign is_related = true %}
+          {% endif %}
+        {% endfor %}
+        {% if is_related %}
+          {% include post-card.html post=candidate excerpt_limit=150 tag_limit=3 read_label=label_read %}
+          {% assign related_count = related_count | plus: 1 %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -9,6 +9,16 @@ tags: [IA, enquetes, statistiques-officielles, donnees-administratives]
 lang: fr
 translation_key: 2026-05-18-weekly-update-on-ai-tools-for-surveys-and-administrative-data-aapor-81st-conference-iaos-vilnius-ai-governance
 permalink: /fr/2026/05/18/weekly-update-on-ai-tools-for-surveys-and-administrative-data-aapor-81st-conference-iaos-vilnius-ai-governance/
+coverage_period: "11-18 mai 2026"
+source_count: "6 développements majeurs"
+key_takeaways:
+  - "Les échanges AAPOR et IAOS montrent une intégration prudente mais pratique des LLM dans la recherche par sondage et les statistiques officielles."
+  - "La gouvernance, la validation et les audits d'équité restent essentiels pour les systèmes d'IA utilisés avec les données d'enquête et administratives."
+  - "Le machine learning tenant compte des plans de sondage devient un pont important entre méthodologie d'enquête classique et workflows d'IA modernes."
+why_it_matters: "Cette veille relie la gouvernance de l'IA, la méthodologie d'enquête et la qualité des données administratives de manière directement pertinente pour les systèmes de production statistique."
+practical_action: "Utiliser les développements signalés comme points de départ pour examiner la préparation à l'IA, la validation des modèles et les pratiques de supervision humaine."
+last_updated: 2026-05-18
+toc: true
 ---
 
 Période couverte : 11–18 mai 2026

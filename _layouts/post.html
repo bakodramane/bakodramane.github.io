@@ -2,17 +2,64 @@
 layout: default
 ---
 
+{% assign rendered_content = content %}
+{% assign word_count = rendered_content | strip_html | split: " " | size %}
+{% assign reading_minutes = word_count | divided_by: 200 %}
+{% assign reading_remainder = word_count | modulo: 200 %}
+{% if reading_remainder > 0 %}
+  {% assign reading_minutes = reading_minutes | plus: 1 %}
+{% endif %}
+{% if reading_minutes < 1 %}
+  {% assign reading_minutes = 1 %}
+{% endif %}
+
+{% if page.lang == "fr" %}
+  {% assign date_format = "%d/%m/%Y" %}
+  {% assign label_author = "Auteur" %}
+  {% assign label_reading = "min de lecture" %}
+  {% assign label_language = "Langue" %}
+  {% assign label_key_takeaways = "Points clés" %}
+  {% assign label_why = "Pourquoi c’est important pour la statistique officielle" %}
+  {% assign label_action = "Action pratique" %}
+  {% assign label_coverage = "Période couverte" %}
+  {% assign label_sources = "Sources consultées" %}
+  {% assign label_updated = "Dernière mise à jour" %}
+  {% assign label_toc = "Dans cet article" %}
+  {% assign label_related = "Articles associés" %}
+  {% assign label_read_more = "Lire la suite" %}
+  {% assign disclaimer = "Les opinions exprimées sont personnelles et ne représentent aucune institution." %}
+  {% assign author_bio = "Dramane Bako écrit sur l’IA responsable, la science des données et les statistiques officielles, avec un accent sur les applications pratiques pour les enquêtes, les recensements, les données administratives et les statistiques agricoles." %}
+{% else %}
+  {% assign date_format = "%B %-d, %Y" %}
+  {% assign label_author = "Author" %}
+  {% assign label_reading = "min read" %}
+  {% assign label_language = "Language" %}
+  {% assign label_key_takeaways = "Key takeaways" %}
+  {% assign label_why = "Why it matters for official statistics" %}
+  {% assign label_action = "Practical action" %}
+  {% assign label_coverage = "Coverage period" %}
+  {% assign label_sources = "Sources reviewed" %}
+  {% assign label_updated = "Last updated" %}
+  {% assign label_toc = "On this page" %}
+  {% assign label_related = "Related posts" %}
+  {% assign label_read_more = "Read more" %}
+  {% assign disclaimer = "Views are personal and do not represent any institution." %}
+  {% assign author_bio = "Dramane Bako writes about responsible AI, data science and official statistics, with a focus on practical applications for surveys, censuses, administrative data and agricultural statistics." %}
+{% endif %}
+
 <article class="post-detail h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-hero">
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: "%B %-d, %Y" }}
+        {{ page.date | date: date_format }}
       </time>
-      {% if page.categories.size > 0 %}
-        <span class="post-meta__group" aria-label="Categories">
-          {% for category in page.categories %}
-            <span class="meta-badge">{{ category }}</span>
-          {% endfor %}
+      {% if page.author %}
+        <span>{{ label_author }}: <span itemprop="author">{{ page.author }}</span></span>
+      {% endif %}
+      <span>{{ reading_minutes }} {{ label_reading }}</span>
+      {% if page.lang %}
+        <span class="language-pill" lang="{{ page.lang }}">
+          {% if page.lang == "fr" %}Français{% else %}English{% endif %}
         </span>
       {% endif %}
     </p>
@@ -22,6 +69,14 @@ layout: default
     {% assign summary = page.description | default: page.excerpt | strip_html | strip %}
     {% if summary %}
       <p class="post-summary">{{ summary }}</p>
+    {% endif %}
+
+    {% if page.categories.size > 0 %}
+      <div class="meta-list" aria-label="Categories">
+        {% for category in page.categories %}
+          <span class="meta-badge">{{ category }}</span>
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% if page.tags.size > 0 %}
@@ -34,23 +89,84 @@ layout: default
 
     {% if page.translation_key %}
       {% assign translations = site.posts | where: "translation_key", page.translation_key %}
-      {% for translation in translations %}
-        {% if translation.lang != page.lang %}
-          <p class="translation-link">
-            {% if page.lang == "fr" %}
-              <a href="{{ translation.url | relative_url }}" hreflang="en">Read in English</a>
-            {% else %}
-              <a href="{{ translation.url | relative_url }}" hreflang="fr">Lire en français</a>
-            {% endif %}
-          </p>
-        {% endif %}
-      {% endfor %}
+      <div class="post-language-switch" aria-label="{{ label_language }}">
+        {% for translation in translations %}
+          <a class="{% if translation.lang == page.lang %}is-active{% endif %}" href="{{ translation.url | relative_url }}" hreflang="{{ translation.lang }}">
+            {% if translation.lang == "fr" %}Français{% else %}English{% endif %}
+          </a>
+        {% endfor %}
+      </div>
     {% endif %}
   </header>
 
+  {% if page.coverage_period or page.source_count or page.key_takeaways or page.why_it_matters or page.practical_action or page.last_updated %}
+    <section class="post-summary-panel" aria-label="Article summary">
+      {% if page.coverage_period or page.source_count or page.last_updated %}
+        <dl class="post-facts">
+          {% if page.coverage_period %}
+            <div>
+              <dt>{{ label_coverage }}</dt>
+              <dd>{{ page.coverage_period }}</dd>
+            </div>
+          {% endif %}
+          {% if page.source_count %}
+            <div>
+              <dt>{{ label_sources }}</dt>
+              <dd>{{ page.source_count }}</dd>
+            </div>
+          {% endif %}
+          {% if page.last_updated %}
+            <div>
+              <dt>{{ label_updated }}</dt>
+              <dd>{{ page.last_updated | date: date_format }}</dd>
+            </div>
+          {% endif %}
+        </dl>
+      {% endif %}
+
+      {% if page.key_takeaways %}
+        <div class="post-summary-panel__block">
+          <h2>{{ label_key_takeaways }}</h2>
+          <ul>
+            {% for takeaway in page.key_takeaways %}
+              <li>{{ takeaway }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+
+      {% if page.why_it_matters %}
+        <div class="post-summary-panel__block">
+          <h2>{{ label_why }}</h2>
+          <p>{{ page.why_it_matters }}</p>
+        </div>
+      {% endif %}
+
+      {% if page.practical_action %}
+        <div class="post-summary-panel__block">
+          <h2>{{ label_action }}</h2>
+          <p>{{ page.practical_action }}</p>
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+
+  {% if page.toc %}
+    {% include post-toc.html content=rendered_content label=label_toc %}
+  {% endif %}
+
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+    {{ rendered_content }}
   </div>
+
+  <footer class="post-footer">
+    <section class="author-box">
+      <h2>Dramane Bako</h2>
+      <p>{{ author_bio }}</p>
+    </section>
+    <p class="post-disclaimer">{{ disclaimer }}</p>
+    {% include related-posts.html label=label_related read_label=label_read_more %}
+  </footer>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

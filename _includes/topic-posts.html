@@ -1,0 +1,22 @@
+{% assign topic = include.topic %}
+{% assign post_limit = include.limit | default: 4 %}
+{% assign language = include.lang | default: page.lang | default: "en" %}
+{% assign read_label = include.read_label | default: "Read more" %}
+{% assign rendered_count = 0 %}
+
+<div class="post-grid post-grid--topic">
+  {% for post_key in topic.featured_posts %}
+    {% if rendered_count < post_limit %}
+      {% assign matched_posts = site.posts | where: "translation_key", post_key | where: "lang", language %}
+      {% assign post = matched_posts | first %}
+      {% if post %}
+        {% include post-card.html post=post excerpt_limit=170 tag_limit=3 read_label=read_label %}
+        {% assign rendered_count = rendered_count | plus: 1 %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% if rendered_count == 0 %}
+  <p class="empty-state">No matching posts yet. This topic is ready for future updates.</p>
+{% endif %}

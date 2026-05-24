@@ -1,0 +1,19 @@
+{% assign toc_label = include.label | default: "On this page" %}
+{% assign headings = include.content | split: '<h2 id="' %}
+
+{% if headings.size > 1 %}
+  <nav class="post-toc" aria-labelledby="post-toc-heading">
+    <h2 id="post-toc-heading">{{ toc_label }}</h2>
+    <ol>
+      {% for heading in headings offset: 1 %}
+        {% assign heading_id = heading | split: '"' | first %}
+        {% assign heading_line = heading | split: '</h2>' | first %}
+        {% assign heading_markup = heading_line | remove_first: heading_id | remove_first: '">' %}
+        {% assign heading_text = heading_markup | strip_html | strip %}
+        {% if heading_id and heading_text %}
+          <li><a href="#{{ heading_id }}">{{ heading_text }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+{% endif %}
