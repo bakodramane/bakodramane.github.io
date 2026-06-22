@@ -6,9 +6,9 @@
     </a>
 
     {% if page.lang == "fr" %}
-      {% assign nav_items = "Accueil:/,Thèmes:/topics/,Veille hebdomadaire:/weekly-monitor/,Outils:/tools/,Méthodes:/methods/,Cas d’utilisation:/use-cases/,Ressources:/resources/,Archives:/archive/,À propos:/about/" | split: "," %}
+      {% assign nav_items = site.data.navigation.fr %}
     {% else %}
-      {% assign nav_items = "Home:/,Topics:/topics/,Weekly Monitor:/weekly-monitor/,Tools:/tools/,Methods:/methods/,Use Cases:/use-cases/,Resources:/resources/,Archive:/archive/,About:/about/" | split: "," %}
+      {% assign nav_items = site.data.navigation.en %}
     {% endif %}
 
     {% assign english_url = "/en/" %}
@@ -40,16 +40,13 @@
 
       <div class="trigger nav-menu">
         {% for item in nav_items %}
-          {% assign item_parts = item | split: ":" %}
-          {% assign item_label = item_parts[0] %}
-          {% assign item_url = item_parts[1] %}
           {% assign is_active = false %}
-          {% if page.url == item_url %}
+          {% if page.url == item.url %}
             {% assign is_active = true %}
-          {% elsif item_url != "/" and page.url contains item_url %}
+          {% elsif item.url != "/" and page.url contains item.url %}
             {% assign is_active = true %}
           {% endif %}
-          <a class="page-link{% if is_active %} is-active{% endif %}" href="{{ item_url | relative_url }}">{{ item_label }}</a>
+          <a class="page-link{% if is_active %} is-active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
         {% endfor %}
 
         <span class="language-switch" aria-label="{% if page.lang == 'fr' %}Langues{% else %}Languages{% endif %}">

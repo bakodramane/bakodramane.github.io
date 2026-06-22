@@ -1,0 +1,182 @@
+topics:
+  - id: survey-methodology
+    title: "Survey methodology, sampling design and estimation"
+    description: "Sampling design, estimation, area frames, small area estimation, listing and survey preparation."
+    publications:
+      - year: 2023
+        type: "Working paper"
+        citation: "Missiroli, S., Bako, D. & Salazar, D. (2023). Producing agricultural population estimates using an area frame. FAO Statistics Working Paper Series, No. 23-31. Rome, FAO."
+        url: "https://doi.org/10.4060/cc4444en"
+      - year: 2022
+        type: "Journal article"
+        citation: "D'Orazio, M., Missiroli, S., Ssennono, V. F., Brunelli, C., Kilic, T., Ponzini, G., Bolliger, F. & Bako, D. (2022). Integrated sampling design for agricultural and socio-economic households' surveys: overview and application in the Uganda Harmonized Integrated Survey. Statistical Journal of the IAOS."
+        url: "https://content.iospress.com/articles/statistical-journal-of-the-iaos/sji210905"
+      - year: 2021
+        type: "Working paper"
+        citation: "Bako, D., Cara, O., Paré, L., Missiroli, S., Mugabe, S. & Koudelka, K. (2021). Operational guidelines on listing and survey preparation for household and non-household agricultural holdings and special farms. FAO Statistics Working Paper 21-21. Rome, FAO."
+        url: "https://doi.org/10.4060/cb4065en"
+      - year: 2021
+        type: "Working paper"
+        citation: "Bako, D. (2021). Operational procedures for selecting samples for repeated agricultural surveys with a rotation design. Rome, FAO."
+        url: "https://doi.org/10.4060/cb4074en"
+      - year: 2021
+        type: "Guideline"
+        citation: "50x2030 Initiative (2021). A Guide to sampling. Technical Paper Series."
+        url: "https://www.50x2030.org/resources/document-library"
+      - year: 2019
+        type: "Guideline"
+        citation: "FAO (2019). Sampling Guidance for SDG Indicator 2.4.1. Rome, FAO."
+        url: "http://www.fao.org/3/ca7439en/ca7439en.pdf"
+      - year: 2018
+        type: "Conference paper"
+        citation: "Bako, D. (2018). Guide méthodologique d'échantillonnage pour l'estimation de l'indicateur 2.4.1 des ODD. 10ème Colloque francophone sur les sondages, Université Lumière Lyon 2, 24–26 October 2018."
+        url: "http://sondages2018.sfds.asso.fr/assets/Documents/Session7_EnquetesPVD_P2_Bako.pdf"
+      - year: 2018
+        type: "Conference paper"
+        citation: "Bako, D. (2018). Weight sharing methods to address changes in observational units in panel surveys. Second International Conference on the Methodology of Longitudinal Surveys (MOLS2), University of Essex, Colchester, 25–27 July 2018."
+      - year: 2017
+        type: "Conference paper"
+        citation: "Bako, D. & Bolliger, F. (2017). Use of small area estimation for rare crops data in agricultural statistics: the case of Burkina Faso and Brazil. 61st ISI World Statistics Congress, Marrakech, 16–21 July 2017."
+      - year: 2016
+        type: "Conference paper"
+        citation: "Piersante, A. & Bako, D. (2016). Indirect sampling, a way to overcome the weakness of the lists in agricultural surveys. International Conference on Agricultural Statistics (ICAS VII), Rome, 26–28 October 2016."
+      - year: 2015
+        type: "Guideline"
+        citation: "Falorsi, P. D., Bako, D., Piersante, A. & Righi, P. (2015). Guidelines for the Integrated Survey Framework. FAO, Rome."
+        url: "http://www.fao.org/3/ca6399en/ca6399en.pdf"
+
+  - id: census-integrated-surveys
+    title: "Agricultural census and integrated survey systems (AGRIS, WCA, 50x2030)"
+    description: "Integrated agricultural survey programmes, AGRIS, the 50x2030 Initiative, and SDG 2 indicator production."
+    publications:
+      - year: 2022
+        type: "Journal article"
+        citation: "Bako, D., Bolliger, F., Brunelli, C., Cachia, F., Koudelka, K., Missiroli, S. & Georgieva, N. (2022). The 50x2030 Initiative and production of SDG 2 indicators: country challenges and experiences. Statistical Journal of the IAOS."
+        url: "https://content.iospress.com/articles/statistical-journal-of-the-iaos/sji210913"
+      - year: 2021
+        type: "Guideline"
+        citation: "50x2030 Initiative (2021). A Guide to the 50x2030 Data Collection Approach: questionnaire design."
+        url: "https://www.50x2030.org/resources/document-library"
+      - year: 2019
+        type: "Report"
+        citation: "FAO (2019). Accelerated Technical Assistance for Africa: Global Office Final Report. Rome, FAO."
+        url: "http://gsars.org/en/accelerated-technical-assistance-plan-for-africa-global-office-final-report/"
+      - year: 2018
+        type: "Handbook"
+        citation: "FAO (2018). Handbook on the Agricultural Integrated Survey (AGRIS). Rome, FAO."
+        url: "http://www.fao.org/3/ca6412en/ca6412en.pdf"
+
+  - id: administrative-data-land-frames
+    title: "Administrative data, land and master sampling frames"
+    description: "Use of administrative sources, land information, and master sampling frames in agricultural statistics."
+    publications:
+      - year: 2018
+        type: "Guideline"
+        citation: "FAO (2018). Guidelines on improving and using administrative data in agricultural statistics. Rome, FAO."
+        url: "http://www.fao.org/3/ca6413en/ca6413en.pdf"
+      - year: 2016
+        type: "Guideline"
+        citation: "FAO (2016). Information on Land in the Context of Agricultural Statistics. Rome, FAO."
+        url: "http://www.fao.org/3/ca6419en/ca6419en.pdf"
+
+  - id: livestock-statistics
+    title: "Livestock statistics"
+    description: "Estimation of livestock production and productivity, and enumeration of nomadic and transhumant livestock."
+    publications:
+      - year: 2018
+        type: "Guideline"
+        citation: "FAO (2018). Guidelines on methods for estimating livestock production and productivity. Rome, FAO."
+        url: "http://www.fao.org/3/ca6400en/ca6400en.pdf"
+      - year: 2017
+        type: "Conference paper"
+        citation: "Bako, D. (2017). Addressing multiplicity in ground surveys for nomadic and semi-nomadic livestock enumeration. 61st ISI World Statistics Congress, Marrakech, 16–21 July 2017; also presented at the 5th Italian Conference on Survey Methodology (ITACOSM 2017), Bologna, 14–16 June 2017."
+      - year: 2016
+        type: "Guideline"
+        citation: "FAO (2016). Guidelines for the Enumeration of Nomadic and Semi-Nomadic (Transhumant) Livestock. Rome, FAO."
+        url: "http://www.fao.org/3/ca6397en/ca6397en.pdf"
+      - year: 2016
+        type: "Conference paper"
+        citation: "Georgieva, N., Keita, N. & Bako, D. (2016). Survey methods for the enumeration of nomadic and semi-nomadic (transhumant) livestock. International Conference on Agricultural Statistics (ICAS VII), Rome, 26–28 October 2016."
+
+  - id: fisheries-aquaculture
+    title: "Fisheries and aquaculture statistics"
+    description: "Household-based fisheries and aquaculture statistics, including master sampling frames and probabilistic survey design."
+    publications:
+      - year: 2018
+        type: "Guideline"
+        citation: "FAO (2018). Master Sampling Frames (MSF) for fishery and aquaculture statistics. Rome, FAO."
+        url: "http://www.fao.org/3/ca6433en/ca6433en.pdf"
+      - year: 2017
+        type: "Guideline"
+        citation: "FAO (2017). Guidelines to Enhance Small Scale Fisheries and Aquaculture Statistics through a household approach. Rome, FAO."
+        url: "http://www.fao.org/3/ca6406en/ca6406en.pdf"
+      - year: 2015
+        type: "Journal article"
+        citation: "Kabore, M., Bako, D. & Guissou, R. (2015). Méthodologie d'enquête statistique par sondage probabiliste sur la pêche : cas du Burkina Faso. STATECO No. 108, pp. 45–62."
+        url: "https://www.insee.fr/fr/statistiques/fichier/2120944/stec108c.pdf"
+
+  - id: income-self-employment-experiments
+    title: "Income, self-employment and survey measurement experiments"
+    description: "Randomised survey experiments on the measurement of self-employment income and fisheries output."
+    publications:
+      - year: 2026
+        type: "Journal article"
+        citation: "Martuscelli, A., Bako, D., Bolliger, F. & Lamberet, B. (2026). Measuring self-employment income in household surveys: evidence from a randomised survey experiment. The Journal of Development Studies, 1–30."
+        url: "https://doi.org/10.1080/00220388.2026.2628674"
+      - year: 2025
+        type: "Working paper"
+        citation: "Martuscelli, A., Bako, D., Bolliger, F. & Lamberet, B. (2025). Measuring fisheries outputs: evidence from a randomized recall bias experiment. FAO Statistics Working Paper Series, No. 25-52. Rome, FAO."
+        url: "https://doi.org/10.4060/cd7956en"
+
+  - id: ag-development-economics-policy
+    title: "Agricultural and development economics, policy and modelling"
+    description: "Social accounting matrices, CGE modelling, public expenditure, policy reviews, agricultural financing, and early econometric work."
+    publications:
+      - year: 2015
+        type: "Data report"
+        citation: "Balma, L., Bako, D. & Kabore, B. (2015). A 2005 Social Accounting Matrix for Burkina Faso. AGRODEP Data Report 07."
+        url: "http://www.agrodep.org/sites/default/files/Data%20Report%2007.pdf"
+      - year: 2014
+        type: "Journal article"
+        citation: "Ouedraogo, S. & Bako, D. (2014). Public expenditures and agricultural growth in Burkina Faso. Asian Journal of Agriculture and Rural Development, pp. 471–483."
+        url: "http://www.aessweb.com/pdf-files/1-504-4(10)2014-AJARD-471-483.pdf"
+      - year: 2014
+        type: "Report"
+        citation: "Yameogo, J. C. & Bako, D. (2014). Stratégie de renforcement des capacités à travers l'évaluation des capacités requises (ECR) en vue de la mise en place du système national d'analyse stratégique et de gestion des connaissances (SAKSS): Burkina Faso. ReSAKSS CNA Report No. 10. IFPRI."
+        url: "http://www.resakss.org/sites/default/files/pdfs/cna10_burkina_0.pdf"
+      - year: 2013
+        type: "Report"
+        citation: "MAFAP (2013). Review of food and agricultural policies in Burkina Faso. MAFAP Country Report Series. FAO, Rome."
+        url: "http://www.fao.org/3/a-at460e.pdf"
+      - year: 2013
+        type: "Technical report"
+        citation: "Expected impact of the revision of the Economic Partnership Agreements between the EU and ECOWAS on the economy of Burkina Faso, using the WAEMU Computable General Equilibrium model. General Directorate for External Trade, Ouagadougou, Burkina Faso."
+      - year: 2012
+        type: "Technical report"
+        citation: "Performance evaluation of the National Programme of the Rural Sector on Burkina Faso's economy. SP/CPSA, Ministry of Agriculture and Food Security, Ouagadougou, Burkina Faso."
+      - year: 2010
+        type: "Conference paper"
+        citation: "Bako, D. & Dabire, T. (2010). Impact of the swollen shoot virus on child labour in cocoa cultivation in Côte d'Ivoire. 15th Annual Conference of the African Econometrics Society, Cairo, 7–9 July 2010."
+      - year: 2009
+        type: "Conference paper"
+        citation: "Financing of agriculture and agricultural growth: the case of Burkina Faso. 57th Session of the International Statistical Institute (ISI), Durban, 16–22 August 2009."
+      - year: 2009
+        type: "Technical report"
+        citation: "Estimating and forecasting the volatility of commodity prices in the CEMAC: using the Kalman filter and the GARCH model. National School of Statistics and Applied Economics (ENSEA), Abidjan, Côte d'Ivoire."
+      - year: 2009
+        type: "Technical report"
+        citation: "Benchmarking the performance of monetary zones and the WAMZ–Rand zone. National School of Statistics and Applied Economics (ENSEA), Abidjan, Côte d'Ivoire."
+
+  - id: climate-change-agriculture
+    title: "Climate change, vulnerability and adaptation"
+    description: "Interactions between climate change and agriculture, crop vulnerability indicators, and farmer adaptation."
+    publications:
+      - year: 2011
+        type: "Conference paper"
+        citation: "Analysis of the interactions between climate change and agricultural production in Burkina Faso. Paper accepted at the Wye Group on Statistics on Rural Development and Agriculture Household Income, 4th Meeting, Rio de Janeiro, 9–11 November 2011."
+      - year: 2011
+        type: "Technical report"
+        citation: "Conceiving indicators of crop vulnerability to climate change. DGPER/DPSAA, Ministry of Agriculture and Food Security, Ouagadougou, Burkina Faso."
+      - year: 2010
+        type: "Conference paper"
+        citation: "Climate change, crop losses and farmers' adaptation: the case of Burkina Faso. 2010 CAADP Africa Forum, Ouagadougou, Burkina Faso, 4–8 October 2010."

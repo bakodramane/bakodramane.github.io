@@ -16,15 +16,21 @@
     <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Navigation de pied de page{% else %}Footer navigation{% endif %}">
       {% if page.lang == "fr" %}
         <a href="{{ '/' | relative_url }}">Accueil</a>
-        <a href="{{ '/topics/' | relative_url }}">Thèmes</a>
         <a href="{{ '/weekly-monitor/' | relative_url }}">Veille hebdomadaire</a>
+        <a href="{{ '/knowledge-hub-fr/' | relative_url }}">Hub de connaissances</a>
+        <a href="{{ '/projects-fr/' | relative_url }}">Projets</a>
+        <a href="{{ '/apps-fr/' | relative_url }}">Applications</a>
+        <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>
         <a href="{{ '/archive/' | relative_url }}">Archives</a>
         <a href="{{ '/about/' | relative_url }}">À propos</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       {% else %}
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/topics/' | relative_url }}">Topics</a>
         <a href="{{ '/weekly-monitor/' | relative_url }}">Weekly Monitor</a>
+        <a href="{{ '/knowledge-hub/' | relative_url }}">Knowledge Hub</a>
+        <a href="{{ '/projects/' | relative_url }}">Projects</a>
+        <a href="{{ '/apps/' | relative_url }}">Apps</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
         <a href="{{ '/archive/' | relative_url }}">Archive</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>

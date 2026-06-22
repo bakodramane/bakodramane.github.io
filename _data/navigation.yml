@@ -1,0 +1,31 @@
+en:
+  - label: Home
+    url: /
+  - label: Weekly Monitor
+    url: /weekly-monitor/
+  - label: Knowledge Hub
+    url: /knowledge-hub/
+  - label: Projects
+    url: /projects/
+  - label: Apps
+    url: /apps/
+  - label: Publications
+    url: /publications/
+  - label: About
+    url: /about/
+
+fr:
+  - label: Accueil
+    url: /
+  - label: Veille hebdomadaire
+    url: /weekly-monitor/
+  - label: Hub de connaissances
+    url: /knowledge-hub-fr/
+  - label: Projets
+    url: /projects-fr/
+  - label: Applications
+    url: /apps-fr/
+  - label: Publications
+    url: /publications-fr/
+  - label: À propos
+    url: /about/
