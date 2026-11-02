@@ -11,46 +11,48 @@ tags: [IA, traitement-documentaire, metadonnees, gouvernance, enquetes]
 
 ## Synthèse
 
-Les évolutions publiées du 27 au 30 octobre 2026 renforcent trois composantes liées du cycle statistique : l’ingestion gouvernée, l’extraction et la codification des contenus non structurés, ainsi que les contrôles sémantiques aidant les systèmes d’IA à interpréter correctement les données. Des capacités stables permettent désormais de configurer le chargement de fichiers et de relier des outils privés par des chemins réseau contrôlés. Des fonctions en préversion ou bêta proposent l’analyse multimodale de documents, l’extraction et la classification dans la base de données, la description explicite des relations entre indicateurs et l’inventaire centralisé des agents et outils.
+Huit nouveautés de produits datées du 27 au 30 octobre 2026 concernent le cycle statistique : ingestion de fichiers, extraction et codification documentaire, jointures sémantiques et accès contrôlé aux outils d’IA. Quatre sont **disponibles de façon générale** (dont une sous réserve d’autorisation) ; quatre sont en **préversion ou bêta**. Cette disponibilité décrit l’offre du fournisseur, non l’aptitude à entrer dans la production statistique. Un institut national de statistique (INS) doit d’abord vérifier couverture, exactitude, confidentialité, traçabilité et reproductibilité selon ses propres méthodes.
 
-Huit évolutions sont évaluées. Trois sont des capacités **stables** adaptées à une mise en œuvre encadrée, quatre sont en **préversion ou bêta** et doivent rester dans des pilotes isolés, et une relève d’une **orientation institutionnelle émergente**. La disponibilité commerciale ne démontre jamais la validité statistique : les instituts nationaux de statistique (INS) doivent tester exactitude, couverture, biais, confidentialité, provenance et comportement lors des révisions.
+Les nouveautés proviennent surtout de Snowflake, Google Cloud et Databricks. Les applications proposées ci-dessous sont des pistes d’essai, et non des déploiements ou gains mesurés dans des INS. Le programme d’une rencontre de l’UNSD apporte un éclairage institutionnel ; la rencontre ayant été reportée à 2027, elle n’est pas comptée parmi les nouveautés d’octobre.
 
 ## Vue d’ensemble
 
 | Évolution | Étape du cycle | Maturité | Utilisation recommandée |
 |---|---|---|---|
 | Chargement de fichiers Snowflake CoCo | Collecte ; intégration | Stable | Ingestion contrôlée avec vérification du schéma et des effectifs |
-| Connexion MCP privée de Gemini Enterprise | Intégration ; protection | Stable | Accès en lecture seule aux outils internes approuvés |
-| Résidence des données Gemini au Brésil | Protection ; gouvernance | Stable avec liste d’autorisation | Vérifier l’hébergement au regard des exigences juridiques |
+| Connectivité réseau MCP de Gemini Enterprise | Intégration ; protection | Disponibilité générale | Tester des outils approuvés dans les régions et circuits pris en charge |
+| Région brésilienne de Gemini Enterprise | Protection ; gouvernance | Disponibilité générale sur autorisation | Vérifier le périmètre de résidence et de traitement |
 | Analyse documentaire agentique Snowflake | Traitement ; codification | Préversion publique | Étalonner formulaires, tableaux et graphiques face à la transcription humaine |
 | Extraction et classification IA dans AlloyDB | Traitement ; codification | Préversion | Piloter l’extraction structurée dans les requêtes |
 | Relations entre vues d’indicateurs Databricks | Analyse ; diffusion | Bêta | Décrire les jointures et cardinalités approuvées |
 | Périmètres multiprojets d’Agent Registry | Gouvernance ; audit | Préversion | Inventorier agents, serveurs MCP et outils |
-| Diffusion statistique prête pour l’IA | Diffusion ; gouvernance | Émergente | Rendre définitions, révisions et incertitude lisibles par machine |
+| Ingestion XML native de Databricks | Intégration ; validation | Disponibilité générale | Contrôler schéma et rapprochements des fichiers administratifs XML |
 
 ## Collecte et intégration
 
-**Le chargement continu et en masse avec CoCo est disponible de façon générale depuis le 27 octobre.** Snowflake peut déduire un schéma et configurer un pipeline Snowpipe continu ou un chargement ponctuel dans des tables standard ou Iceberg gérées. Pour les exports d’enquête et livraisons administratives, l’intérêt est un processus d’atterrissage reproductible. L’inférence ne doit pas redéfinir silencieusement les variables officielles : conserver le schéma fournisseur, approuver les conversions de types, isoler les colonnes inattendues et rapprocher fichiers, enregistrements, doublons et sommes de contrôle.
+**Le chargement continu et en masse avec CoCo est disponible de façon générale depuis le 27 octobre.** Snowflake peut déduire un schéma et configurer un pipeline Snowpipe continu ou un chargement ponctuel dans des tables standard ou Iceberg gérées. Pour les exports d’enquête et livraisons administratives, conserver la configuration produite dans un système de gestion des versions. Approuver les conversions de types avant intégration, isoler les colonnes inattendues et rapprocher fichiers, enregistrements, doublons et sommes de contrôle. Un chargement réussi prouve une complétude technique, mais ni la couverture de la population ni l’aptitude statistique.
 
-**La connectivité MCP privée de Gemini Enterprise est disponible de façon générale depuis le 27 octobre.** Les serveurs Model Context Protocol personnalisés peuvent être joints au moyen d’un réseau privé virtuel, de Private Service Connect et d’adresses de sortie statiques contrôlées. Les INS peuvent ainsi exposer des métadonnées ou services de validation approuvés sans les rendre publics. Il convient de commencer par des outils en lecture seule, une liste explicite d’autorisations et des identités de service, tout en journalisant chaque appel.
+**La connectivité réseau de Gemini Enterprise pour les serveurs MCP personnalisés est disponible de façon générale depuis le 27 octobre.** Les serveurs privés peuvent utiliser un réseau VPC et Private Service Connect ; les adresses de sortie statiques via Cloud NAT concernent les serveurs *publics* soumis à une liste d’adresses autorisées. Le routage Agent Gateway est documenté pour `us-central1` et `europe-west1`. Un service de métadonnées ou de validation en lecture seule constituerait un essai limité : restreindre les identités de service, journaliser les appels et interdire l’accès libre aux données individuelles.
+
+**La prise en charge native du XML dans Databricks est disponible de façon générale depuis le 29 octobre.** Auto Loader, `read_files` et `COPY INTO` permettent l’ingestion et l’analyse de fichiers XML en traitement par lots ou en continu. C’est utile pour les livraisons administratives imbriquées, mais le format, pas plus qu’un assistant d’IA, ne résout les différences d’unités, d’identifiants ou de périodes. Versionner le schéma et les correspondances, conserver les données sources et rapprocher les effectifs avant tout appariement avec une enquête.
 
 ## Traitement, codification et validation
 
-**AI_PARSE_DOCUMENT de Snowflake a ajouté le 28 octobre un mode agentique en préversion publique.** Il peut interpréter textes, tableaux, graphiques, diagrammes et captures d’écran dans un flux SQL. Un pilote pertinent serait l’extraction des cellules et annotations de tableaux de recensements anciens ou de rapports administratifs numérisés. Il faut mesurer les erreurs par type de document, langue, qualité de numérisation et mise en page rare, conserver les coordonnées de page et orienter vers le contrôle humain les cas incertains ou incohérents.
+**AI_PARSE_DOCUMENT de Snowflake a ajouté le 28 octobre un mode agentique en préversion publique.** Il peut interpréter textes, tableaux, graphiques, diagrammes et captures d’écran dans un flux SQL. Un pilote pertinent serait l’extraction des cellules et annotations de tableaux de recensements anciens ou de rapports administratifs numérisés. Il faut mesurer les erreurs par type de document, langue, qualité de numérisation et mise en page rare. Conserver l’original, l’indice de page et les coordonnées disponibles des éléments visuels. Contrôler les champs absents et les résultats partiels avant arbitrage humain : le schéma des résultats générés est fourni au mieux, sans garantie de conformité ni score de confiance calibré.
 
-**AlloyDB a introduit le 27 octobre des fonctions IA d’extraction et de classification en préversion.** Elles transforment du texte non structuré en champs ou catégories prédéfinies directement dans les requêtes. Elles pourraient assister la codification des professions, cultures ou réponses libres. Les libellés doivent provenir d’une classification officielle versionnée, avec abstention, analyse d’erreur stratifiée et validation déterministe de chaque code retourné.
+**AlloyDB a introduit le 27 octobre des fonctions IA d’extraction et de classification en préversion.** Elles transforment du texte non structuré en champs ou catégories prédéfinies directement dans les requêtes. Elles pourraient assister la codification des professions, cultures ou réponses libres. Les catégories proposées doivent correspondre à une classification officielle versionnée. Mesurer précision et rappel par classe rare, langue et région ; prévoir l’abstention et l’arbitrage humain, puis vérifier de façon déterministe le format et la hiérarchie des codes. Un code plausible ne prouve pas que la réponse a été correctement classée.
 
 ## Analyse et diffusion
 
-**Les relations entre vues d’indicateurs d’Unity Catalog sont entrées en bêta le 30 octobre.** Elles permettent d’enregistrer conditions de jointure et cardinalités afin que les outils décisionnels et assistants choisissent le chemin prévu entre mesures. Une jointure plausible mais erronée peut dupliquer des observations ou mélanger des populations incompatibles. Chaque relation doit donc devenir une métadonnée statistique décrivant unité d’observation, période de référence, couverture et hypothèse de cardinalité, avec contrôle des totaux avant et après jointure.
+**Les relations entre vues d’indicateurs d’Unity Catalog sont entrées en bêta le 30 octobre.** Elles permettent d’enregistrer conditions de jointure et cardinalités afin que les outils décisionnels et assistants choisissent le chemin prévu entre mesures. Une jointure plausible mais erronée peut dupliquer des observations ou mélanger des populations incompatibles. Chaque relation doit devenir une métadonnée statistique décrivant unité d’observation, période de référence, couverture et hypothèses de cardinalité. Vérifier les nombres de lignes et les totaux avant et après jointure. Le déploiement est progressif et nécessite Databricks Runtime 19 ou un entrepôt SQL.
 
-**Le programme actuel de l’UNSD sur la préparation à l’IA accorde la même importance à l’adoption de l’IA et à l’utilisation correcte des statistiques officielles par l’IA.** Définitions, sources, révisions et incertitude doivent rester visibles lorsque les utilisateurs accèdent aux chiffres par des assistants. Il s’agit d’une orientation institutionnelle **émergente**, qui plaide pour des métadonnées lisibles par machine, des identifiants stables et des réponses citant les publications officielles.
+**Éclairage institutionnel.** Le programme de l’UNSD associe l’usage de l’IA dans la production à l’accès fiable aux statistiques publiées par l’IA. Le Forum mondial des données, initialement prévu en novembre 2026, a été reporté à 2027. Ce programme exprime donc des priorités ; il ne constitue ni le compte rendu d’une rencontre tenue en octobre ni une nouveauté de produit. Pour un assistant, publier définitions, sources et révisions avec les chiffres et imposer la citation des publications officielles.
 
 ## Gouvernance et protection
 
-**Agent Registry de Google Cloud a ajouté le 30 octobre des périmètres de gestion multiprojets en préversion.** Un projet central peut découvrir et gouverner les agents, serveurs MCP et outils de plusieurs projets. Un registre institutionnel devrait préciser responsable, finalité, classification des données, versions du modèle et des instructions, outils autorisés, état d’évaluation, échéance et contact d’incident. La découverte ne vaut pas certification.
+**Agent Registry de Google Cloud a ajouté le 30 octobre des périmètres de gestion multiprojets en préversion.** Un projet central peut découvrir et gouverner les agents, serveurs MCP et outils de plusieurs projets. Le registre permet la découverte entre projets ; l’INS doit encore mettre en place ses propres contrôles pour documenter responsable, finalité, classification des données, versions du modèle et des instructions, outils autorisés, état d’évaluation, échéance et contact d’incident. La découverte ne vaut pas certification.
 
-**Gemini Enterprise a ajouté le 28 octobre la résidence des données et le traitement d’apprentissage automatique au Brésil, disponibles de façon générale avec liste d’autorisation.** Pour les INS, la leçon plus générale est de vérifier où sont traités et conservés instructions, passages récupérés, journaux, sauvegardes et calculs. Une mention de résidence doit être confrontée au secret statistique, aux accès transfrontaliers d’assistance et aux règles de conservation.
+**Gemini Enterprise a ajouté le 28 octobre la résidence des données et le traitement d’apprentissage automatique au Brésil, disponibles de façon générale avec liste d’autorisation.** Ce changement régional peut être sans intérêt direct hors du Brésil, mais illustre un contrôle à l’achat : vérifier où sont traités et conservés instructions, passages récupérés, journaux, sauvegardes et calculs. L’annonce couvre les données au repos et le traitement d’apprentissage automatique au Brésil ; elle ne règle pas à elle seule les questions d’accès par l’assistance ou de conservation.
 
 ## Cas d’usage pratiques
 
@@ -59,6 +61,10 @@ Huit évolutions sont évaluées. Trois sont des capacités **stables** adaptée
 3. Proposer des codes de profession ou de produit avec abstention et arbitrage humain.
 4. Décrire les relations approuvées entre mesures de population, ménages et établissements.
 5. Offrir un assistant de diffusion en lecture seule, fondé sur des publications validées.
+
+## Un essai avant toute mise en production
+
+Pour un processus délimité, constituer un jeu de référence couvrant les types de documents, langues, régions et catégories rares réellement rencontrés. Réserver un échantillon distinct pour l’évaluation et comparer l’assistance par IA à une procédure manuelle documentée. Publier les erreurs d’extraction par champ et type de document, la précision et le rappel de codification par classe, les taux d’abstention et de révision humaine, les écarts de rapprochement, le temps par dossier et le coût. Fixer les seuils d’acceptation avec le responsable méthodologique avant l’essai ; refaire l’évaluation après tout changement de modèle, d’instructions, de classification ou de schéma. Un gain de vitesse ne compense pas des erreurs inacceptables sur les estimations essentielles.
 
 ## Précautions de mise en œuvre et de gouvernance
 
@@ -71,12 +77,12 @@ Huit évolutions sont évaluées. Trois sont des capacités **stables** adaptée
 
 ## Conséquences pour les instituts de statistique
 
-Le signal commun est que la qualité de l’IA dépend de plus en plus du contrat entourant les données. Ingestion fiable, relations sémantiques explicites, accès contrôlé aux outils et registre institutionnel des actifs comptent autant que le modèle. Les INS doivent rattacher chaque composant à un responsable méthodologique et à un processus de diffusion, en maintenant les fonctions en préversion hors des chaînes critiques.
+Le premier chantier utile est un contrat de données documenté : schéma source, unité, période de référence, version de la classification, cardinalité des jointures et provenance des publications. Disponibilité technique et contrôles internes ne dispensent pas de mesurer l’effet sur les estimations publiées. Chaque essai doit avoir un responsable méthodologique et obtenir une validation indépendante avant que ses résultats n’entrent dans une publication statistique.
 
 ## Prochaines actions
 
 1. Choisir une livraison administrative récurrente et définir schéma, rapprochements et tests de quarantaine.
-2. Constituer un référentiel bilingue de 200 à 500 pages ou réponses représentatives.
+2. Constituer un jeu de référence bilingue stratifié et un échantillon d’évaluation distinct, dimensionnés selon les classes rares et les marges d’erreur pertinentes.
 3. Décrire une jointure à haut risque, avec cardinalité et champ de population.
 4. Créer un modèle d’inventaire pour agents, modèles, instructions, outils et droits sur les données.
 5. Tester un assistant interne en lecture seule qui cite les publications et s’abstient en cas de concepts incompatibles.
@@ -90,4 +96,5 @@ Le signal commun est que la qualité de l’IA dépend de plus en plus du contra
 5. Databricks, [Notes de version d’octobre 2026](https://docs.databricks.com/aws/en/release-notes/product/2026/october) (30 octobre 2026).
 6. Google Cloud, [Notes de version d’Agent Registry](https://docs.cloud.google.com/agent-registry/release-notes) (30 octobre 2026).
 7. UNSD, [Artificial intelligence and official statistics: strengthening capacities and readiness](https://unstats.un.org/capacity-development/events/2026/un-wdf-ai/) (consulté le 2 novembre 2026).
-8. CEE-ONU, [Responsible AI for Official Statistics Framework](https://unece.org/statistics/documents/2025/10/reports/responsible-ai-official-statistics-framework) (référence de gouvernance ; consulté le 2 novembre 2026).
+8. CEE-ONU, [Responsible AI for Official Statistics Framework](https://unece.org/statistics/documents/2025/10/reports/responsible-ai-official-statistics-framework) (référence de gouvernance de 2025 ; indexée par la CEE-ONU, mais l’accès direct peut être restreint).
+9. Snowflake, [Référence de la fonction AI_PARSE_DOCUMENT](https://docs.snowflake.com/en/sql-reference/functions/ai_parse_document) (détails sur les pages, les champs et les résultats partiels ; consulté le 2 novembre 2026).
