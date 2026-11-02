@@ -13,7 +13,7 @@ tags: [AI, document-processing, metadata, governance, surveys]
 
 Developments released from 27 to 30 October 2026 strengthen three connected parts of the statistical lifecycle: governed ingestion, extraction and coding of unstructured material, and semantic controls that help AI systems interpret data correctly. Stable capabilities can now configure file ingestion and connect private tools through controlled network paths. Preview and beta functions bring multimodal document parsing, in-database extraction and classification, explicit relationships between statistical measures, and central inventories of agents and tools.
 
-Seven developments are assessed. Three are **stable** platform capabilities suitable for controlled implementation, three are **preview or beta** and should remain in isolated pilots, and one is an **emerging institutional direction**. Product availability never establishes statistical validity: national statistical offices (NSOs) must test accuracy, coverage, bias, confidentiality, provenance and revision behaviour.
+Eight developments are assessed. Three are **stable** platform capabilities suitable for controlled implementation, four are **preview or beta** and should remain in isolated pilots, and one is an **emerging institutional direction**. Product availability never establishes statistical validity: national statistical offices (NSOs) must test accuracy, coverage, bias, confidentiality, provenance and revision behaviour.
 
 ## At a glance
 

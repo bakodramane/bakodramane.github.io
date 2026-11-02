@@ -13,7 +13,7 @@ tags: [IA, traitement-documentaire, metadonnees, gouvernance, enquetes]
 
 Les évolutions publiées du 27 au 30 octobre 2026 renforcent trois composantes liées du cycle statistique : l’ingestion gouvernée, l’extraction et la codification des contenus non structurés, ainsi que les contrôles sémantiques aidant les systèmes d’IA à interpréter correctement les données. Des capacités stables permettent désormais de configurer le chargement de fichiers et de relier des outils privés par des chemins réseau contrôlés. Des fonctions en préversion ou bêta proposent l’analyse multimodale de documents, l’extraction et la classification dans la base de données, la description explicite des relations entre indicateurs et l’inventaire centralisé des agents et outils.
 
-Sept évolutions sont évaluées. Trois sont des capacités **stables** adaptées à une mise en œuvre encadrée, trois sont en **préversion ou bêta** et doivent rester dans des pilotes isolés, et une relève d’une **orientation institutionnelle émergente**. La disponibilité commerciale ne démontre jamais la validité statistique : les instituts nationaux de statistique (INS) doivent tester exactitude, couverture, biais, confidentialité, provenance et comportement lors des révisions.
+Huit évolutions sont évaluées. Trois sont des capacités **stables** adaptées à une mise en œuvre encadrée, quatre sont en **préversion ou bêta** et doivent rester dans des pilotes isolés, et une relève d’une **orientation institutionnelle émergente**. La disponibilité commerciale ne démontre jamais la validité statistique : les instituts nationaux de statistique (INS) doivent tester exactitude, couverture, biais, confidentialité, provenance et comportement lors des révisions.
 
 ## Vue d’ensemble
 
