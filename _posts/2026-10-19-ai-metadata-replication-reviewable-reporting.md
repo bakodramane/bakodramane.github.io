@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI metadata, live replication and reviewable reporting"
+description: "New controls for cross-platform metadata, sensitive-data classification, continuous replication and automated reporting, assessed for statistical offices."
 date: 2026-10-19
 lang: en
 translation_key: weekly-ai-update-2026-10-19

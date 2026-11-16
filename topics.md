@@ -4,6 +4,8 @@ title: Topics
 permalink: /topics/
 description: "Topic taxonomy for AI tools, methods and governance in official statistics."
 lang: en
+translation_en: /topics/
+translation_fr: /topics-fr/
 ---
 
 <p class="page-lede">A maintained topic taxonomy for the AI for Official Statistics knowledge hub. Existing post tags are intentionally preserved; these topic groups provide a clearer editorial layer above the current broad tags and categories.</p>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Governed feature pipelines and reusable AI workflows"
+description: "Version-controlled features, reproducible ML runtimes and governed sharing move AI-assisted statistical work towards repeatable, governed services."
 date: 2026-10-26
 lang: en
 translation_key: weekly-ai-update-2026-10-26

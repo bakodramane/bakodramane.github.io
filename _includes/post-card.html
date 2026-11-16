@@ -27,9 +27,10 @@
     <h3><a href="{{ post_item.url | relative_url }}">{{ post_item.title | escape }}</a></h3>
   {% endif %}
 
-  {% assign summary = post_item.description | default: post_item.excerpt | strip_html | strip %}
-  {% if summary %}
-    <p>{{ summary | truncate: excerpt_limit }}</p>
+  {% capture summary %}{% include post-summary.html post=post_item limit=excerpt_limit %}{% endcapture %}
+  {% assign summary = summary | strip %}
+  {% if summary != "" %}
+    <p>{{ summary }}</p>
   {% endif %}
 
   {% if post_item.categories.size > 0 %}

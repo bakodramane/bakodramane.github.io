@@ -1,0 +1,26 @@
+{% comment %}
+  Featured publications shared by the home pages and the publications catalogue.
+  Each marker is a unique fragment of a publication URL in _data/publications.yml.
+  Params: lang ("en" | "fr"), link_label (optional).
+{% endcomment %}
+{% assign featured_markers = "10.1080/00220388.2026.2628674|sji210905|10.4060/cc4444en|sji210913" | split: "|" %}
+{% if include.lang == "fr" %}
+  {% assign featured_label = include.link_label | default: "Consulter la publication" %}
+{% else %}
+  {% assign featured_label = include.link_label | default: "Read publication" %}
+{% endif %}
+<div class="featured-publications">
+  {% for marker in featured_markers %}
+    {% for topic in site.data.publications.topics %}
+      {% for pub in topic.publications %}
+        {% if pub.url contains marker %}
+          <article class="featured-publication">
+            <p class="eyebrow">{{ pub.year }} · {{ pub.type }}</p>
+            <p>{% include publication-citation.html citation=pub.citation %}</p>
+            <a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ featured_label }} <span aria-hidden="true">↗</span></a>
+          </article>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endfor %}
+</div>

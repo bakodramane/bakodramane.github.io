@@ -4,6 +4,8 @@ title: Tools
 permalink: /tools/
 description: "AI tools and platforms relevant to survey, census, administrative data and official statistics workflows."
 lang: en
+translation_en: /tools/
+translation_fr: /tools-fr/
 ---
 
 <p class="page-lede">AI tools, platforms and libraries relevant to surveys, censuses, administrative data and official statistics. This page surfaces tool-oriented monitor updates while keeping detailed tool reviews for future expansion.</p>

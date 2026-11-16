@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IA et statistique officielle : de l’extraction documentaire à une production maîtrisée"
+description: "Sept évolutions sur l’analyse de documents, l’inspection d’images et les métadonnées, ainsi que les travaux de l’ONS et de la CEE-ONU sur la mesure de l’IA et l’imputation."
 date: 2026-11-09
 lang: fr
 translation_key: weekly-ai-update-2026-11-09

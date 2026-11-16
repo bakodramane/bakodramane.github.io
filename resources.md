@@ -4,6 +4,8 @@ title: Resources
 permalink: /resources/
 description: "Resource entry points for responsible AI, official statistics governance and practical statistical AI workflows."
 lang: en
+translation_en: /resources/
+translation_fr: /resources-fr/
 ---
 
 <p class="page-lede">Curated guides, checklists, references and starting points for responsible AI in official statistics. These resources are intentionally practical and can be expanded into fuller guides over time.</p>

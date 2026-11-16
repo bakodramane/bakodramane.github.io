@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "IA et statistique officielle : tracer les traitements et proportionner les contrôles"
+description: "Une proposition de la CEE-ONU sur l’évaluation des systèmes d’IA et de nouveaux outils de traçabilité et de contrôle d’accès : rendre les traitements assistés par IA vérifiables."
 date: 2026-11-16
 lang: fr
 translation_key: weekly-ai-update-2026-11-16

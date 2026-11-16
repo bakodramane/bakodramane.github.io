@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI-ready dissemination and governed automation"
+description: "How trustworthy dissemination, traceable production and controlled automation are converging, and what the UN 2026 SDG report means for national statistical offices."
 date: 2026-10-12
 lang: en
 translation_key: weekly-ai-update-2026-10-12

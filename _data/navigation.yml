@@ -1,31 +1,40 @@
+# Primary navigation per language.
+# `match` lists URL prefixes that also highlight an item (section pages);
+# `exact` lists extra URLs that highlight it; `posts: true` highlights it on blog posts.
 en:
   - label: Home
     url: /
-  - label: Weekly Monitor
-    url: /weekly-monitor/
-  - label: Knowledge Hub
-    url: /knowledge-hub/
-  - label: Projects
-    url: /projects/
-  - label: Apps
-    url: /apps/
-  - label: Publications
-    url: /publications/
   - label: About
     url: /about/
-
+  - label: Expertise
+    url: /expertise/
+  - label: Experience
+    url: /experience/
+  - label: Publications
+    url: /publications/
+  - label: Projects & Apps
+    url: /projects/
+    match: [/projects/, /apps/]
+  - label: Insights
+    url: /insights/
+    posts: true
+    match: [/insights/, /knowledge-hub/, /weekly-monitor/, /topics/, /methods/, /use-cases/, /tools/, /resources/, /archive/, /en/]
 fr:
   - label: Accueil
-    url: /
-  - label: Veille hebdomadaire
-    url: /weekly-monitor/
-  - label: Hub de connaissances
-    url: /knowledge-hub-fr/
-  - label: Projets
-    url: /projects-fr/
-  - label: Applications
-    url: /apps-fr/
+    url: /fr/accueil/
+  - label: Profil
+    url: /about-fr/
+  - label: Expertises
+    url: /expertise-fr/
+  - label: Parcours
+    url: /experience-fr/
   - label: Publications
     url: /publications-fr/
-  - label: À propos
-    url: /about/
+  - label: Projets et outils
+    url: /projects-fr/
+    match: [/projects-fr/, /apps-fr/]
+  - label: Analyses
+    url: /insights-fr/
+    posts: true
+    exact: [/fr/]
+    match: [/insights-fr/, /knowledge-hub-fr/, /topics-fr/, /methods-fr/, /use-cases-fr/, /tools-fr/, /resources-fr/]

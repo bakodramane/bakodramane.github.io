@@ -1,18 +1,30 @@
+{% assign english_url = page.translation_en %}
+{% assign french_url = page.translation_fr %}
 {% if page.translation_key %}
   {% assign translations = site.posts | where: "translation_key", page.translation_key %}
   {% for translation in translations %}
     <link rel="alternate" hreflang="{{ translation.lang }}" href="{{ translation.url | absolute_url }}">
+    {% if translation.lang == "en" %}<link rel="alternate" hreflang="x-default" href="{{ translation.url | absolute_url }}">{% endif %}
   {% endfor %}
-{% elsif page.url == "/" %}
-  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-  <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
-  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-{% elsif page.url == "/en/" %}
-  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-  <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
-  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-{% elsif page.url == "/fr/" %}
-  <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-  <link rel="alternate" hreflang="fr" href="{{ '/fr/' | absolute_url }}">
-  <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% elsif english_url and french_url %}
+  <link rel="alternate" hreflang="en" href="{{ english_url | absolute_url }}">
+  <link rel="alternate" hreflang="fr" href="{{ french_url | absolute_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ english_url | absolute_url }}">
+{% endif %}
+{% if page.is_profile_home or page.is_profile_about %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dramane Bako",
+  "url": "{{ '/' | absolute_url }}",
+  "description": "Statistician and data scientist working on survey methodology, agricultural statistics, official statistics and responsible AI.",
+  "sameAs": [
+    "https://www.linkedin.com/in/bakodramane/",
+    "https://www.researchgate.net/profile/Dramane-Bako",
+    "https://github.com/bakodramane"
+  ],
+  "knowsAbout": ["Official statistics", "Survey methodology", "Agricultural statistics", "Data science", "Responsible AI"]
+}
+</script>
 {% endif %}

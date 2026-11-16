@@ -4,6 +4,8 @@ title: Archive
 permalink: /archive/
 description: "Chronological archive of AI for Official Statistics posts by Dramane Bako."
 lang: en
+translation_en: /archive/
+translation_fr: /fr/
 ---
 
 <p class="page-lede">A chronological view of all posts in the AI for Official Statistics knowledge hub, including English and French updates.</p>

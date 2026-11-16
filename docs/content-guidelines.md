@@ -1,6 +1,14 @@
 # Content Guidelines
 
-This site is a personal knowledge hub on AI for Official Statistics. It should remain professional, practical and source-grounded, while clearly avoiding the appearance of an official institutional publication.
+This is the personal professional and academic portfolio of Dramane Bako, with a dedicated **AI for Official Statistics** knowledge hub. The homepage, professional pages, publication catalogue and programme/project case studies must foreground verifiable contributions and distinguish personal views from institutional positions.
+
+## Portfolio and bilingual pages
+
+The main portfolio pages have parallel English and French versions. Every new professional page should define `lang`, `translation_en` and `translation_fr` in front matter. Keep all established page and post permalinks stable and preserve the `translation_key` mechanism used by the weekly posts. The bilingual publication catalogue is rendered from `_data/publications.yml` through `_includes/publications-catalog.html`; do not manually duplicate references in translated pages.
+
+Professional assertions must be supported by CV/publication evidence. Attribute institutional outputs correctly; do not imply sole authorship or claim unmeasured outcomes. Add photographs, screenshots, downloadable CV files, ORCID/Google Scholar identifiers and project metrics only after confirmation. Never use invented placeholders as if they were real.
+
+The original AI knowledge hub and weekly monitor remain a distinctive content area and must not be deleted by professional portfolio revisions.
 
 Use this disclaimer where appropriate:
 

@@ -1,0 +1,14 @@
+{%- comment -%}
+  Plain-text summary of a post for cards: front-matter description first,
+  otherwise the first rendered paragraph (skipping leading headings such as
+  "Executive summary"). Params: post, limit (default 190).
+{%- endcomment -%}
+{%- assign summary_limit = include.limit | default: 190 -%}
+{%- assign summary_text = include.post.description | strip_html | strip -%}
+{%- if summary_text == "" -%}
+  {%- assign summary_text = include.post.content | split: "</p>" | first | split: "<p>" | last | strip_html | strip -%}
+{%- endif -%}
+{%- if summary_text == "" -%}
+  {%- assign summary_text = include.post.excerpt | strip_html | strip -%}
+{%- endif -%}
+{{- summary_text | normalize_whitespace | truncate: summary_limit -}}

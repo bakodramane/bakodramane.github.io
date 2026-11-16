@@ -4,6 +4,8 @@ title: English Updates
 permalink: /en/
 description: "English posts on AI tools for surveys, censuses, administrative data and official statistics."
 lang: en
+translation_en: /en/
+translation_fr: /fr/
 ---
 
 <p class="page-lede">All English posts in reverse chronological order.</p>
