@@ -5,7 +5,7 @@
   {% assign category = app.category_en %}{% assign challenge = app.challenge_en %}{% assign solution = app.solution_en %}{% assign value = app.value_en %}
   {% if is_fr %}{% assign category = app.category_fr %}{% assign challenge = app.challenge_fr %}{% assign solution = app.solution_fr %}{% assign value = app.value_fr %}{% endif %}
   <article class="app-case" id="{{ app.id }}">
-    <div class="app-case__visual" aria-hidden="true"><span class="app-case__glyph">{{ app.name | slice: 0, 1 }}</span><div class="app-case__pattern"><i></i><i></i><i></i></div></div>
+    {% if app.screenshot %}<figure class="app-case__screenshot"><img src="{{ app.screenshot }}" loading="lazy" decoding="async" alt="{% if is_fr %}{{ app.screenshot_alt_fr }}{% else %}{{ app.screenshot_alt_en }}{% endif %}"><figcaption>{% if is_fr %}Capture d’écran de l’application{% else %}Actual application screenshot{% endif %}</figcaption></figure>{% else %}<div class="app-case__visual" aria-hidden="true"><span class="app-case__glyph">{{ app.name | slice: 0, 1 }}</span><div class="app-case__pattern"><i></i><i></i><i></i></div></div>{% endif %}
     <div class="app-case__body">
       <p class="eyebrow">{{ category }}</p>
       <h2>{{ app.name }}</h2>

@@ -24,6 +24,9 @@
   repository: "https://github.com/bakodramane/PIPELINE_AC_MR_TMR"
 - id: data-cleaning
   name: "Data Cleaning Syntax App"
+  screenshot: "https://raw.githubusercontent.com/bakodramane/DATA_CLEANING_SYNTAX_APP/main/docs/screenshots/syntax-preview.png"
+  screenshot_alt_en: "Data Cleaning Syntax App interface showing a generated syntax preview"
+  screenshot_alt_fr: "Interface de Data Cleaning Syntax App présentant un aperçu de la syntaxe générée"
   category_en: "Survey data quality"
   category_fr: "Qualité des données d'enquête"
   challenge_en: "Producing consistent validation, cleaning and imputation code across statistical packages is demanding."
