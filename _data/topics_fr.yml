@@ -1,0 +1,24 @@
+ai-surveys-censuses:
+  title: "IA pour les enquêtes et les recensements"
+  description: "Conception des questionnaires, opérations de terrain, traitement, imputation, tabulation et contrôle qualité."
+administrative-data:
+  title: "Données administratives"
+  description: "Qualité, rapprochement, classification, détection des anomalies et gouvernance des données administratives."
+agricultural-statistics-wca-2030:
+  title: "Statistiques agricoles et WCA 2030"
+  description: "Applications de l'IA dans les recensements agricoles, les enquêtes et les systèmes statistiques."
+ai-governance-ethics-quality:
+  title: "Gouvernance, éthique et assurance qualité de l'IA"
+  description: "Transparence, validation, risques, auditabilité et cadre institutionnel d'une IA responsable."
+survey-methodology-machine-learning:
+  title: "Méthodologie des enquêtes et apprentissage automatique"
+  description: "Plans de sondage complexes, pondération, estimation sur petits domaines, inférence et limites des modèles."
+data-cleaning-editing-imputation-validation:
+  title: "Nettoyage, correction, imputation et validation"
+  description: "Méthodes de contrôle, de détection des anomalies, de correction et d'imputation des données."
+dissemination-dashboards-chatbots-data-access:
+  title: "Diffusion, tableaux de bord et accès aux données"
+  description: "Assistants conversationnels, tableaux de bord, métadonnées et services d'accès aux statistiques."
+tools-libraries-platforms:
+  title: "Outils, bibliothèques et plateformes"
+  description: "Logiciels et plateformes d'IA, automatisation, pratiques reproductibles et traitements statistiques."

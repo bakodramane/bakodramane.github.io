@@ -4,6 +4,8 @@ title: Knowledge Hub
 permalink: /knowledge-hub/
 description: "Reference pages on AI tools, methods, use cases and resources for official statistics — organised by topic."
 lang: en
+translation_en: /knowledge-hub/
+translation_fr: /knowledge-hub-fr/
 ---
 
 <p class="page-lede">A set of reference pages on AI tools, methods, use cases and resources for official statistics. Each section links to related monitor posts from the Weekly Monitor.</p>

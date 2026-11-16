@@ -4,6 +4,8 @@ title: Methods
 permalink: /methods/
 description: "Methods for responsible and survey-aware AI use in official statistics."
 lang: en
+translation_en: /methods/
+translation_fr: /methods-fr/
 ---
 
 <p class="page-lede">Practical methods for applying AI and machine learning in official statistics while respecting survey design, quality, transparency and governance requirements.</p>

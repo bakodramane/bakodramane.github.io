@@ -4,6 +4,8 @@ title: Weekly Monitor
 permalink: /weekly-monitor/
 description: "Weekly monitor updates on AI tools, methods and governance for official statistics."
 lang: en
+translation_en: /weekly-monitor/
+translation_fr: /fr/
 ---
 
 <p class="page-lede">The Weekly Monitor tracks new AI tools, methods, reports and governance developments relevant to surveys, censuses, administrative data and official statistics.</p>

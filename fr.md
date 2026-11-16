@@ -4,6 +4,8 @@ title: Français
 permalink: /fr/
 description: "Articles en français sur les outils d'IA pour les enquêtes, les recensements, les données administratives et les statistiques officielles."
 lang: fr
+translation_en: /en/
+translation_fr: /fr/
 ---
 
 <p class="page-lede">Tous les articles en français, du plus récent au plus ancien.</p>

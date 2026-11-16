@@ -4,6 +4,8 @@ title: Use Cases
 permalink: /use-cases/
 description: "Practical AI use cases for surveys, censuses, administrative data, agricultural statistics and official statistics."
 lang: en
+translation_en: /use-cases/
+translation_fr: /use-cases-fr/
 ---
 
 <p class="page-lede">Concrete applications of AI across the statistical production lifecycle, from planning and fieldwork to processing, analysis, dissemination and user support.</p>
