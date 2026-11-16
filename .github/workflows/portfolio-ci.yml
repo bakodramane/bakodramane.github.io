@@ -11,11 +11,17 @@ jobs:
     steps:
       - name: Check out site
         uses: actions/checkout@v4
-      - name: Install Ruby and gems
+      - name: Install Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
-          bundler-cache: true
+          bundler-cache: false
+      - name: Install Linux-compatible site dependencies
+        run: |
+          # The existing Windows-only Gemfile.lock is preserved in Git.
+          # Let Bundler resolve a compatible Linux lock in this ephemeral runner.
+          rm Gemfile.lock
+          bundle install --jobs 4
       - name: Build site
         run: bundle exec jekyll build
       - name: Check built internal links
