@@ -30,6 +30,14 @@ python3 scripts/check_site_links.py _site
 
 The CI workflow runs these checks on pull requests and updates to `main`.
 
+`Gemfile.lock` lists both the Windows (`x64-mingw-ucrt`) and Linux (`x86_64-linux`) platforms so the same lockfile installs locally and in CI. On another platform (for example macOS), run `bundle lock --add-platform <platform>` once and commit the result.
+
+## Shared includes
+
+- `_includes/featured-publications.html` — featured research on both home pages and the publications pages; edit the marker list there to change the selection.
+- `_includes/publication-citation.html` — renders a citation and highlights the author's name.
+- `_includes/post-summary.html` — card summary for posts: the `description` front matter, falling back to the first paragraph. Every new post should still set `description` (it also feeds search snippets).
+
 ## Content maintenance
 
 - Preserve existing blog post URLs, paired `translation_key` values and weekly-monitor automation.

@@ -1,5 +1,5 @@
 {% assign is_fr = false %}{% if include.lang == "fr" %}{% assign is_fr = true %}{% endif %}
-<p class="page-lede">{% if is_fr %}Applications et projets open source liés aux statistiques agricoles, aux enquêtes, à la qualité des données et à la science des données. Les liens mènent au code source ; les capacités décrites ne constituent pas des performances mesurées.{% else %}Open-source applications and portfolio projects for agricultural statistics, surveys, data quality and data science. Repository links provide source code; described capabilities are not claims of measured performance.{% endif %}</p>
+<p class="page-lede">{% if is_fr %}Applications et projets open source liés aux statistiques agricoles, aux enquêtes, à la qualité des données et à la science des données. Chaque fiche renvoie au code source public.{% else %}Open-source applications and portfolio projects for agricultural statistics, surveys, data quality and data science. Each entry links to its public source code.{% endif %}</p>
 <div class="app-case-grid">
 {% for app in site.data.apps %}
   {% assign category = app.category_en %}{% assign challenge = app.challenge_en %}{% assign solution = app.solution_en %}{% assign value = app.value_en %}

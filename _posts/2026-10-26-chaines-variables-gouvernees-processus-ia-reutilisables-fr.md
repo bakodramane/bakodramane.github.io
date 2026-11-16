@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chaînes de variables gouvernées et processus d’IA réutilisables"
+description: "Variables versionnées, environnements reproductibles et partage sécurisé de processus rapprochent les travaux statistiques assistés par l’IA de services gouvernés."
 date: 2026-10-26
 lang: fr
 translation_key: weekly-ai-update-2026-10-26

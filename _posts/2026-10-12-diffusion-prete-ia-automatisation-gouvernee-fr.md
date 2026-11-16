@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Diffusion prête pour l’IA et automatisation gouvernée"
+description: "Diffusion digne de confiance, production traçable et automatisation maîtrisée : ce que le rapport 2026 des Nations Unies sur les ODD implique pour les INS."
 date: 2026-10-12
 lang: fr
 translation_key: weekly-ai-update-2026-10-12

@@ -16,4 +16,4 @@ translation_fr: /expertise-fr/
   <section class="portfolio-tile"><span class="tile-number">05</span><h2>Responsible AI for official statistics</h2><p>LLM-supported workflows, model transparency, human validation, source attribution, privacy safeguards, governance and operational readiness.</p><p class="tile-evidence"><a href="{{ '/knowledge-hub/' | relative_url }}">AI knowledge hub →</a></p></section>
   <section class="portfolio-tile"><span class="tile-number">06</span><h2>Capacity development &amp; technical guidance</h2><p>Methodological documentation, technical assistance, training resources, collaboration with statistical practitioners and research communication.</p><p class="tile-evidence"><a href="{{ '/experience/' | relative_url }}">Experience →</a></p></section>
 </div>
-<p class="profile-note">This overview describes areas of competence and practice; it does not imply independent certification or institutional endorsement.</p>
+<p class="profile-note">Each area links to related publications, programmes or tools that illustrate the work in practice.</p>

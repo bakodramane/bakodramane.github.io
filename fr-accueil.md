@@ -15,7 +15,7 @@ translation_fr: /fr/accueil/
     <h1 id="home-title">Dramane <span>Bako</span></h1>
     <p class="portfolio-hero__lead">Faire progresser la statistique officielle grâce à des méthodes d'enquête rigoureuses, à la science des données et à une intelligence artificielle responsable.</p>
     <p class="portfolio-hero__support">Mes travaux associent statistiques agricoles, systèmes statistiques nationaux et innovation technologique, afin de traduire les méthodes en outils utiles à la décision.</p>
-    <div class="portfolio-actions"><a class="button button--primary" href="{{ '/about-fr/' | relative_url }}">Découvrir mon profil</a><a class="button" href="{{ '/publications-fr/' | relative_url }}">Travaux et publications</a><a class="button button--quiet" href="{{ '/contact-fr/' | relative_url }}">Me contacter ↗</a></div>
+    <div class="portfolio-actions"><a class="button button--primary" href="{{ '/about-fr/' | relative_url }}">Découvrir mon profil</a><a class="button" href="{{ '/publications-fr/' | relative_url }}">Travaux et publications</a><a class="button button--quiet" href="{{ '/contact-fr/' | relative_url }}">Me contacter <span aria-hidden="true">→</span></a></div>
   </div>
   <div class="portfolio-hero__visual" aria-label="Domaines de spécialisation"><div class="portfolio-monogram" aria-hidden="true">DB</div><p>Données. Méthodes. Innovation.</p><div class="hero-tags"><span>Statistique officielle</span><span>Méthodes d'enquête</span><span>IA responsable</span></div></div>
 </section>
@@ -34,12 +34,7 @@ translation_fr: /fr/accueil/
 </section>
 <section class="portfolio-section" aria-labelledby="pub-title">
   <div class="portfolio-section__head"><div><p class="eyebrow">Recherche</p><h2 id="pub-title">Publications sélectionnées</h2></div><a class="section-link" href="{{ '/publications-fr/' | relative_url }}">Toutes les publications →</a></div>
-  <div class="featured-publications">
-    {% assign chosen_dois = "10.1080/00220388.2026.2628674|sji210905|10.4060/cc4444en|sji210913" | split: "|" %}
-    {% for selection in chosen_dois %}{% for topic in site.data.publications.topics %}{% for pub in topic.publications %}{% if pub.url contains selection %}
-    <article class="featured-publication"><p class="eyebrow">{{ pub.year }} · {{ pub.type }}</p><p>{{ pub.citation }}</p><a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">Consulter la publication ↗</a></article>
-    {% endif %}{% endfor %}{% endfor %}{% endfor %}
-  </div>
+  {% include featured-publications.html lang="fr" %}
 </section>
 <section class="portfolio-section" aria-labelledby="tools-title">
   <div class="portfolio-section__head"><div><p class="eyebrow">Méthodes et applications</p><h2 id="tools-title">Projets et outils</h2></div><a class="section-link" href="{{ '/apps-fr/' | relative_url }}">Toutes les applications →</a></div>
@@ -51,6 +46,6 @@ translation_fr: /fr/accueil/
 </section>
 <section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
   <div class="portfolio-section__head"><div><p class="eyebrow">Articles et ressources</p><h2 id="insights-title">L'IA pour la statistique officielle</h2><p>Retrouvez la veille bilingue, les méthodes, les outils et les ressources consacrés à une IA responsable.</p></div><a class="section-link" href="{{ '/insights-fr/' | relative_url }}">Explorer les analyses →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">{% for post in french_posts limit: 3 %}<article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%d/%m/%Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{{ post.description | default: post.excerpt | strip_html | truncate: 135 }}</p></article>{% endfor %}</div>
+  <div class="portfolio-grid portfolio-grid--three">{% for post in french_posts limit: 3 %}<article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%d/%m/%Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>{% endfor %}</div>
 </section>
-<section class="portfolio-contact-banner"><div><p class="eyebrow">Échanges et collaborations</p><h2>Échangeons autour de la statistique, de la recherche et de l'IA responsable</h2><p>Découvrez mes travaux et contactez-moi à travers mes profils professionnels.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Me contacter →</a></section>
+<section class="portfolio-contact-banner" aria-label="Prendre contact"><div><p class="eyebrow">Échanges et collaborations</p><h2>Échangeons autour de la statistique, de la recherche et de l'IA responsable</h2><p>Découvrez mes travaux et contactez-moi à travers mes profils professionnels.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Me contacter →</a></section>

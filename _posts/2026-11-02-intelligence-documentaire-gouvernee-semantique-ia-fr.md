@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Intelligence documentaire gouvernée et sémantique prête pour l’IA"
+description: "Huit nouveautés sur l’ingestion de fichiers, l’extraction documentaire, les jointures sémantiques et l’accès contrôlé à l’IA, et les vérifications préalables pour un INS."
 date: 2026-11-02
 lang: fr
 translation_key: weekly-ai-update-2026-11-02

@@ -1723,3 +1723,21 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 }
 .skip-link:focus { top: 12px; color: #fff; }
 .site-nav .nav-trigger:focus-visible + .nav-toggle { outline: 3px solid #a6641d; outline-offset: 3px; }
+
+/* Header: neutralise minima navigation defaults that override the custom header */
+.site-nav .page-link:not(:last-child) { margin-right: 0; }
+.site-title__byline { text-transform: uppercase; }
+@media (min-width: 901px) {
+  .site-title__byline { white-space: nowrap; }
+  .nav-menu { flex-wrap: nowrap; }
+}
+@media (max-width: 600px) {
+  .site-nav label[for="nav-trigger"].nav-toggle { display: inline-flex; float: none; width: auto; height: auto; }
+  .site-nav .nav-toggle .menu-icon { display: inline-flex; float: none; width: auto; height: auto; padding-top: 0; line-height: 1; }
+  .site-nav input:checked ~ .nav-menu { display: grid; padding-bottom: 14px; }
+  .site-nav .page-link { margin-left: 0; }
+  .site-header .site-nav { text-align: left; }
+}
+
+/* Author name highlighted in citations */
+.pub-author-self { color: var(--heading); font-weight: 800; }

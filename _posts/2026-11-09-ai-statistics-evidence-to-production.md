@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for official statistics: from document extraction to governed production"
+description: "Seven developments in document parsing, image inspection and metadata, alongside ONS and UNECE work on measuring AI and machine-learning imputation."
 date: 2026-11-09
 lang: en
 translation_key: weekly-ai-update-2026-11-09

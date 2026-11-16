@@ -18,7 +18,7 @@ translation_fr: /fr/accueil/
     <div class="portfolio-actions">
       <a class="button button--primary" href="{{ '/about/' | relative_url }}">Explore my profile</a>
       <a class="button" href="{{ '/publications/' | relative_url }}">Research &amp; publications</a>
-      <a class="button button--quiet" href="{{ '/contact/' | relative_url }}">Connect with me <span aria-hidden="true">↗</span></a>
+      <a class="button button--quiet" href="{{ '/contact/' | relative_url }}">Connect with me <span aria-hidden="true">→</span></a>
     </div>
   </div>
   <div class="portfolio-hero__visual" aria-label="Professional focus areas">
@@ -50,22 +50,7 @@ translation_fr: /fr/accueil/
 
 <section class="portfolio-section" aria-labelledby="publications-title">
   <div class="portfolio-section__head"><div><p class="eyebrow">Research &amp; scholarship</p><h2 id="publications-title">Selected publications</h2></div><a class="section-link" href="{{ '/publications/' | relative_url }}">Full bibliography →</a></div>
-  <div class="featured-publications">
-    {% assign chosen_dois = "10.1080/00220388.2026.2628674|sji210905|10.4060/cc4444en|sji210913" | split: "|" %}
-    {% for selection in chosen_dois %}
-      {% for topic in site.data.publications.topics %}
-        {% for pub in topic.publications %}
-          {% if pub.url contains selection %}
-          <article class="featured-publication">
-            <p class="eyebrow">{{ pub.year }} · {{ pub.type }}</p>
-            <p>{{ pub.citation }}</p>
-            <a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">View publication <span aria-hidden="true">↗</span></a>
-          </article>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endfor %}
-  </div>
+  {% include featured-publications.html lang="en" link_label="View publication" %}
 </section>
 
 <section class="portfolio-section" aria-labelledby="tools-title">
@@ -78,10 +63,10 @@ translation_fr: /fr/accueil/
 </section>
 
 <section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Ideas &amp; resources</p><h2 id="insights-title">AI for Official Statistics</h2><p>The existing bilingual knowledge hub continues here: research monitoring, methods, resources and responsible AI insights.</p></div><a class="section-link" href="{{ '/insights/' | relative_url }}">Browse insights →</a></div>
+  <div class="portfolio-section__head"><div><p class="eyebrow">Ideas &amp; resources</p><h2 id="insights-title">AI for Official Statistics</h2><p>Weekly research monitoring, methods and resources on responsible AI in official statistics, in English and French.</p></div><a class="section-link" href="{{ '/insights/' | relative_url }}">Browse insights →</a></div>
   <div class="portfolio-grid portfolio-grid--three">
     {% for post in english_posts limit: 3 %}
-      <article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%-d %B %Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{{ post.description | default: post.excerpt | strip_html | truncate: 135 }}</p></article>
+      <article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%-d %B %Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>
     {% endfor %}
   </div>
 </section>

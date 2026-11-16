@@ -16,22 +16,7 @@
 
 <section class="portfolio-section" aria-labelledby="featured-publications-title">
   <div class="portfolio-section__head"><div><p class="eyebrow">{% if is_fr %}À la une{% else %}Highlighted research{% endif %}</p><h2 id="featured-publications-title">{% if is_fr %}Publications sélectionnées{% else %}Featured publications{% endif %}</h2></div></div>
-  <div class="featured-publications">
-    {% assign featured_markers = "10.1080/00220388.2026.2628674|sji210905|10.4060/cc4444en|sji210913" | split: "|" %}
-    {% for marker in featured_markers %}
-      {% for topic in site.data.publications.topics %}
-        {% for pub in topic.publications %}
-          {% if pub.url contains marker %}
-            <article class="featured-publication">
-              <p class="eyebrow">{{ pub.year }} · {{ pub.type }}</p>
-              <p>{{ pub.citation }}</p>
-              <a href="{{ pub.url }}" class="text-action" rel="noopener noreferrer" target="_blank">{% if is_fr %}Consulter la publication{% else %}Read publication{% endif %} <span aria-hidden="true">↗</span></a>
-            </article>
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
-    {% endfor %}
-  </div>
+  {% include featured-publications.html lang=include.lang %}
 </section>
 
 <section class="portfolio-section" aria-labelledby="full-bibliography-title">
@@ -66,7 +51,7 @@
           {% for pub in ordered_publications %}
             <li class="pub-item" data-year="{{ pub.year }}" data-type="{{ pub.type | downcase | escape }}" data-topic="{{ topic.id }}" data-search="{{ pub.citation | strip_html | escape }} {{ topic_title | escape }} {{ pub.type | escape }}">
               <div class="pub-item-meta"><span class="pub-type-badge">{{ pub.type }}</span><span class="pub-year">{{ pub.year }}</span></div>
-              <p class="pub-citation">{{ pub.citation }}</p>
+              <p class="pub-citation">{% include publication-citation.html citation=pub.citation %}</p>
               {% if pub.url %}<a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{% if is_fr %}Source / publication{% else %}Publisher / full text{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
             </li>
           {% endfor %}

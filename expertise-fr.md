@@ -16,4 +16,4 @@ translation_fr: /expertise-fr/
   <section class="portfolio-tile"><span class="tile-number">05</span><h2>IA responsable pour la statistique</h2><p>Automatisation fondée sur les modèles de langage, transparence, validation humaine, traçabilité des sources, confidentialité et gouvernance.</p><p class="tile-evidence"><a href="{{ '/knowledge-hub-fr/' | relative_url }}">Hub de connaissances →</a></p></section>
   <section class="portfolio-tile"><span class="tile-number">06</span><h2>Renforcement des capacités</h2><p>Documentation méthodologique, assistance technique, supports de formation, collaboration et communication scientifique.</p><p class="tile-evidence"><a href="{{ '/experience-fr/' | relative_url }}">Parcours →</a></p></section>
 </div>
-<p class="profile-note">Cette synthèse décrit mes domaines de compétence et ne constitue pas une certification indépendante ni une approbation institutionnelle.</p>
+<p class="profile-note">Chaque domaine renvoie à des publications, programmes ou outils qui illustrent ces travaux.</p>

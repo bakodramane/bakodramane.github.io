@@ -14,5 +14,5 @@ translation_fr: /contact-fr/
   <article class="portfolio-tile"><h2>GitHub</h2><p>Projets open source, développement et outils reproductibles.</p><a class="text-action" href="https://github.com/bakodramane" rel="me">Explorer GitHub ↗</a></article>
 </div>
 <h2>Publications et identité scientifique</h2>
-<p>Une bibliographie est disponible sur la page <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>. Les identifiants ORCID ou Google Scholar seront ajoutés après vérification. Ce site ne publie pas d'adresse courriel personnelle ni de formulaire de contact.</p>
+<p>Une bibliographie est disponible sur la page <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>. LinkedIn est le moyen le plus direct de me contacter.</p>
 <p class="profile-note">Ce site est personnel. Les opinions exprimées ne représentent aucune institution.</p>

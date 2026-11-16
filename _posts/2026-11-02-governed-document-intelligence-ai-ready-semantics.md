@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Governed document intelligence and AI-ready semantics"
+description: "Eight updates on file ingestion, document extraction and coding, semantic joins and controlled AI access, with the checks an NSO should run before production use."
 date: 2026-11-02
 lang: en
 translation_key: weekly-ai-update-2026-11-02

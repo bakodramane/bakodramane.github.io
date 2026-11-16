@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "AI for official statistics: traceable workflows and proportionate controls"
+description: "A UNECE proposal on evaluating AI systems and new lineage, classification and access controls: making AI-assisted processing inspectable from input to output."
 date: 2026-11-16
 lang: en
 translation_key: weekly-ai-update-2026-11-16

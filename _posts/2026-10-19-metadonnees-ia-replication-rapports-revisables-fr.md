@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Métadonnées pour l’IA, réplication continue et rapports révisables"
+description: "Métadonnées multiplateformes, classification des données sensibles, réplication continue et rapports automatisés : analyse pour les instituts de statistique."
 date: 2026-10-19
 lang: fr
 translation_key: weekly-ai-update-2026-10-19
