@@ -33,18 +33,22 @@ header_pages:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+# Former blog URLs. Each stub forwards to the same path on the independent
+# blog (site.blog_base); the articles themselves live in the blog repository.
+collections:
+  legacy:
+    output: true
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "legacy"
     values:
-      layout: post
+      layout: blog-redirect
       sitemap: false
-      author: "Dramane Bako"
-      categories: [AI, Survey Research, Weekly Update]
-      tags: [AI, surveys, official-statistics, administrative-data]
-      lang: en
 exclude:
+  - README.md
+  - docs
+  - scripts
   - Gemfile
   - Gemfile.lock
   - node_modules

@@ -1,14 +1,14 @@
 # Dramane Bako — professional and academic portfolio
 
-Public portfolio and bilingual knowledge hub hosted with Jekyll on GitHub Pages.
+Bilingual (English/French) professional portfolio, built with Jekyll on GitHub Pages.
 
 - **Website:** https://bakodramane.github.io/
 - **English professional homepage:** `/`
 - **French professional homepage:** `/fr/accueil/`
-- **English/French articles:** `/en/` and `/fr/` (preserved)
+- **AI blog:** separate repository, see [AI blog](#ai-blog) below
 - **Publications:** source data in `_data/publications.yml`, rendered using the shared catalogue include
 - **Apps:** source data in `_data/apps.yml`, rendered using the shared app include
-- **Topic translations:** `_data/topics_fr.yml`
+- **Publication topic translations:** `_data/publication_topics_fr.yml`
 - **Bilingual navigation:** `_data/navigation.yml`
 - **Site styling:** `assets/main.scss`
 
@@ -36,11 +36,10 @@ The CI workflow runs these checks on pull requests and updates to `main`.
 
 - `_includes/featured-publications.html` — featured research on both home pages and the publications pages; edit the marker list there to change the selection.
 - `_includes/publication-citation.html` — renders a citation and highlights the author's name.
-- `_includes/post-summary.html` — card summary for posts: the `description` front matter, falling back to the first paragraph. Every new post should still set `description` (it also feeds search snippets).
+- `_includes/blog-latest.html` — the latest three blog articles on each home page, read from the blog's feed in the browser, with a static link panel as fallback.
 
 ## Content maintenance
 
-- Preserve existing blog post URLs, paired `translation_key` values and weekly-monitor automation.
 - Pair portfolio pages using `translation_en` and `translation_fr`.
 - Edit publication citations and app descriptions in their YAML source files.
 - Keep professional claims and academic credentials accurate and distinguish author roles from institutional publications.
@@ -51,6 +50,8 @@ The CI workflow runs these checks on pull requests and updates to `main`.
 
 All views expressed are personal and do not represent FAO or another organisation.
 
-## Planned blog migration (gated)
+## AI blog
 
-The migration PR must **not** be merged before the separate blog repository and GitHub Pages project site are live. Legacy article and section URLs are forwarded by HTML meta refresh and JavaScript, not server-side 301 redirects. The original 125 post sources remain as Git backups, but published pages forward instead of repeating the articles. The previous Atom feed becomes a one-entry migration notice; existing subscribers must re-subscribe to the new blog feed. Update the weekly bilingual publishing automation to the new repository before merging.
+The AI for Official Statistics blog is a separate site: [bakodramane/ai-official-statistics](https://github.com/bakodramane/ai-official-statistics), published at https://bakodramane.github.io/ai-official-statistics/. Its posts, weekly automation and post guidelines live there.
+
+This repository keeps only small forwarding stubs for the former blog URLs, in `_legacy/`. GitHub Pages cannot send server-side 301 redirects, so each stub is an HTML page with a meta refresh, a script redirect that keeps any `#anchor`, and a canonical link to the new address. `/feed.xml` is a one-entry notice pointing subscribers to the new feed, `robots.txt` lists the blog sitemap, and `404.html` offers the same path on the blog.

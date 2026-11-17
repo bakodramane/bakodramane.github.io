@@ -8,7 +8,6 @@ is_profile_home: true
 translation_en: /
 translation_fr: /fr/accueil/
 ---
-{% assign french_posts = site.posts | where: "lang", "fr" %}
 <section class="portfolio-hero" aria-labelledby="home-title">
   <div class="portfolio-hero__copy">
     <p class="eyebrow">Statisticien · Data scientist · Chercheur</p>
@@ -46,12 +45,14 @@ translation_fr: /fr/accueil/
 </section>
 <section class="portfolio-section portfolio-section--insights portfolio-blog-gateway" aria-labelledby="insights-title">
   <div class="portfolio-section__head">
-    <div><p class="eyebrow">Plateforme de publication indépendante</p><h2 id="insights-title">L'IA pour la statistique officielle</h2><p>Un blog bilingue distinct consacré à la veille, aux méthodes pratiques, aux analyses scientifiques et aux ressources pour une IA responsable en statistique officielle.</p></div>
+    <div>
+      <p class="eyebrow">Mon blog</p>
+      <h2 id="insights-title">L'IA pour la statistique officielle</h2>
+      <p>Veille hebdomadaire, méthodes pratiques et ressources sur l'IA responsable pour les enquêtes, les recensements et la statistique officielle, en français et en anglais.</p>
+    </div>
+    <a class="section-link" href="{{ site.blog_url }}fr/accueil/">Consulter le blog <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="portfolio-blog-gateway__panel">
-    <div><p class="eyebrow">Français et anglais</p><h3>Découvrir le blog spécialisé</h3><p>Le blog dispose de sa propre plateforme de publication, complémentaire de ce portfolio professionnel.</p></div>
-    <div class="portfolio-actions"><a class="button button--primary" href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/">Consulter le blog ↗</a><a class="button" href="https://bakodramane.github.io/ai-official-statistics/" lang="en">English version ↗</a></div>
-  </div>
+  {% include blog-latest.html lang="fr" %}
 </section>
 
 <section class="portfolio-contact-banner" aria-label="Prendre contact"><div><p class="eyebrow">Échanges et collaborations</p><h2>Échangeons autour de la statistique, de la recherche et de l'IA responsable</h2><p>Découvrez mes travaux et contactez-moi à travers mes profils professionnels.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Me contacter →</a></section>

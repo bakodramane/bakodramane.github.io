@@ -12,7 +12,7 @@ en:
   - label: Projects & Apps
     url: /projects/
     match: [/projects/, /apps/]
-  - label: AI Blog ↗
+  - label: AI Blog
     url: https://bakodramane.github.io/ai-official-statistics/
     external: true
 fr:
@@ -29,6 +29,6 @@ fr:
   - label: Projets et outils
     url: /projects-fr/
     match: [/projects-fr/, /apps-fr/]
-  - label: Blog IA ↗
+  - label: Blog IA
     url: https://bakodramane.github.io/ai-official-statistics/fr/accueil/
     external: true

@@ -9,7 +9,7 @@
   <meta name="robots" content="noindex,follow">
   <meta http-equiv="refresh" content="0;url={{ destination | escape }}">
   <link rel="canonical" href="{{ destination | escape }}">
-  <script>window.location.replace({{ destination | jsonify }});</script>
+  <script>window.location.replace({{ destination | jsonify }} + window.location.search + window.location.hash);</script>
 </head>
 <body>
   <main>

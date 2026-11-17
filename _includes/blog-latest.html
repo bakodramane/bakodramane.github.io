@@ -1,0 +1,60 @@
+{%- comment -%}
+  Latest articles from the independent blog. The blog is served from the same
+  origin, so its Atom feed is read in the browser; the static panel stays as the
+  fallback when scripts are off or the feed is unavailable.
+  Params: lang ("en" | "fr").
+{%- endcomment -%}
+{%- assign is_fr = false -%}{%- if include.lang == "fr" -%}{%- assign is_fr = true -%}{%- endif -%}
+{%- capture blog_home -%}{{ site.blog_url }}{% if is_fr %}fr/accueil/{% endif %}{%- endcapture -%}
+<div class="portfolio-grid portfolio-grid--three blog-latest" data-feed="{{ site.blog_base }}/feed.xml" data-lang="{{ include.lang | default: 'en' }}" hidden></div>
+<div class="portfolio-blog-gateway__panel blog-latest-fallback">
+  <div>
+    <p class="eyebrow">{% if is_fr %}Français et anglais{% else %}English &amp; French{% endif %}</p>
+    <h3>{% if is_fr %}Veille hebdomadaire, méthodes et ressources{% else %}Weekly monitoring, methods and resources{% endif %}</h3>
+    <p>{% if is_fr %}Nouveaux articles chaque semaine, avec leurs sources, sur le site du blog.{% else %}New articles every week, with their sources, on the blog's own site.{% endif %}</p>
+  </div>
+  <div class="portfolio-actions">
+    <a class="button button--primary" href="{{ blog_home }}">{% if is_fr %}Consulter le blog{% else %}Visit the blog{% endif %} <span aria-hidden="true">↗</span></a>
+    <a class="button" href="{{ site.blog_base }}/feed.xml">{% if is_fr %}Flux RSS{% else %}RSS feed{% endif %}</a>
+  </div>
+</div>
+<script>
+(function () {
+  var grid = document.querySelector('.blog-latest');
+  if (!grid || !window.fetch || !window.DOMParser) return;
+  var lang = grid.getAttribute('data-lang');
+  var dateFormat = new Intl.DateTimeFormat(lang === 'fr' ? 'fr-FR' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  fetch(grid.getAttribute('data-feed'), { credentials: 'omit' })
+    .then(function (response) { if (!response.ok) throw new Error(response.status); return response.text(); })
+    .then(function (xml) {
+      var doc = new DOMParser().parseFromString(xml, 'application/xml');
+      var entries = Array.prototype.filter.call(doc.getElementsByTagName('entry'), function (entry) {
+        return (entry.getAttribute('xml:lang') || 'en') === lang;
+      }).slice(0, 3);
+      if (!entries.length) return;
+      entries.forEach(function (entry) {
+        var text = function (tag) { var node = entry.getElementsByTagName(tag)[0]; return node ? node.textContent : ''; };
+        var link = entry.getElementsByTagName('link')[0];
+        var href = link ? link.getAttribute('href') : '';
+        if (!/^https:\/\/bakodramane\.github\.io\//.test(href)) return;
+        var summary = new DOMParser().parseFromString(text('summary'), 'text/html').body.textContent.trim();
+        if (summary.length > 180) summary = summary.slice(0, 177).replace(/\s+\S*$/, '') + '…';
+        var article = document.createElement('article'); article.className = 'portfolio-tile';
+        var kicker = document.createElement('span'); kicker.className = 'tile-kicker';
+        var published = new Date(text('published'));
+        kicker.textContent = isNaN(published) ? '' : dateFormat.format(published);
+        var heading = document.createElement('h3'); var anchor = document.createElement('a');
+        anchor.href = href; anchor.textContent = text('title'); heading.appendChild(anchor);
+        var paragraph = document.createElement('p'); paragraph.textContent = summary;
+        article.appendChild(kicker); article.appendChild(heading); article.appendChild(paragraph);
+        grid.appendChild(article);
+      });
+      if (grid.children.length) {
+        grid.hidden = false;
+        var fallback = grid.parentNode.querySelector('.blog-latest-fallback');
+        if (fallback) fallback.hidden = true;
+      }
+    })
+    .catch(function () { /* keep the static panel */ });
+}());
+</script>

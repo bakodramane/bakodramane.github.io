@@ -8,7 +8,6 @@ translation_en: /
 translation_fr: /fr/accueil/
 ---
 
-{% assign english_posts = site.posts | where: "lang", "en" %}
 <section class="portfolio-hero" aria-labelledby="home-title">
   <div class="portfolio-hero__copy">
     <p class="eyebrow">Statistician · Data scientist · Researcher</p>
@@ -65,18 +64,13 @@ translation_fr: /fr/accueil/
 <section class="portfolio-section portfolio-section--insights portfolio-blog-gateway" aria-labelledby="insights-title">
   <div class="portfolio-section__head">
     <div>
-      <p class="eyebrow">Independent publication platform</p>
+      <p class="eyebrow">My blog</p>
       <h2 id="insights-title">AI for Official Statistics</h2>
-      <p>A separate bilingual blog presenting source-grounded weekly monitoring, practical methods, research perspectives and responsible AI resources for statistical practitioners.</p>
+      <p>Weekly research monitoring, practical methods and resources on responsible AI for surveys, censuses and official statistics, in English and French.</p>
     </div>
+    <a class="section-link" href="{{ site.blog_url }}">Visit the blog <span aria-hidden="true">↗</span></a>
   </div>
-  <div class="portfolio-blog-gateway__panel">
-    <div><p class="eyebrow">English &amp; French</p><h3>Explore the specialist AI blog</h3><p>The blog is maintained as an independent publication platform alongside this professional portfolio.</p></div>
-    <div class="portfolio-actions">
-      <a class="button button--primary" href="https://bakodramane.github.io/ai-official-statistics/">Visit the blog ↗</a>
-      <a class="button" href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/" lang="fr">Version française ↗</a>
-    </div>
-  </div>
+  {% include blog-latest.html lang="en" %}
 </section>
 
 <section class="portfolio-contact-banner" aria-label="Get in touch"><div><p class="eyebrow">Collaboration &amp; exchange</p><h2>Interested in statistics, research or responsible AI?</h2><p>Explore my work and connect via my professional profiles.</p></div><a class="button button--primary" href="{{ '/contact/' | relative_url }}">Get in touch →</a></section>
