@@ -1,20 +1,12 @@
 ---
 layout: page
-title: "Analyses et ressources"
-description: "Analyses bilingues, veille sur l'IA et ressources pratiques consacrées à la statistique officielle."
+title: "Blog IA et analyses"
+description: "Découvrez le blog indépendant et bilingue sur l'IA pour la statistique officielle de Dramane Bako."
 permalink: /insights-fr/
 lang: fr
 translation_en: /insights/
 translation_fr: /insights-fr/
 ---
-<p class="page-lede">Analyses, méthodes pratiques et veille bilingue sur les évolutions de l'IA pour la statistique officielle. Le hub de connaissances et les archives existants sont conservés.</p>
-<div class="portfolio-grid portfolio-grid--three">
-  <article class="portfolio-tile"><h2>Veille hebdomadaire</h2><p>Actualités sélectionnées, sources et implications pratiques de l'IA pour les statistiques.</p><a class="text-action" href="{{ '/fr/' | relative_url }}">Consulter la veille →</a></article>
-  <article class="portfolio-tile"><h2>Hub de connaissances</h2><p>Guides organisés autour des méthodes, de la qualité, de la gouvernance et des outils.</p><a class="text-action" href="{{ '/knowledge-hub-fr/' | relative_url }}">Explorer le hub →</a></article>
-  <article class="portfolio-tile"><h2>Archives et RSS</h2><p>Recherche d'articles, filtre par langue et abonnement aux mises à jour.</p><a class="text-action" href="{{ '/archive/' | relative_url }}">Parcourir les archives →</a></article>
-</div>
-<h2>Derniers articles en français</h2>
-<div class="portfolio-grid portfolio-grid--two">
-{% assign french_posts = site.posts | where: "lang", "fr" %}{% for post in french_posts limit: 6 %}{% include post-card.html post=post heading_level="h2" excerpt_limit=180 date_format="%d/%m/%Y" %}{% endfor %}
-</div>
-<p><a class="text-action" href="{{ '/fr/' | relative_url }}">Tous les articles en français →</a> &nbsp; <a class="text-action" href="{{ '/en/' | relative_url }}">English articles →</a></p>
+<p class="page-lede">Le blog L'IA pour la statistique officielle dispose désormais d'un site de publication bilingue distinct du présent portfolio professionnel et scientifique.</p>
+<section class="portfolio-contact-banner"><div><p class="eyebrow">Blog bilingue indépendant</p><h2>L'IA pour la statistique officielle</h2><p>Veille scientifique, analyses méthodologiques, ressources vérifiables et applications de l'IA responsable aux enquêtes, aux recensements et à la statistique officielle.</p></div><a class="button button--primary" href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/">Consulter le blog ↗</a></section>
+<p>Accédez également à <a href="https://bakodramane.github.io/ai-official-statistics/" hreflang="en">la version anglaise</a>, aux <a href="https://bakodramane.github.io/ai-official-statistics/archive/">archives</a> et au <a href="https://bakodramane.github.io/ai-official-statistics/feed.xml">flux RSS</a>.</p>

@@ -23,3 +23,5 @@ jobs:
         run: bundle exec jekyll build
       - name: Check built internal links
         run: python3 scripts/check_site_links.py _site
+      - name: Check staged blog migration
+        run: python3 scripts/check_migration.py _site

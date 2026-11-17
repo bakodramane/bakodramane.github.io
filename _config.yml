@@ -1,8 +1,10 @@
 title: "Dramane Bako | Statistician, Data Scientist & Researcher"
 tagline: "Official statistics, survey methodology, agricultural statistics and responsible AI"
-description: "The professional and academic portfolio of Dramane Bako: official statistics, research publications, agricultural surveys and censuses, data science, and responsible AI."
+description: "Professional and academic portfolio of Dramane Bako, statistician and data scientist. Research, agricultural surveys, statistical methodology and open-source work."
 url: "https://bakodramane.github.io"
 baseurl: ""
+blog_url: "https://bakodramane.github.io/ai-official-statistics/"
+blog_base: "https://bakodramane.github.io/ai-official-statistics"
 theme: minima
 author:
   name: "Dramane Bako"
@@ -29,20 +31,24 @@ header_pages:
   - projects.md
   - insights.md
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+# Former blog URLs. Each stub forwards to the same path on the independent
+# blog (site.blog_base); the articles themselves live in the blog repository.
+collections:
+  legacy:
+    output: true
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "legacy"
     values:
-      layout: post
-      author: "Dramane Bako"
-      categories: [AI, Survey Research, Weekly Update]
-      tags: [AI, surveys, official-statistics, administrative-data]
-      lang: en
+      layout: blog-redirect
+      sitemap: false
 exclude:
+  - README.md
+  - docs
+  - scripts
   - Gemfile
   - Gemfile.lock
   - node_modules

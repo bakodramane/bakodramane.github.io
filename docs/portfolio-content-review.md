@@ -13,4 +13,4 @@ The portfolio redesign deliberately avoids inventing professional photographs, j
 - **Search/discoverability:** recheck page titles and social share previews after rebranding. The original social PNG remains until a new approved raster asset is provided.
 - **Custom domain:** not changed; site remains on the existing working GitHub Pages URL.
 - **Accessibility/performance:** run Lighthouse/axe with a browser on representative pages after deploy; automated build and link checks are not substitutes for manual WCAG review.
-- **Deployment:** merge the reviewed pull request to main only after CI and content review; do not change the weekly publication schedule or existing post permalinks.
+- **Deployment:** merge the reviewed pull request to main only after CI and content review; keep the `_legacy/` forwarding stubs for former blog URLs.

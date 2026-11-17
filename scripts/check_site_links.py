@@ -53,7 +53,8 @@ def main() -> int:
             parts = urlsplit(href.strip())
             if parts.scheme and parts.scheme not in ("http", "https"):
                 continue
-            if parts.netloc and parts.netloc not in SITE_HOSTS:
+            if parts.netloc and (parts.netloc not in SITE_HOSTS or parts.path.startswith("/ai-official-statistics/")):
+                # Independent blog on the same host; not part of this build.
                 continue
             if parts.scheme and not parts.netloc:
                 continue

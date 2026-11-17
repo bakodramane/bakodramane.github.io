@@ -13,13 +13,6 @@
     {% if page.lang == "fr" %}{% assign nav_items = site.data.navigation.fr %}{% endif %}
     {% assign english_url = page.translation_en | default: "/" %}
     {% assign french_url = page.translation_fr | default: "/fr/accueil/" %}
-    {% if page.translation_key %}
-      {% assign translations = site.posts | where: "translation_key", page.translation_key %}
-      {% for translation in translations %}
-        {% if translation.lang == "en" %}{% assign english_url = translation.url %}{% endif %}
-        {% if translation.lang == "fr" %}{% assign french_url = translation.url %}{% endif %}
-      {% endfor %}
-    {% endif %}
     <nav class="site-nav" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Primary navigation{% endif %}">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger" class="nav-toggle">
@@ -31,10 +24,9 @@
           {% assign is_current = false %}
           {% assign is_section = false %}
           {% if page.url == item.url %}{% assign is_current = true %}{% endif %}
-          {% if item.posts and page.layout == "post" %}{% assign is_section = true %}{% endif %}
           {% for path in item.exact %}{% if page.url == path %}{% assign is_section = true %}{% endif %}{% endfor %}
           {% for prefix in item.match %}{% if page.url contains prefix %}{% assign is_section = true %}{% endif %}{% endfor %}
-          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.label }}{% if item.external %} <span aria-hidden="true">↗</span>{% endif %}</a>
         {% endfor %}
         <span class="language-switch" role="group" aria-label="{% if page.lang == 'fr' %}Langue{% else %}Language{% endif %}">
           <a class="language-switch__link{% if page.lang != 'fr' %} is-active{% endif %}" href="{{ english_url | relative_url }}" lang="en" hreflang="en" aria-label="English"{% if page.lang != 'fr' %} aria-current="true"{% endif %}>EN</a>

@@ -8,7 +8,6 @@ translation_en: /
 translation_fr: /fr/accueil/
 ---
 
-{% assign english_posts = site.posts | where: "lang", "en" %}
 <section class="portfolio-hero" aria-labelledby="home-title">
   <div class="portfolio-hero__copy">
     <p class="eyebrow">Statistician · Data scientist · Researcher</p>
@@ -62,13 +61,16 @@ translation_fr: /fr/accueil/
   </div>
 </section>
 
-<section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Ideas &amp; resources</p><h2 id="insights-title">AI for Official Statistics</h2><p>Weekly research monitoring, methods and resources on responsible AI in official statistics, in English and French.</p></div><a class="section-link" href="{{ '/insights/' | relative_url }}">Browse insights →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">
-    {% for post in english_posts limit: 3 %}
-      <article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%-d %B %Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>
-    {% endfor %}
+<section class="portfolio-section portfolio-section--insights portfolio-blog-gateway" aria-labelledby="insights-title">
+  <div class="portfolio-section__head">
+    <div>
+      <p class="eyebrow">My blog</p>
+      <h2 id="insights-title">AI for Official Statistics</h2>
+      <p>Weekly research monitoring, practical methods and resources on responsible AI for surveys, censuses and official statistics, in English and French.</p>
+    </div>
+    <a class="section-link" href="{{ site.blog_url }}">Visit the blog <span aria-hidden="true">↗</span></a>
   </div>
+  {% include blog-latest.html lang="en" %}
 </section>
 
 <section class="portfolio-contact-banner" aria-label="Get in touch"><div><p class="eyebrow">Collaboration &amp; exchange</p><h2>Interested in statistics, research or responsible AI?</h2><p>Explore my work and connect via my professional profiles.</p></div><a class="button button--primary" href="{{ '/contact/' | relative_url }}">Get in touch →</a></section>

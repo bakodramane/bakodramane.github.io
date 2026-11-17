@@ -1,0 +1,33 @@
+---
+layout: default
+title: "Page not found"
+permalink: /404.html
+sitemap: false
+lang: en
+---
+<section class="not-found" aria-labelledby="not-found-title">
+  <p class="eyebrow">404</p>
+  <h1 id="not-found-title">Page not found</h1>
+  <p class="page-lede">This page does not exist on the portfolio. If you were looking for an article on AI for official statistics, it now lives on the blog.</p>
+  <p class="portfolio-actions">
+    <a class="button button--primary" href="{{ '/' | relative_url }}">Portfolio home</a>
+    <a class="button" id="blog-equivalent" href="{{ site.blog_url }}">Open the AI blog <span aria-hidden="true">↗</span></a>
+  </p>
+  <div lang="fr">
+    <h2>Page introuvable</h2>
+    <p>Cette page n'existe pas sur le portfolio. Les articles sur l'IA pour la statistique officielle se trouvent désormais sur le blog.</p>
+    <p class="portfolio-actions">
+      <a class="button" href="{{ '/fr/accueil/' | relative_url }}">Accueil du portfolio</a>
+      <a class="button" href="{{ site.blog_url }}fr/accueil/">Ouvrir le blog IA <span aria-hidden="true">↗</span></a>
+    </p>
+  </div>
+</section>
+<script>
+(function () {
+  // The blog kept its old paths, so offer the same path on the blog site.
+  var path = window.location.pathname;
+  if (path === '/' || path.indexOf('/ai-official-statistics/') === 0) return;
+  var link = document.getElementById('blog-equivalent');
+  if (link) link.href = {{ site.blog_base | jsonify }} + path;
+}());
+</script>

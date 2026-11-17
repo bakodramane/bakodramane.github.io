@@ -8,7 +8,6 @@ is_profile_home: true
 translation_en: /
 translation_fr: /fr/accueil/
 ---
-{% assign french_posts = site.posts | where: "lang", "fr" %}
 <section class="portfolio-hero" aria-labelledby="home-title">
   <div class="portfolio-hero__copy">
     <p class="eyebrow">Statisticien · Data scientist · Chercheur</p>
@@ -44,8 +43,16 @@ translation_fr: /fr/accueil/
     <article class="portfolio-tile portfolio-tile--accent"><span class="tile-kicker">Estimation</span><h3>SAE Syntax Generator</h3><p>Génération de scripts R et Stata pour l'estimation sur petits domaines.</p><a class="text-action" href="{{ '/apps-fr/#sae' | relative_url }}">Voir le projet →</a></article>
   </div>
 </section>
-<section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Articles et ressources</p><h2 id="insights-title">L'IA pour la statistique officielle</h2><p>Retrouvez la veille bilingue, les méthodes, les outils et les ressources consacrés à une IA responsable.</p></div><a class="section-link" href="{{ '/insights-fr/' | relative_url }}">Explorer les analyses →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">{% for post in french_posts limit: 3 %}<article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%d/%m/%Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>{% endfor %}</div>
+<section class="portfolio-section portfolio-section--insights portfolio-blog-gateway" aria-labelledby="insights-title">
+  <div class="portfolio-section__head">
+    <div>
+      <p class="eyebrow">Mon blog</p>
+      <h2 id="insights-title">L'IA pour la statistique officielle</h2>
+      <p>Veille hebdomadaire, méthodes pratiques et ressources sur l'IA responsable pour les enquêtes, les recensements et la statistique officielle, en français et en anglais.</p>
+    </div>
+    <a class="section-link" href="{{ site.blog_url }}fr/accueil/">Consulter le blog <span aria-hidden="true">↗</span></a>
+  </div>
+  {% include blog-latest.html lang="fr" %}
 </section>
+
 <section class="portfolio-contact-banner" aria-label="Prendre contact"><div><p class="eyebrow">Échanges et collaborations</p><h2>Échangeons autour de la statistique, de la recherche et de l'IA responsable</h2><p>Découvrez mes travaux et contactez-moi à travers mes profils professionnels.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Me contacter →</a></section>

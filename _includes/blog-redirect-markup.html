@@ -1,0 +1,27 @@
+{% assign route = page.blog_target | default: page.url %}
+{% assign destination = site.blog_base | append: route %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.lang == 'fr' %}Article déplacé{% else %}Article moved{% endif %} — {{ page.title | escape }}</title>
+  <meta name="robots" content="noindex,follow">
+  <meta http-equiv="refresh" content="0;url={{ destination | escape }}">
+  <link rel="canonical" href="{{ destination | escape }}">
+  <script>window.location.replace({{ destination | jsonify }} + window.location.search + window.location.hash);</script>
+</head>
+<body>
+  <main>
+    {% if page.lang == 'fr' %}
+      <h1>Ce contenu a changé d'adresse.</h1>
+      <p>Le blog sur l'IA pour la statistique officielle dispose désormais d'un site indépendant.</p>
+      <p><a href="{{ destination | escape }}">Consulter l'article à sa nouvelle adresse</a>.</p>
+    {% else %}
+      <h1>This article has moved.</h1>
+      <p>AI for Official Statistics now has an independent bilingual website.</p>
+      <p><a href="{{ destination | escape }}">View the content at its new address</a>.</p>
+    {% endif %}
+  </main>
+</body>
+</html>
