@@ -1,8 +1,9 @@
 title: "Dramane Bako | Statistician, Data Scientist & Researcher"
 tagline: "Official statistics, survey methodology, agricultural statistics and responsible AI"
-description: "The professional and academic portfolio of Dramane Bako: official statistics, research publications, agricultural surveys and censuses, data science, and responsible AI."
+description: "Professional and academic portfolio of Dramane Bako, statistician and data scientist. Research, agricultural surveys, statistical methodology and open-source work."
 url: "https://bakodramane.github.io"
 baseurl: ""
+blog_url: "https://bakodramane.github.io/ai-official-statistics/"
 theme: minima
 author:
   name: "Dramane Bako"
@@ -29,7 +30,6 @@ header_pages:
   - projects.md
   - insights.md
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 defaults:
@@ -38,6 +38,7 @@ defaults:
       type: "posts"
     values:
       layout: post
+      sitemap: false
       author: "Dramane Bako"
       categories: [AI, Survey Research, Weekly Update]
       tags: [AI, surveys, official-statistics, administrative-data]

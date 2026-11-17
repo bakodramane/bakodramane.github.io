@@ -1,20 +1,12 @@
 ---
 layout: page
-title: "Insights & Knowledge Hub"
-description: "Bilingual insights, weekly AI monitoring and practical resources on official statistics, surveys, data science and responsible AI."
+title: "AI Blog & Insights"
+description: "Discover Dramane Bako's independent bilingual AI for Official Statistics blog."
 permalink: /insights/
 lang: en
 translation_en: /insights/
 translation_fr: /insights-fr/
 ---
-<p class="page-lede">Analysis, practical methods and bilingual monitoring on developments in AI for official statistics. The established knowledge hub and archive are preserved.</p>
-<div class="portfolio-grid portfolio-grid--three">
-  <article class="portfolio-tile"><h2>Weekly Monitor</h2><p>Curated developments, evidence and practical implications of AI for official statistics.</p><a class="text-action" href="{{ '/weekly-monitor/' | relative_url }}">Browse monitor →</a></article>
-  <article class="portfolio-tile"><h2>Knowledge Hub</h2><p>Organised guides on statistical methods, quality, governance and useful tools.</p><a class="text-action" href="{{ '/knowledge-hub/' | relative_url }}">Explore hub →</a></article>
-  <article class="portfolio-tile"><h2>Archives &amp; RSS</h2><p>Search past articles, filter by language and subscribe to updates.</p><a class="text-action" href="{{ '/archive/' | relative_url }}">Search archive →</a></article>
-</div>
-<h2>Latest articles in English</h2>
-<div class="portfolio-grid portfolio-grid--two">
-{% assign english_posts = site.posts | where: "lang", "en" %}{% for post in english_posts limit: 6 %}{% include post-card.html post=post heading_level="h2" excerpt_limit=180 %}{% endfor %}
-</div>
-<p><a class="text-action" href="{{ '/en/' | relative_url }}">All English articles →</a> &nbsp; <a class="text-action" href="{{ '/fr/' | relative_url }}">Articles en français →</a></p>
+<p class="page-lede">AI for Official Statistics now has its own bilingual publishing website, distinct from this professional and academic portfolio.</p>
+<section class="portfolio-contact-banner"><div><p class="eyebrow">Independent bilingual blog</p><h2>AI for Official Statistics</h2><p>Weekly research monitoring, methodological insights, source-grounded resources and practical applications of responsible AI in surveys, censuses and official statistics.</p></div><a class="button button--primary" href="https://bakodramane.github.io/ai-official-statistics/">Visit the blog ↗</a></section>
+<p>You can also browse <a href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/" hreflang="fr">the French blog</a>, <a href="https://bakodramane.github.io/ai-official-statistics/archive/">the article archive</a> or <a href="https://bakodramane.github.io/ai-official-statistics/feed.xml">subscribe to RSS</a>.</p>

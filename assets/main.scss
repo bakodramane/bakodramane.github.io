@@ -1741,3 +1741,14 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* Author name highlighted in citations */
 .pub-author-self { color: var(--heading); font-weight: 800; }
+
+
+/* Independent AI blog gateway on the professional portfolio */
+.portfolio-blog-gateway__panel {
+  display:flex;justify-content:space-between;align-items:center;gap:24px;
+  padding:25px 28px;border-radius:12px;background:#fff;border:1px solid var(--line);
+}
+.portfolio-blog-gateway__panel h3{color:var(--heading);font-size:1.35rem;margin:0 0 6px;}
+.portfolio-blog-gateway__panel p:not(.eyebrow){color:var(--muted);margin:0;}
+.portfolio-blog-gateway__panel .portfolio-actions{margin-top:0;flex-shrink:0;}
+@media(max-width:850px){.portfolio-blog-gateway__panel{flex-direction:column;align-items:stretch;}.portfolio-blog-gateway__panel .portfolio-actions{flex-shrink:1;}}

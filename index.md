@@ -62,12 +62,20 @@ translation_fr: /fr/accueil/
   </div>
 </section>
 
-<section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Ideas &amp; resources</p><h2 id="insights-title">AI for Official Statistics</h2><p>Weekly research monitoring, methods and resources on responsible AI in official statistics, in English and French.</p></div><a class="section-link" href="{{ '/insights/' | relative_url }}">Browse insights →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">
-    {% for post in english_posts limit: 3 %}
-      <article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%-d %B %Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>
-    {% endfor %}
+<section class="portfolio-section portfolio-section--insights portfolio-blog-gateway" aria-labelledby="insights-title">
+  <div class="portfolio-section__head">
+    <div>
+      <p class="eyebrow">Independent publication platform</p>
+      <h2 id="insights-title">AI for Official Statistics</h2>
+      <p>A separate bilingual blog presenting source-grounded weekly monitoring, practical methods, research perspectives and responsible AI resources for statistical practitioners.</p>
+    </div>
+  </div>
+  <div class="portfolio-blog-gateway__panel">
+    <div><p class="eyebrow">English &amp; French</p><h3>Explore the specialist AI blog</h3><p>The blog is maintained as an independent publication platform alongside this professional portfolio.</p></div>
+    <div class="portfolio-actions">
+      <a class="button button--primary" href="https://bakodramane.github.io/ai-official-statistics/">Visit the blog ↗</a>
+      <a class="button" href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/" lang="fr">Version française ↗</a>
+    </div>
   </div>
 </section>
 

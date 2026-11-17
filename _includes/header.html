@@ -34,7 +34,7 @@
           {% if item.posts and page.layout == "post" %}{% assign is_section = true %}{% endif %}
           {% for path in item.exact %}{% if page.url == path %}{% assign is_section = true %}{% endif %}{% endfor %}
           {% for prefix in item.match %}{% if page.url contains prefix %}{% assign is_section = true %}{% endif %}{% endfor %}
-          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.label }}</a>
         {% endfor %}
         <span class="language-switch" role="group" aria-label="{% if page.lang == 'fr' %}Langue{% else %}Language{% endif %}">
           <a class="language-switch__link{% if page.lang != 'fr' %} is-active{% endif %}" href="{{ english_url | relative_url }}" lang="en" hreflang="en" aria-label="English"{% if page.lang != 'fr' %} aria-current="true"{% endif %}>EN</a>
