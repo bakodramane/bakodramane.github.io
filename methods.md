@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Methods
 permalink: /methods/
 description: "Methods for responsible and survey-aware AI use in official statistics."

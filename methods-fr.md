@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Méthodes"
 permalink: /methods-fr/
 description: "Méthodes pour une IA responsable prenant en compte les plans de sondage et la qualité statistique."

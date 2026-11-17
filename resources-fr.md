@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Ressources"
 permalink: /resources-fr/
 description: "Références, listes de contrôle et ressources pratiques pour l'IA responsable en statistique officielle."

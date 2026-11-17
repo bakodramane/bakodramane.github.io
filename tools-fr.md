@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Outils et plateformes d'IA"
 permalink: /tools-fr/
 description: "Outils et plateformes pour les enquêtes, recensements et traitements des données statistiques."

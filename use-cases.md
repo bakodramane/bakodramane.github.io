@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Use Cases
 permalink: /use-cases/
 description: "Practical AI use cases for surveys, censuses, administrative data, agricultural statistics and official statistics."

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Cas d'utilisation de l'IA"
 permalink: /use-cases-fr/
 description: "Applications de l'IA dans les enquêtes, recensements et statistiques agricoles."

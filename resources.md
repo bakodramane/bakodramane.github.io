@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Resources
 permalink: /resources/
 description: "Resource entry points for responsible AI, official statistics governance and practical statistical AI workflows."

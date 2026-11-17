@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Tools
 permalink: /tools/
 description: "AI tools and platforms relevant to survey, census, administrative data and official statistics workflows."
