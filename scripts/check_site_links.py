@@ -33,7 +33,9 @@ class LinkParser(HTMLParser):
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("site_dir", type=Path, nargs="?", default=Path("_site"))
+    parser.add_argument("--baseurl", default="", help="GitHub Pages project path, e.g. /ai-official-statistics")
     args = parser.parse_args()
+    baseurl = "/" + args.baseurl.strip("/") if args.baseurl.strip("/") else ""
     site = args.site_dir.resolve()
     html = sorted(site.rglob("*.html"))
     if not html:
@@ -58,6 +60,15 @@ def main() -> int:
             if parts.scheme and not parts.netloc:
                 continue
             target_path = unquote(parts.path)
+            if baseurl and target_path.startswith("/"):
+                if target_path == baseurl or target_path.startswith(baseurl + "/"):
+                    target_path = target_path[len(baseurl):] or "/"
+                elif parts.netloc in SITE_HOSTS:
+                    # A fully qualified URL outside this project belongs to the portfolio.
+                    continue
+                else:
+                    failures.append(f"{file.relative_to(site)}:{line}: root-relative URL lacks project baseurl: {href}")
+                    continue
             if not target_path:
                 target = file
             elif target_path.startswith("/"):

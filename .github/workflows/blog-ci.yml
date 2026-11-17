@@ -1,0 +1,33 @@
+name: AI blog — build and link checks
+
+on:
+  push:
+    branches:
+      - main
+      - ai-blog-standalone-2026-11-17
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build Jekyll blog
+        run: bundle exec jekyll build
+      - name: Validate internal links under project baseurl
+        run: python3 scripts/check_site_links.py _site --baseurl /ai-official-statistics
+      - name: Confirm article archive and feeds
+        run: |
+          test -f _site/index.html
+          test -f _site/fr/accueil/index.html
+          test -f _site/en/index.html
+          test -f _site/fr/index.html
+          test -f _site/feed.xml

@@ -1741,3 +1741,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 
 /* Author name highlighted in citations */
 .pub-author-self { color: var(--heading); font-weight: 800; }
+
+
+/* Separate AI for Official Statistics project site */
+.blog-hero { background: linear-gradient(120deg,#fff 12%,#edf7f6 65%,#e5f0f7); }
+.blog-hero h1 { font-size: clamp(2.5rem,4.6vw,4.2rem); letter-spacing: -.045em; }
+.blog-hero .hero__panel span { border-left: 3px solid var(--accent); }
+.blog-return { color: var(--accent-strong) !important; border: 1px solid #c7ded8; }
+.blog-return:hover { background: #e4f4f0; }
+.blog-hero .hero__positioning a { color: #0b655e; font-weight: 700; }
+@media (max-width: 900px) {
+  .blog-hero { grid-template-columns: 1fr; }
+  .blog-hero .hero__panel { margin-top: 18px; }
+}
