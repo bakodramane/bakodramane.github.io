@@ -4,6 +4,7 @@ description: "Professional and academic portfolio of Dramane Bako, statistician 
 url: "https://bakodramane.github.io"
 baseurl: ""
 blog_url: "https://bakodramane.github.io/ai-official-statistics/"
+blog_base: "https://bakodramane.github.io/ai-official-statistics"
 theme: minima
 author:
   name: "Dramane Bako"
