@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Hub de connaissances"
 permalink: /knowledge-hub-fr/
 description: "Ressources bilingues sur les méthodes, outils, cas d'utilisation et enjeux de l'IA pour la statistique officielle."

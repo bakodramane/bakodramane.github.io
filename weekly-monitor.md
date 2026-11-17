@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Weekly Monitor
 permalink: /weekly-monitor/
 description: "Weekly monitor updates on AI tools, methods and governance for official statistics."

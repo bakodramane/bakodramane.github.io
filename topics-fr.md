@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: "Thèmes du hub de connaissances"
 permalink: /topics-fr/
 description: "Huit groupes thématiques en français sur l'IA et la statistique officielle."

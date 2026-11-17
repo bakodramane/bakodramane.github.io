@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Knowledge Hub
 permalink: /knowledge-hub/
 description: "Reference pages on AI tools, methods, use cases and resources for official statistics — organised by topic."

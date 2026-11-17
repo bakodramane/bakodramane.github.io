@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Français
 permalink: /fr/
 description: "Articles en français sur les outils d'IA pour les enquêtes, les recensements, les données administratives et les statistiques officielles."

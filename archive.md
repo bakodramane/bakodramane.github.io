@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Archive
 permalink: /archive/
 description: "Chronological archive of AI for Official Statistics posts by Dramane Bako."

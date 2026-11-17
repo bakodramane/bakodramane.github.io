@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: English Updates
 permalink: /en/
 description: "English posts on AI tools for surveys, censuses, administrative data and official statistics."

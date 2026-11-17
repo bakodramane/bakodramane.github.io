@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: blog-redirect
+sitemap: false
 title: Topics
 permalink: /topics/
 description: "Topic taxonomy for AI tools, methods and governance in official statistics."
