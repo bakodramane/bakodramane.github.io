@@ -33,7 +33,7 @@ translation_fr: /knowledge-hub-fr/
   </section>
   <section class="resource-card" id="ai-tools">
     <h2>AI Tools &amp; Platforms</h2>
-    <p>AI tools, platforms and libraries relevant to surveys, censuses, administrative data and official statistics workflows. Distinct from the open-source apps I develop — see the <a href="{{ '/apps/' | relative_url }}">Apps page</a> for those.</p>
+    <p>AI tools, platforms and libraries relevant to surveys, censuses, administrative data and official statistics workflows. Distinct from the open-source apps I develop — see the <a href="https://bakodramane.github.io/apps/">Apps page</a> for those.</p>
     <a class="read-more" href="{{ '/tools/' | relative_url }}">Browse tools</a>
   </section>
   <section class="resource-card" id="archive">
