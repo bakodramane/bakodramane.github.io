@@ -1,40 +1,31 @@
-# Primary navigation per language.
-# `match` lists URL prefixes that also highlight an item (section pages);
-# `exact` lists extra URLs that highlight it; `posts: true` highlights it on blog posts.
 en:
   - label: Home
     url: /
+  - label: Weekly Monitor
+    url: /weekly-monitor/
+  - label: Knowledge Hub
+    url: /knowledge-hub/
+    match: [/knowledge-hub/, /topics/, /methods/, /use-cases/, /tools/, /resources/]
+  - label: Topics
+    url: /topics/
+  - label: Archive
+    url: /archive/
+    match: [/en/, /fr/]
+    posts: true
   - label: About
     url: /about/
-  - label: Expertise
-    url: /expertise/
-  - label: Experience
-    url: /experience/
-  - label: Publications
-    url: /publications/
-  - label: Projects & Apps
-    url: /projects/
-    match: [/projects/, /apps/]
-  - label: Insights
-    url: /insights/
-    posts: true
-    match: [/insights/, /knowledge-hub/, /weekly-monitor/, /topics/, /methods/, /use-cases/, /tools/, /resources/, /archive/, /en/]
 fr:
   - label: Accueil
     url: /fr/accueil/
-  - label: Profil
-    url: /about-fr/
-  - label: Expertises
-    url: /expertise-fr/
-  - label: Parcours
-    url: /experience-fr/
-  - label: Publications
-    url: /publications-fr/
-  - label: Projets et outils
-    url: /projects-fr/
-    match: [/projects-fr/, /apps-fr/]
-  - label: Analyses
-    url: /insights-fr/
+  - label: Veille
+    url: /fr/
     posts: true
-    exact: [/fr/]
-    match: [/insights-fr/, /knowledge-hub-fr/, /topics-fr/, /methods-fr/, /use-cases-fr/, /tools-fr/, /resources-fr/]
+  - label: Ressources
+    url: /knowledge-hub-fr/
+    match: [/knowledge-hub-fr/, /topics-fr/, /methods-fr/, /use-cases-fr/, /tools-fr/, /resources-fr/]
+  - label: Thèmes
+    url: /topics-fr/
+  - label: Archives
+    url: /archive/
+  - label: À propos
+    url: /about-fr/

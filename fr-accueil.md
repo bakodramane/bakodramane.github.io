@@ -1,51 +1,39 @@
 ---
 layout: default
-title: "Dramane Bako | Statisticien, data scientist et chercheur"
-description: "Parcours, expertises, travaux scientifiques et applications de Dramane Bako en statistique officielle, statistiques agricoles et IA responsable."
+title: "IA pour la statistique officielle — Veille et analyses"
+description: "Veille bilingue et analyses pratiques sur les outils, méthodes et enjeux de gouvernance de l'IA pour les statistiques officielles."
 lang: fr
 permalink: /fr/accueil/
-is_profile_home: true
 translation_en: /
 translation_fr: /fr/accueil/
 ---
 {% assign french_posts = site.posts | where: "lang", "fr" %}
-<section class="portfolio-hero" aria-labelledby="home-title">
-  <div class="portfolio-hero__copy">
-    <p class="eyebrow">Statisticien · Data scientist · Chercheur</p>
-    <h1 id="home-title">Dramane <span>Bako</span></h1>
-    <p class="portfolio-hero__lead">Faire progresser la statistique officielle grâce à des méthodes d'enquête rigoureuses, à la science des données et à une intelligence artificielle responsable.</p>
-    <p class="portfolio-hero__support">Mes travaux associent statistiques agricoles, systèmes statistiques nationaux et innovation technologique, afin de traduire les méthodes en outils utiles à la décision.</p>
-    <div class="portfolio-actions"><a class="button button--primary" href="{{ '/about-fr/' | relative_url }}">Découvrir mon profil</a><a class="button" href="{{ '/publications-fr/' | relative_url }}">Travaux et publications</a><a class="button button--quiet" href="{{ '/contact-fr/' | relative_url }}">Me contacter <span aria-hidden="true">→</span></a></div>
+<section class="hero blog-hero">
+  <div class="hero__content">
+    <p class="eyebrow">Hub indépendant de connaissances bilingues</p>
+    <h1>L'IA pour la statistique officielle</h1>
+    <p class="hero__lede">Une veille pratique et fondée sur des sources fiables sur les outils, les méthodes et la gouvernance de l'intelligence artificielle pour les systèmes statistiques.</p>
+    <p class="hero__positioning">Analyses et sélection des ressources par <a href="https://bakodramane.github.io/about-fr/">Dramane Bako</a>, statisticien et data scientist.</p>
+    <div class="hero__actions"><a class="button button--primary" href="{{ '/fr/' | relative_url }}">Lire la veille</a><a class="button" href="{{ '/topics-fr/' | relative_url }}">Explorer les thèmes</a><a class="button" href="{{ '/feed.xml' | relative_url }}">Flux RSS</a></div>
   </div>
-  <div class="portfolio-hero__visual" aria-label="Domaines de spécialisation"><div class="portfolio-monogram" aria-hidden="true">DB</div><p>Données. Méthodes. Innovation.</p><div class="hero-tags"><span>Statistique officielle</span><span>Méthodes d'enquête</span><span>IA responsable</span></div></div>
-</section>
-<section class="portfolio-section" aria-labelledby="expertise-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Domaines d'intervention</p><h2 id="expertise-title">Mes expertises</h2></div><a class="section-link" href="{{ '/expertise-fr/' | relative_url }}">Toutes mes compétences →</a></div>
-  <div class="portfolio-grid portfolio-grid--four">
-    <article class="portfolio-tile"><span class="tile-number">01</span><h3>Statistique officielle et agricole</h3><p>Recensements agricoles, enquêtes intégrées, normes et production d'indicateurs.</p></article>
-    <article class="portfolio-tile"><span class="tile-number">02</span><h3>Échantillonnage et enquêtes</h3><p>Plans complexes, pondération, estimation, qualité des données et estimation sur petits domaines.</p></article>
-    <article class="portfolio-tile"><span class="tile-number">03</span><h3>Science des données</h3><p>Programmation statistique, analyses reproductibles, apprentissage automatique et aide à la décision.</p></article>
-    <article class="portfolio-tile"><span class="tile-number">04</span><h3>Intelligence artificielle responsable</h3><p>Applications de l'IA à la collecte, au traitement, à la documentation et à la diffusion des statistiques.</p></article>
+  <div class="hero__panel">
+    <span>Méthodes d'enquête et de recensement</span>
+    <span>Qualité, imputation et estimation</span>
+    <span>IA responsable et gouvernance statistique</span>
+    <div class="hero__languages"><a href="{{ '/en/' | relative_url }}" hreflang="en">English articles</a><a href="{{ '/fr/' | relative_url }}" hreflang="fr">Articles en français</a></div>
   </div>
 </section>
-<section class="portfolio-section portfolio-section--split" aria-labelledby="work-title">
-  <div><p class="eyebrow">Contribution professionnelle</p><h2 id="work-title">Des normes statistiques à leur mise en œuvre</h2><p>Mes activités comprennent des contributions à la méthodologie des recensements agricoles et aux programmes d'enquêtes intégrées, notamment dans le cadre du Programme mondial du recensement de l'agriculture de la FAO et de l'Initiative 50x2030.</p><a class="text-action" href="{{ '/experience-fr/' | relative_url }}">Parcours professionnel →</a></div>
-  <div class="portfolio-evidence"><p class="evidence-label">Quelques domaines d'activité</p><a href="{{ '/projects-fr/#wca-2030-fr' | relative_url }}"><strong>Programme mondial du recensement de l'agriculture</strong><span>Directives, méthodes et outils</span></a><a href="{{ '/projects-fr/#50x2030-fr' | relative_url }}"><strong>Initiative 50x2030</strong><span>Enquêtes intégrées et suivi de l'ODD 2</span></a><a href="{{ '/apps-fr/' | relative_url }}"><strong>Applications statistiques ouvertes</strong><span>Outils reproductibles et utilisables hors connexion</span></a></div>
-</section>
-<section class="portfolio-section" aria-labelledby="pub-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Recherche</p><h2 id="pub-title">Publications sélectionnées</h2></div><a class="section-link" href="{{ '/publications-fr/' | relative_url }}">Toutes les publications →</a></div>
-  {% include featured-publications.html lang="fr" %}
-</section>
-<section class="portfolio-section" aria-labelledby="tools-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Méthodes et applications</p><h2 id="tools-title">Projets et outils</h2></div><a class="section-link" href="{{ '/apps-fr/' | relative_url }}">Toutes les applications →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">
-    <article class="portfolio-tile portfolio-tile--accent"><span class="tile-kicker">Recensements agricoles</span><h3>WCA 2030 Explorer</h3><p>Recherche hors connexion dans les directives méthodologiques avec références précises.</p><a class="text-action" href="{{ '/apps-fr/#wca-2030-explorer' | relative_url }}">Voir le projet →</a></article>
-    <article class="portfolio-tile portfolio-tile--accent"><span class="tile-kicker">Qualité des données</span><h3>Data Cleaning Syntax App</h3><p>Syntaxes reproductibles de contrôle, de nettoyage et d'imputation des données.</p><a class="text-action" href="{{ '/apps-fr/#data-cleaning' | relative_url }}">Voir le projet →</a></article>
-    <article class="portfolio-tile portfolio-tile--accent"><span class="tile-kicker">Estimation</span><h3>SAE Syntax Generator</h3><p>Génération de scripts R et Stata pour l'estimation sur petits domaines.</p><a class="text-action" href="{{ '/apps-fr/#sae' | relative_url }}">Voir le projet →</a></article>
+<section class="section">
+  <div class="section__heading section__heading--inline"><div><p class="eyebrow">À découvrir</p><h2>Hub de connaissances</h2></div><a class="section-link" href="{{ '/knowledge-hub-fr/' | relative_url }}">Toutes les ressources →</a></div>
+  <div class="resource-grid">
+    <article class="resource-card"><h3>Méthodes et applications</h3><p>Apprentissage automatique tenant compte des plans de sondage, contrôle qualité et outils d'IA.</p><a class="read-more" href="{{ '/methods-fr/' | relative_url }}">Méthodes →</a></article>
+    <article class="resource-card"><h3>IA responsable</h3><p>Confidentialité, biais, validation, transparence, qualité des méthodes et supervision humaine.</p><a class="read-more" href="{{ '/resources-fr/' | relative_url }}">Ressources →</a></article>
+    <article class="resource-card"><h3>Outils et plateformes</h3><p>Outils et méthodes pratiques pour les producteurs de statistiques.</p><a class="read-more" href="{{ '/tools-fr/' | relative_url }}">Outils →</a></article>
+    <article class="resource-card"><h3>Thèmes et archives</h3><p>Parcourir les articles par sujet, langue ou date.</p><a class="read-more" href="{{ '/archive/' | relative_url }}">Archives →</a></article>
   </div>
 </section>
-<section class="portfolio-section portfolio-section--insights" aria-labelledby="insights-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">Articles et ressources</p><h2 id="insights-title">L'IA pour la statistique officielle</h2><p>Retrouvez la veille bilingue, les méthodes, les outils et les ressources consacrés à une IA responsable.</p></div><a class="section-link" href="{{ '/insights-fr/' | relative_url }}">Explorer les analyses →</a></div>
-  <div class="portfolio-grid portfolio-grid--three">{% for post in french_posts limit: 3 %}<article class="portfolio-tile"><span class="tile-kicker">{{ post.date | date: "%d/%m/%Y" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3><p>{% include post-summary.html post=post limit=180 %}</p></article>{% endfor %}</div>
+<section class="section">
+  <div class="section__heading section__heading--inline"><div><p class="eyebrow">Dernières publications</p><h2>Articles récents en français</h2></div><a class="section-link" href="{{ '/fr/' | relative_url }}">Tous les articles →</a></div>
+  <div class="post-grid">{% for post in french_posts limit: 6 %}{% include post-card.html post=post excerpt_limit=160 tag_limit=3 date_format="%d/%m/%Y" %}{% endfor %}</div>
 </section>
-<section class="portfolio-contact-banner" aria-label="Prendre contact"><div><p class="eyebrow">Échanges et collaborations</p><h2>Échangeons autour de la statistique, de la recherche et de l'IA responsable</h2><p>Découvrez mes travaux et contactez-moi à travers mes profils professionnels.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Me contacter →</a></section>
+<section class="section callout callout--rss"><div><p class="eyebrow">L'auteur</p><h2>Rigueur statistique et innovation</h2><p>Découvrez les travaux professionnels, les recherches et les publications à l'origine de ce blog.</p></div><a class="button button--primary" href="https://bakodramane.github.io/fr/accueil/">Consulter le site professionnel ↗</a></section>

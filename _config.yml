@@ -1,33 +1,34 @@
-title: "Dramane Bako | Statistician, Data Scientist & Researcher"
-tagline: "Official statistics, survey methodology, agricultural statistics and responsible AI"
-description: "The professional and academic portfolio of Dramane Bako: official statistics, research publications, agricultural surveys and censuses, data science, and responsible AI."
+title: "AI for Official Statistics | Dramane Bako"
+tagline: "Evidence-led AI insights for statistical systems"
+description: "A bilingual independent knowledge hub on responsible AI tools, methods and governance for surveys, censuses, administrative data and official statistics."
 url: "https://bakodramane.github.io"
-baseurl: ""
+baseurl: "/ai-official-statistics"
 theme: minima
 author:
   name: "Dramane Bako"
   email:
-  url: "https://bakodramane.github.io/about/"
+  url: "https://bakodramane.github.io/"
 twitter:
   username:
   card: summary_large_image
 social:
   name: "Dramane Bako"
   links:
+    - "https://bakodramane.github.io/"
     - "https://www.linkedin.com/in/bakodramane/"
-    - "https://www.researchgate.net/profile/Dramane-Bako"
     - "https://github.com/bakodramane"
-logo: "/assets/img/social-preview.png"
-image: "/assets/img/social-preview.png"
+logo: "https://bakodramane.github.io/ai-official-statistics/assets/img/social-preview.png"
+image: "https://bakodramane.github.io/ai-official-statistics/assets/img/social-preview.png"
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 header_pages:
+  - weekly-monitor.md
+  - knowledge-hub.md
+  - topics.md
+  - methods.md
+  - resources.md
+  - archive.md
   - about.md
-  - expertise.md
-  - experience.md
-  - publications.md
-  - projects.md
-  - insights.md
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -47,3 +48,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - docs
+  - scripts

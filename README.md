@@ -1,52 +1,32 @@
-# Dramane Bako — professional and academic portfolio
+# AI for Official Statistics — Independent bilingual blog
 
-Public portfolio and bilingual knowledge hub hosted with Jekyll on GitHub Pages.
+**Planned publication address:** https://bakodramane.github.io/ai-official-statistics/
 
-- **Website:** https://bakodramane.github.io/
-- **English professional homepage:** `/`
-- **French professional homepage:** `/fr/accueil/`
-- **English/French articles:** `/en/` and `/fr/` (preserved)
-- **Publications:** source data in `_data/publications.yml`, rendered using the shared catalogue include
-- **Apps:** source data in `_data/apps.yml`, rendered using the shared app include
-- **Topic translations:** `_data/topics_fr.yml`
-- **Bilingual navigation:** `_data/navigation.yml`
-- **Site styling:** `assets/main.scss`
+This source branch prepares a separate GitHub Pages project site for [Dramane Bako](https://bakodramane.github.io/). It contains the full original bilingual AI article archive, Weekly Monitor, methodological knowledge hub, resources, topic pages and RSS feed. The professional portfolio remains at the root site.
 
-## Local development
+**Repository target:** `bakodramane/ai-official-statistics` (requires creation in GitHub before deployment).
 
-Requires Ruby and Bundler compatible with the `github-pages` gem.
+## Deployment
 
-```sh
+1. Create a **public empty repository** named `ai-official-statistics` in the same GitHub account.
+2. Push this branch's **files** to that repository's `main` branch. If creating a clean-history repository, use the instructions in the migration PR rather than merging this branch into the portfolio.
+3. In the new repository: Settings → Pages → Deploy from a branch → `main` / `/(root)`.
+4. Confirm the blog at `https://bakodramane.github.io/ai-official-statistics/`.
+5. Validate EN/FR URLs, article translation switches, RSS and archives before redirecting the original site.
+6. Update the scheduled bilingual blog publishing task's repository and branch target to the new `ai-official-statistics` repository.
+
+`_config.yml` uses `url: https://bakodramane.github.io` and `baseurl: /ai-official-statistics`. Keep this when using the default GitHub Pages project URL; change both only when a custom domain is actually configured.
+
+## Local validation
+
+```bash
 bundle install
-bundle exec jekyll serve
-```
-
-Open `http://127.0.0.1:4000/`. Before opening or merging a PR, run:
-
-```sh
 bundle exec jekyll build
-python3 scripts/check_site_links.py _site
+python3 scripts/check_site_links.py _site --baseurl /ai-official-statistics
 ```
 
-The CI workflow runs these checks on pull requests and updates to `main`.
+## Publishing compatibility
 
-`Gemfile.lock` lists both the Windows (`x64-mingw-ucrt`) and Linux (`x86_64-linux`) platforms so the same lockfile installs locally and in CI. On another platform (for example macOS), run `bundle lock --add-platform <platform>` once and commit the result.
+Keep paired `translation_key`, `lang` and French `/fr/` permalinks on all posts. Existing weekly content format and source citation conventions are preserved. The website may not be live until the new repository is created and Pages enabled.
 
-## Shared includes
-
-- `_includes/featured-publications.html` — featured research on both home pages and the publications pages; edit the marker list there to change the selection.
-- `_includes/publication-citation.html` — renders a citation and highlights the author's name.
-- `_includes/post-summary.html` — card summary for posts: the `description` front matter, falling back to the first paragraph. Every new post should still set `description` (it also feeds search snippets).
-
-## Content maintenance
-
-- Preserve existing blog post URLs, paired `translation_key` values and weekly-monitor automation.
-- Pair portfolio pages using `translation_en` and `translation_fr`.
-- Edit publication citations and app descriptions in their YAML source files.
-- Keep professional claims and academic credentials accurate and distinguish author roles from institutional publications.
-- Do not insert fabricated photos, unavailable demos, performance metrics or unverified scholarly IDs.
-- See `docs/content-guidelines.md` and `docs/portfolio-content-review.md`.
-
-## Personal disclaimer
-
-All views expressed are personal and do not represent FAO or another organisation.
+All statements and commentary are personal, not institutional.

@@ -1,39 +1,28 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ '/' | relative_url }}"></data>
-  <div class="wrapper footer-grid portfolio-footer-grid">
+  <div class="wrapper footer-grid">
     <div>
-      <p class="footer-heading">Dramane Bako</p>
-      {% if page.lang == 'fr' %}
-        <p class="footer-description">Statistique officielle, méthodologie des enquêtes, statistiques agricoles, science des données et intelligence artificielle responsable.</p>
-        <p class="footer-disclaimer">Les opinions exprimées ici sont personnelles et ne représentent aucune institution.</p>
+      <p class="footer-heading">AI for Official Statistics</p>
+      {% if page.lang == "fr" %}
+        <p class="footer-description">Veille bilingue sur l'IA responsable, les données, les méthodes et la gouvernance statistique, par Dramane Bako.</p>
+        <p class="footer-disclaimer">Les opinions exprimées sont personnelles et ne représentent aucune institution.</p>
       {% else %}
-        <p class="footer-description">Official statistics, survey methodology, agricultural statistics, data science and responsible artificial intelligence.</p>
-        <p class="footer-disclaimer">Views expressed here are personal and do not represent any institution.</p>
+        <p class="footer-description">Bilingual, source-grounded AI research monitoring and practical methods for official statistics, by Dramane Bako.</p>
+        <p class="footer-disclaimer">Views expressed are personal and do not represent any institution.</p>
       {% endif %}
     </div>
-    <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Liens utiles{% else %}Useful links{% endif %}">
-      {% if page.lang == 'fr' %}
-        <a href="{{ '/about-fr/' | relative_url }}">Profil</a>
-        <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>
-        <a href="{{ '/apps-fr/' | relative_url }}">Applications</a>
-        <a href="{{ '/knowledge-hub-fr/' | relative_url }}">Hub de connaissances</a>
-        <a href="{{ '/contact-fr/' | relative_url }}">Contact</a>
-        <a href="{{ '/fr/' | relative_url }}">Articles en français</a>
-      {% else %}
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/apps/' | relative_url }}">Apps</a>
-        <a href="{{ '/knowledge-hub/' | relative_url }}">Knowledge Hub</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a href="{{ '/en/' | relative_url }}">English articles</a>
-      {% endif %}
+    <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Liens du blog{% else %}Blog links{% endif %}">
+      <a href="{{ '/' | relative_url }}">{% if page.lang == 'fr' %}Accueil{% else %}Home{% endif %}</a>
+      <a href="{{ '/weekly-monitor/' | relative_url }}">{% if page.lang == 'fr' %}Veille hebdomadaire{% else %}Weekly Monitor{% endif %}</a>
+      <a href="{{ '/knowledge-hub/' | relative_url }}">Knowledge Hub</a>
+      <a href="{{ '/archive/' | relative_url }}">{% if page.lang == 'fr' %}Archives{% else %}Archive{% endif %}</a>
       <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="https://bakodramane.github.io/">{% if page.lang == 'fr' %}Site professionnel{% else %}Professional portfolio{% endif %} ↗</a>
     </nav>
     <div class="footer-social">
-      <p class="footer-subheading">{% if page.lang == 'fr' %}Profils{% else %}Profiles{% endif %}</p>
-      <a href="https://www.linkedin.com/in/bakodramane/" rel="me">LinkedIn</a>
-      <a href="https://www.researchgate.net/profile/Dramane-Bako" rel="me">ResearchGate</a>
-      <a href="https://github.com/bakodramane" rel="me">GitHub</a>
+      <p class="footer-subheading">{% if page.lang == 'fr' %}Auteur{% else %}Author{% endif %}</p>
+      <a href="https://bakodramane.github.io/about/">{% if page.lang == 'fr' %}Profil de Dramane Bako{% else %}Dramane Bako profile{% endif %} ↗</a>
+      <a href="https://www.linkedin.com/in/bakodramane/">LinkedIn ↗</a>
+      <a href="https://github.com/bakodramane">GitHub ↗</a>
     </div>
   </div>
 </footer>

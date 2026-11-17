@@ -1,13 +1,10 @@
 <header class="site-header" role="banner">
   <div class="wrapper site-header__inner">
-    {% if page.lang == "fr" %}
-      {% assign home_url = "/fr/accueil/" %}
-    {% else %}
-      {% assign home_url = "/" %}
-    {% endif %}
-    <a class="site-title" rel="author" href="{{ home_url | relative_url }}" aria-label="{% if page.lang == 'fr' %}Dramane Bako — accueil{% else %}Dramane Bako — home{% endif %}">
-      <span class="site-title__main">Dramane Bako</span>
-      <span class="site-title__byline">{% if page.lang == "fr" %}Statistique · Science des données · Recherche{% else %}Statistics · Data science · Research{% endif %}</span>
+    {% assign home_url = "/" %}
+    {% if page.lang == "fr" %}{% assign home_url = "/fr/accueil/" %}{% endif %}
+    <a class="site-title" rel="author" href="{{ home_url | relative_url }}" aria-label="{% if page.lang == 'fr' %}Accueil du blog{% else %}Blog homepage{% endif %}">
+      <span class="site-title__main">AI for Official Statistics</span>
+      <span class="site-title__byline">{% if page.lang == "fr" %}Veille et analyses par Dramane Bako{% else %}Research monitor and analysis by Dramane Bako{% endif %}</span>
     </a>
     {% assign nav_items = site.data.navigation.en %}
     {% if page.lang == "fr" %}{% assign nav_items = site.data.navigation.fr %}{% endif %}
@@ -22,24 +19,20 @@
     {% endif %}
     <nav class="site-nav" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Primary navigation{% endif %}">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger" class="nav-toggle">
-        <span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 18 15" width="18" height="15"><path d="M18,1.5H0v-2h18v2ZM18,8H0V6h18v2ZM18,14.5H0v-2h18v2Z"/></svg></span>
-        <span class="nav-toggle__text">Menu</span>
-      </label>
+      <label for="nav-trigger" class="nav-toggle"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 18 15" width="18" height="15"><path d="M18,1.5H0v-2h18v2ZM18,8H0V6h18v2ZM18,14.5H0v-2h18v2Z"/></svg></span><span class="nav-toggle__text">Menu</span></label>
       <div class="trigger nav-menu">
         {% for item in nav_items %}
-          {% assign is_current = false %}
-          {% assign is_section = false %}
-          {% if page.url == item.url %}{% assign is_current = true %}{% endif %}
-          {% if item.posts and page.layout == "post" %}{% assign is_section = true %}{% endif %}
-          {% for path in item.exact %}{% if page.url == path %}{% assign is_section = true %}{% endif %}{% endfor %}
-          {% for prefix in item.match %}{% if page.url contains prefix %}{% assign is_section = true %}{% endif %}{% endfor %}
-          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          {% assign active = false %}
+          {% if page.url == item.url %}{% assign active = true %}{% endif %}
+          {% if item.posts and page.layout == "post" %}{% assign active = true %}{% endif %}
+          {% for prefix in item.match %}{% if page.url contains prefix %}{% assign active = true %}{% endif %}{% endfor %}
+          <a class="page-link{% if active %} is-active{% endif %}" {% if page.url == item.url %}aria-current="page"{% endif %} href="{{ item.url | relative_url }}">{{ item.label }}</a>
         {% endfor %}
         <span class="language-switch" role="group" aria-label="{% if page.lang == 'fr' %}Langue{% else %}Language{% endif %}">
-          <a class="language-switch__link{% if page.lang != 'fr' %} is-active{% endif %}" href="{{ english_url | relative_url }}" lang="en" hreflang="en" aria-label="English"{% if page.lang != 'fr' %} aria-current="true"{% endif %}>EN</a>
-          <a class="language-switch__link{% if page.lang == 'fr' %} is-active{% endif %}" href="{{ french_url | relative_url }}" lang="fr" hreflang="fr" aria-label="Français"{% if page.lang == 'fr' %} aria-current="true"{% endif %}>FR</a>
+          <a class="language-switch__link{% if page.lang != 'fr' %} is-active{% endif %}" href="{{ english_url | relative_url }}" hreflang="en" lang="en">EN</a>
+          <a class="language-switch__link{% if page.lang == 'fr' %} is-active{% endif %}" href="{{ french_url | relative_url }}" hreflang="fr" lang="fr">FR</a>
         </span>
+        <a class="page-link blog-return" href="https://bakodramane.github.io/">{% if page.lang == "fr" %}Site professionnel ↗{% else %}Professional website ↗{% endif %}</a>
       </div>
     </nav>
   </div>
