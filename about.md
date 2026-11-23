@@ -36,7 +36,7 @@ translation_fr: /about-fr/
 <h2>Education and continuing development</h2>
 <ul class="profile-list">
   <li><strong>MBA, specialisation in Artificial Intelligence</strong> — Nexford University (completed).</li>
-  <li><strong>MSc studies in Data Science and Artificial Intelligence</strong> — University of Liverpool (in progress).</li>
+  <li><strong>Post Graduate Program in Generative AI for Business Applications</strong> — The University of Texas at Austin, McCombs School of Business (completed).</li>
 </ul>
 <p>For selected technical work and published research, see the <a href="{{ '/publications/' | relative_url }}">publications</a> and <a href="{{ '/apps/' | relative_url }}">applications</a> pages. For a summary of professional contributions, see <a href="{{ '/experience/' | relative_url }}">experience</a>.</p>
 
