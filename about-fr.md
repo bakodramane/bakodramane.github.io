@@ -34,7 +34,7 @@ translation_fr: /about-fr/
 <h2>Formation et perfectionnement</h2>
 <ul class="profile-list">
   <li><strong>MBA, spécialisation en intelligence artificielle</strong> — Nexford University (diplôme obtenu).</li>
-  <li><strong>MSc en Data Science and Artificial Intelligence</strong> — University of Liverpool (formation en cours).</li>
+  <li><strong>Post Graduate Program in Generative AI for Business Applications</strong> — The University of Texas at Austin, McCombs School of Business (formation achevée).</li>
 </ul>
 <p>Consultez mes <a href="{{ '/publications-fr/' | relative_url }}">publications</a>, mes <a href="{{ '/apps-fr/' | relative_url }}">applications</a> et mon <a href="{{ '/experience-fr/' | relative_url }}">parcours professionnel</a>.</p>
 <section class="portfolio-contact-banner"><div><p class="eyebrow">Réseau professionnel</p><h2>Découvrir mes contributions</h2><p>Publications, outils statistiques, projets et analyses bilingues.</p></div><a class="button button--primary" href="{{ '/contact-fr/' | relative_url }}">Contact et profils →</a></section>
