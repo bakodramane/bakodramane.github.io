@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Programmes & projects"
 title: "Professional Projects & Programmes"
 description: "Selected statistical development programmes and methodological contributions by Dramane Bako, including WCA 2030 and 50x2030."
 permalink: /projects/
@@ -7,6 +8,11 @@ lang: en
 translation_en: /projects/
 translation_fr: /projects-fr/
 ---
+<nav class="subnav" aria-label="Projects and applications">
+  <a class="is-active" aria-current="page" href="{{ '/projects/' | relative_url }}">Programmes &amp; projects</a>
+  <a href="{{ '/apps/' | relative_url }}">Apps &amp; tools</a>
+</nav>
+
 <p class="page-lede">Selected international statistical development programmes and methodological work, with the focus on scope, practical challenges and areas of personal contribution.</p>
 
 <section class="project-case" id="wca-2030">

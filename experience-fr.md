@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Parcours et contributions"
 title: "Parcours et contributions professionnelles"
 description: "Contributions professionnelles de Dramane Bako aux systèmes statistiques agricoles, aux méthodes de sondage et à l'innovation."
 permalink: /experience-fr/

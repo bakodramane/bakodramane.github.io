@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Independent blog"
 title: "AI Blog & Insights"
 description: "Discover Dramane Bako's independent bilingual AI for Official Statistics blog."
 permalink: /insights/

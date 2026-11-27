@@ -14,9 +14,22 @@
     {% for topic in site.data.publications.topics %}
       {% for pub in topic.publications %}
         {% if pub.url contains marker %}
+          {% assign pub_type_label = pub.type %}
+          {% if include.lang == "fr" %}
+            {% case pub.type %}
+              {% when "Journal article" %}{% assign pub_type_label = "Article de revue" %}
+              {% when "Working paper" %}{% assign pub_type_label = "Document de travail" %}
+              {% when "Guideline" %}{% assign pub_type_label = "Directive" %}
+              {% when "Conference paper" %}{% assign pub_type_label = "Communication" %}
+              {% when "Handbook" %}{% assign pub_type_label = "Manuel" %}
+              {% when "Report" %}{% assign pub_type_label = "Rapport" %}
+              {% when "Technical report" %}{% assign pub_type_label = "Rapport technique" %}
+              {% when "Data report" %}{% assign pub_type_label = "Rapport de données" %}
+            {% endcase %}
+          {% endif %}
           <article class="featured-publication">
-            <p class="eyebrow">{{ pub.year }} · {{ pub.type }}</p>
-            <p>{% include publication-citation.html citation=pub.citation %}</p>
+            <p class="eyebrow">{{ pub.year }} · {{ pub_type_label }}</p>
+            <p class="featured-publication__citation">{% include publication-citation.html citation=pub.citation %}</p>
             <a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{{ featured_label }} <span aria-hidden="true">↗</span></a>
           </article>
         {% endif %}

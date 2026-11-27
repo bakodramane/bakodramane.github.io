@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Blog indépendant"
 title: "Blog IA et analyses"
 description: "Découvrez le blog indépendant et bilingue sur l'IA pour la statistique officielle de Dramane Bako."
 permalink: /insights-fr/

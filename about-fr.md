@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Profil"
 title: "À propos de Dramane Bako"
 description: "Présentation professionnelle, domaines de compétence et intérêts de recherche de Dramane Bako."
 permalink: /about-fr/

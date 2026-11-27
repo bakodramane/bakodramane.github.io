@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Programmes et projets"
 title: "Projets et programmes professionnels"
 description: "Contributions de Dramane Bako aux programmes de statistiques agricoles et à la méthodologie des recensements et enquêtes."
 permalink: /projects-fr/
@@ -7,6 +8,11 @@ lang: fr
 translation_en: /projects/
 translation_fr: /projects-fr/
 ---
+<nav class="subnav" aria-label="Projets et applications">
+  <a class="is-active" aria-current="page" href="{{ '/projects-fr/' | relative_url }}">Programmes et projets</a>
+  <a href="{{ '/apps-fr/' | relative_url }}">Applications et outils</a>
+</nav>
+
 <p class="page-lede">Sélection de programmes de développement statistique international et de travaux méthodologiques, présentés selon leurs enjeux et mes domaines de contribution.</p>
 <section class="project-case" id="wca-2030-fr">
   <div class="project-case__header"><p class="eyebrow">FAO · Recensements agricoles</p><h2>Programme mondial du recensement de l'agriculture (WCA 2030)</h2><p class="project-case__lead">Contribuer à l'application de directives méthodologiques internationales à la planification et à la mise en œuvre des recensements agricoles.</p></div>

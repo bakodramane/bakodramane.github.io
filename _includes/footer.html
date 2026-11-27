@@ -1,7 +1,7 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
   <div class="wrapper footer-grid portfolio-footer-grid">
-    <div>
+    <div class="footer-brand">
       <p class="footer-heading">Dramane Bako</p>
       {% if page.lang == 'fr' %}
         <p class="footer-description">Statistique officielle, méthodologie des enquêtes, statistiques agricoles, science des données et intelligence artificielle responsable.</p>
@@ -11,29 +11,41 @@
         <p class="footer-disclaimer">Views expressed here are personal and do not represent any institution.</p>
       {% endif %}
     </div>
-    <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Liens utiles{% else %}Useful links{% endif %}">
-      {% if page.lang == 'fr' %}
-        <a href="{{ '/about-fr/' | relative_url }}">Profil</a>
-        <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>
-        <a href="{{ '/apps-fr/' | relative_url }}">Applications</a>
-        <a href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/">Hub de connaissances</a>
-        <a href="{{ '/contact-fr/' | relative_url }}">Contact</a>
-        <a href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/">Articles en français</a>
-      {% else %}
-        <a href="{{ '/about/' | relative_url }}">About</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/apps/' | relative_url }}">Apps</a>
-        <a href="https://bakodramane.github.io/ai-official-statistics/">Knowledge Hub</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
-        <a href="https://bakodramane.github.io/ai-official-statistics/">English articles</a>
-      {% endif %}
-      <a href="https://bakodramane.github.io/ai-official-statistics/feed.xml">RSS</a>
+    <nav class="footer-nav" aria-label="{% if page.lang == 'fr' %}Navigation du portfolio{% else %}Portfolio navigation{% endif %}">
+      <p class="footer-subheading">{% if page.lang == 'fr' %}Portfolio{% else %}Portfolio{% endif %}</p>
+      <div class="footer-nav__links">
+        {% if page.lang == 'fr' %}
+          <a href="{{ '/about-fr/' | relative_url }}">Profil</a>
+          <a href="{{ '/expertise-fr/' | relative_url }}">Expertises</a>
+          <a href="{{ '/experience-fr/' | relative_url }}">Parcours</a>
+          <a href="{{ '/publications-fr/' | relative_url }}">Publications</a>
+          <a href="{{ '/projects-fr/' | relative_url }}">Projets</a>
+          <a href="{{ '/apps-fr/' | relative_url }}">Applications</a>
+          <a href="{{ '/contact-fr/' | relative_url }}">Contact</a>
+          <a href="{{ '/insights-fr/' | relative_url }}">Blog IA</a>
+        {% else %}
+          <a href="{{ '/about/' | relative_url }}">About</a>
+          <a href="{{ '/expertise/' | relative_url }}">Expertise</a>
+          <a href="{{ '/experience/' | relative_url }}">Experience</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="{{ '/projects/' | relative_url }}">Projects</a>
+          <a href="{{ '/apps/' | relative_url }}">Apps</a>
+          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+          <a href="{{ '/insights/' | relative_url }}">AI Blog</a>
+        {% endif %}
+      </div>
     </nav>
     <div class="footer-social">
-      <p class="footer-subheading">{% if page.lang == 'fr' %}Profils{% else %}Profiles{% endif %}</p>
-      <a href="https://www.linkedin.com/in/bakodramane/" rel="me">LinkedIn</a>
-      <a href="https://www.researchgate.net/profile/Dramane-Bako" rel="me">ResearchGate</a>
-      <a href="https://github.com/bakodramane" rel="me">GitHub</a>
+      <p class="footer-subheading">{% if page.lang == 'fr' %}Profils et blog{% else %}Profiles &amp; Blog{% endif %}</p>
+      {% if page.lang == 'fr' %}
+        <a href="https://bakodramane.github.io/ai-official-statistics/fr/accueil/">L'IA pour la statistique officielle <span aria-hidden="true">↗</span></a>
+      {% else %}
+        <a href="https://bakodramane.github.io/ai-official-statistics/">AI for Official Statistics <span aria-hidden="true">↗</span></a>
+      {% endif %}
+      <a href="https://bakodramane.github.io/ai-official-statistics/feed.xml">{% if page.lang == 'fr' %}Flux RSS du blog{% else %}Blog RSS feed{% endif %}</a>
+      <a href="https://www.linkedin.com/in/bakodramane/" rel="me">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="https://www.researchgate.net/profile/Dramane-Bako" rel="me">ResearchGate <span aria-hidden="true">↗</span></a>
+      <a href="https://github.com/bakodramane" rel="me">GitHub <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </footer>

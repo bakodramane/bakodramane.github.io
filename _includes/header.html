@@ -14,19 +14,21 @@
     {% assign english_url = page.translation_en | default: "/" %}
     {% assign french_url = page.translation_fr | default: "/fr/accueil/" %}
     <nav class="site-nav" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Primary navigation{% endif %}">
-      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-      <label for="nav-trigger" class="nav-toggle">
-        <span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 18 15" width="18" height="15"><path d="M18,1.5H0v-2h18v2ZM18,8H0V6h18v2ZM18,14.5H0v-2h18v2Z"/></svg></span>
+      <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-expanded="false" aria-controls="primary-nav-menu" aria-label="{% if page.lang == 'fr' %}Ouvrir le menu de navigation{% else %}Toggle navigation menu{% endif %}">
+        <span class="menu-icon" aria-hidden="true">
+          <svg class="menu-icon__open" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="3" y1="5" x2="17" y2="5"/><line x1="3" y1="10" x2="17" y2="10"/><line x1="3" y1="15" x2="17" y2="15"/></svg>
+          <svg class="menu-icon__close" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="5" y1="5" x2="15" y2="15"/><line x1="15" y1="5" x2="5" y2="15"/></svg>
+        </span>
         <span class="nav-toggle__text">Menu</span>
-      </label>
-      <div class="trigger nav-menu">
+      </button>
+      <div class="nav-menu" id="primary-nav-menu">
         {% for item in nav_items %}
           {% assign is_current = false %}
           {% assign is_section = false %}
           {% if page.url == item.url %}{% assign is_current = true %}{% endif %}
           {% for path in item.exact %}{% if page.url == path %}{% assign is_section = true %}{% endif %}{% endfor %}
           {% for prefix in item.match %}{% if page.url contains prefix %}{% assign is_section = true %}{% endif %}{% endfor %}
-          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.label }}{% if item.external %} <span aria-hidden="true">↗</span>{% endif %}</a>
+          <a class="page-link{% if is_current or is_section %} is-active{% endif %}"{% if is_current %} aria-current="page"{% endif %} href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}">{{ item.label }}{% if item.external %} <span class="ext-arrow" aria-hidden="true">↗</span>{% endif %}</a>
         {% endfor %}
         <span class="language-switch" role="group" aria-label="{% if page.lang == 'fr' %}Langue{% else %}Language{% endif %}">
           <a class="language-switch__link{% if page.lang != 'fr' %} is-active{% endif %}" href="{{ english_url | relative_url }}" lang="en" hreflang="en" aria-label="English"{% if page.lang != 'fr' %} aria-current="true"{% endif %}>EN</a>
@@ -36,3 +38,30 @@
     </nav>
   </div>
 </header>
+<script>
+(function () {
+  var btn = document.getElementById('nav-toggle-btn');
+  var menu = document.getElementById('primary-nav-menu');
+  if (!btn || !menu) return;
+  function closeMenu() {
+    btn.setAttribute('aria-expanded', 'false');
+    menu.classList.remove('is-open');
+  }
+  btn.addEventListener('click', function (e) {
+    e.stopPropagation();
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    menu.classList.toggle('is-open', !open);
+  });
+  document.addEventListener('click', function (e) {
+    if (!menu.classList.contains('is-open')) return;
+    if (!menu.contains(e.target) && e.target !== btn) closeMenu();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && menu.classList.contains('is-open')) {
+      closeMenu();
+      btn.focus();
+    }
+  });
+}());
+</script>

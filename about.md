@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Profile"
 title: "About Dramane Bako"
 description: "Professional biography, career profile and research interests of Dramane Bako — statistician, data scientist and researcher."
 permalink: /about/
