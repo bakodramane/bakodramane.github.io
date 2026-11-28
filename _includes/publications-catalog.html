@@ -6,35 +6,66 @@
 {% endfor %}
 
 <div class="publication-intro">
-  <div>
-    <p class="eyebrow">{% if is_fr %}Bibliographie professionnelle et scientifique{% else %}Scholarly &amp; professional bibliography{% endif %}</p>
-    <p class="page-lede">{% if is_fr %}Sélection de travaux scientifiques, publications méthodologiques, communications et rapports techniques. Les références bibliographiques sont conservées dans leur langue de publication.{% else %}Selected journal articles, methodological guidance, working papers, conference contributions and technical reports. Bibliographic citations retain their published language.{% endif %}</p>
+  <p class="page-lede">{% if is_fr %}Sélection de travaux scientifiques, publications méthodologiques, communications et rapports techniques. Les références bibliographiques sont conservées dans leur langue de publication.{% else %}Selected journal articles, methodological guidance, working papers, conference contributions and technical reports. Bibliographic citations retain their published language.{% endif %}</p>
+  <div class="publication-count">
+    <strong>{{ publication_count }}</strong>
+    <span>{% if is_fr %}références sélectionnées{% else %}selected entries{% endif %}</span>
   </div>
-  <div class="publication-count"><strong>{{ publication_count }}</strong><span>{% if is_fr %}références sélectionnées{% else %}selected entries{% endif %}</span></div>
 </div>
+
 <p class="profile-note">{% if is_fr %}La présence d'un document institutionnel ne signifie pas une qualité d'auteur unique : se référer aux crédits de chaque publication. Les liens externes renvoient aux éditeurs ou organisations lorsqu'ils sont disponibles.{% else %}Institutional outputs are not presented as sole-authored works; consult each publication's own credits for precise attribution. Publisher and institutional links are provided where available.{% endif %}</p>
 
 <section class="portfolio-section" aria-labelledby="featured-publications-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">{% if is_fr %}À la une{% else %}Highlighted research{% endif %}</p><h2 id="featured-publications-title">{% if is_fr %}Publications sélectionnées{% else %}Featured publications{% endif %}</h2></div></div>
+  <div class="portfolio-section__head">
+    <div>
+      <p class="eyebrow">{% if is_fr %}À la une{% else %}Highlighted research{% endif %}</p>
+      <h2 id="featured-publications-title">{% if is_fr %}Publications sélectionnées{% else %}Featured publications{% endif %}</h2>
+    </div>
+  </div>
   {% include featured-publications.html lang=include.lang %}
 </section>
 
 <section class="portfolio-section" aria-labelledby="full-bibliography-title">
-  <div class="portfolio-section__head"><div><p class="eyebrow">{% if is_fr %}Explorer{% else %}Explore{% endif %}</p><h2 id="full-bibliography-title">{% if is_fr %}Bibliographie complète{% else %}Complete bibliography{% endif %}</h2></div></div>
+  <div class="portfolio-section__head">
+    <div>
+      <p class="eyebrow">{% if is_fr %}Explorer{% else %}Explore{% endif %}</p>
+      <h2 id="full-bibliography-title">{% if is_fr %}Bibliographie complète{% else %}Complete bibliography{% endif %}</h2>
+    </div>
+  </div>
   <div class="publication-filter-panel">
     <div class="pub-filter-grid" role="search" aria-label="{% if is_fr %}Filtrer les publications{% else %}Filter publications{% endif %}">
-      <div><label for="pub-search">{% if is_fr %}Rechercher{% else %}Search{% endif %}</label><input type="search" id="pub-search" placeholder="{% if is_fr %}Auteur, titre ou mot-clé{% else %}Author, title or keyword{% endif %}" autocomplete="off"></div>
-      <div><label for="pub-topic">{% if is_fr %}Thème{% else %}Topic{% endif %}</label><select id="pub-topic"><option value="all">{% if is_fr %}Tous les thèmes{% else %}All topics{% endif %}</option>
-        {% for topic in site.data.publications.topics %}
-          {% assign topic_title = topic.title %}
-          {% if is_fr %}{% assign topic_title = site.data.publication_topics_fr[topic.id].title | default: topic.title %}{% endif %}
-          <option value="{{ topic.id }}">{{ topic_title }}</option>
-        {% endfor %}
-      </select></div>
-      <div><label for="pub-type">{% if is_fr %}Type{% else %}Type{% endif %}</label><select id="pub-type"><option value="all">{% if is_fr %}Tous les types{% else %}All types{% endif %}</option></select></div>
-      <div><label for="pub-year">{% if is_fr %}Année{% else %}Year{% endif %}</label><select id="pub-year"><option value="all">{% if is_fr %}Toutes les années{% else %}All years{% endif %}</option></select></div>
+      <div>
+        <label for="pub-search">{% if is_fr %}Rechercher{% else %}Search{% endif %}</label>
+        <input type="search" id="pub-search" placeholder="{% if is_fr %}Auteur, titre ou mot-clé{% else %}Author, title or keyword{% endif %}" autocomplete="off">
+      </div>
+      <div>
+        <label for="pub-topic">{% if is_fr %}Thème{% else %}Topic{% endif %}</label>
+        <select id="pub-topic">
+          <option value="all">{% if is_fr %}Tous les thèmes{% else %}All topics{% endif %}</option>
+          {% for topic in site.data.publications.topics %}
+            {% assign topic_title = topic.title %}
+            {% if is_fr %}{% assign topic_title = site.data.publication_topics_fr[topic.id].title | default: topic.title %}{% endif %}
+            <option value="{{ topic.id }}">{{ topic_title }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div>
+        <label for="pub-type">{% if is_fr %}Type{% else %}Type{% endif %}</label>
+        <select id="pub-type">
+          <option value="all">{% if is_fr %}Tous les types{% else %}All types{% endif %}</option>
+        </select>
+      </div>
+      <div>
+        <label for="pub-year">{% if is_fr %}Année{% else %}Year{% endif %}</label>
+        <select id="pub-year">
+          <option value="all">{% if is_fr %}Toutes les années{% else %}All years{% endif %}</option>
+        </select>
+      </div>
     </div>
-    <div class="pub-filter-status"><p id="pub-results-count" role="status" aria-live="polite">{{ publication_count }} {% if is_fr %}références{% else %}entries{% endif %}</p><button type="button" class="button" id="pub-reset">{% if is_fr %}Effacer les filtres{% else %}Clear filters{% endif %}</button></div>
+    <div class="pub-filter-status">
+      <p id="pub-results-count" role="status" aria-live="polite">{{ publication_count }} {% if is_fr %}références{% else %}entries{% endif %}</p>
+      <button type="button" class="button button--small" id="pub-reset" disabled>{% if is_fr %}Effacer les filtres{% else %}Clear filters{% endif %}</button>
+    </div>
   </div>
   <div id="publication-results">
     {% for topic in site.data.publications.topics %}
@@ -46,11 +77,30 @@
       {% endif %}
       {% assign ordered_publications = topic.publications | sort: "year" | reverse %}
       <section class="pub-section" id="{{ topic.id }}" data-topic-section="{{ topic.id }}">
-        <div class="pub-heading"><h3>{{ topic_title }}</h3><p>{{ topic_description }}</p></div>
+        <div class="pub-heading">
+          <h3>{{ topic_title }}</h3>
+          <p>{{ topic_description }}</p>
+        </div>
         <ol class="pub-list">
           {% for pub in ordered_publications %}
-            <li class="pub-item" data-year="{{ pub.year }}" data-type="{{ pub.type | downcase | escape }}" data-topic="{{ topic.id }}" data-search="{{ pub.citation | strip_html | escape }} {{ topic_title | escape }} {{ pub.type | escape }}">
-              <div class="pub-item-meta"><span class="pub-type-badge">{{ pub.type }}</span><span class="pub-year">{{ pub.year }}</span></div>
+            {% assign pub_type_label = pub.type %}
+            {% if is_fr %}
+              {% case pub.type %}
+                {% when "Journal article" %}{% assign pub_type_label = "Article de revue" %}
+                {% when "Working paper" %}{% assign pub_type_label = "Document de travail" %}
+                {% when "Guideline" %}{% assign pub_type_label = "Directive" %}
+                {% when "Conference paper" %}{% assign pub_type_label = "Communication" %}
+                {% when "Handbook" %}{% assign pub_type_label = "Manuel" %}
+                {% when "Report" %}{% assign pub_type_label = "Rapport" %}
+                {% when "Technical report" %}{% assign pub_type_label = "Rapport technique" %}
+                {% when "Data report" %}{% assign pub_type_label = "Rapport de données" %}
+              {% endcase %}
+            {% endif %}
+            <li class="pub-item" data-year="{{ pub.year }}" data-type="{{ pub.type | downcase | escape }}" data-type-label="{{ pub_type_label | escape }}" data-topic="{{ topic.id }}" data-search="{{ pub.citation | strip_html | escape }} {{ topic_title | escape }} {{ pub.type | escape }} {{ pub_type_label | escape }}">
+              <div class="pub-item-meta">
+                <span class="pub-year">{{ pub.year }}</span>
+                <span class="pub-type-badge">{{ pub_type_label }}</span>
+              </div>
               <p class="pub-citation">{% include publication-citation.html citation=pub.citation %}</p>
               {% if pub.url %}<a class="text-action" href="{{ pub.url }}" target="_blank" rel="noopener noreferrer">{% if is_fr %}Source / publication{% else %}Publisher / full text{% endif %} <span aria-hidden="true">↗</span></a>{% endif %}
             </li>
@@ -80,18 +130,27 @@
     var plain = (value || '').toLowerCase();
     return typeof plain.normalize === 'function' ? plain.normalize('NFD').replace(/[\u0300-\u036f]/g, '') : plain;
   }
-  function fillOptions(select, values) {
-    values.forEach(function(value) {
-      var option = document.createElement('option');
-      option.value = value;
-      option.textContent = value.charAt(0).toUpperCase() + value.slice(1);
-      select.appendChild(option);
-    });
-  }
-  fillOptions(type, Array.from(new Set(rows.map(function(row) { return row.dataset.type; }))).sort());
-  fillOptions(year, Array.from(new Set(rows.map(function(row) { return row.dataset.year; }))).sort().reverse());
+  var typeMap = {};
+  rows.forEach(function(row) {
+    if (!typeMap[row.dataset.type]) typeMap[row.dataset.type] = row.dataset.typeLabel || row.dataset.type;
+  });
+  Object.keys(typeMap).sort(function(a, b) {
+    return typeMap[a].localeCompare(typeMap[b]);
+  }).forEach(function(key) {
+    var option = document.createElement('option');
+    option.value = key;
+    option.textContent = typeMap[key];
+    type.appendChild(option);
+  });
+  Array.from(new Set(rows.map(function(row) { return row.dataset.year; }))).sort().reverse().forEach(function(val) {
+    var option = document.createElement('option');
+    option.value = val;
+    option.textContent = val;
+    year.appendChild(option);
+  });
   function update() {
     var query = simplify(search.value.trim());
+    var hasFilter = Boolean(query || topic.value !== 'all' || type.value !== 'all' || year.value !== 'all');
     var visible = 0;
     rows.forEach(function(row) {
       var show = (!query || simplify(row.dataset.search).indexOf(query) !== -1) &&
@@ -105,6 +164,7 @@
       section.hidden = !section.querySelector('.pub-item:not([hidden])');
     });
     empty.hidden = visible > 0;
+    reset.disabled = !hasFilter;
     count.textContent = visible + (isFrench ? ' référence' + (visible === 1 ? '' : 's') + ' affichée' + (visible === 1 ? '' : 's') : ' entr' + (visible === 1 ? 'y' : 'ies') + ' shown');
   }
   [search, topic, type, year].forEach(function(control) {

@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Bibliographie professionnelle et scientifique"
 title: "Publications et recherches"
 permalink: /publications-fr/
 description: "Articles scientifiques, méthodes de sondage, directives et contributions de recherche de Dramane Bako."

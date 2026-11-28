@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Career & contributions"
 title: "Professional Experience & Contributions"
 description: "Selected experience and professional contributions by Dramane Bako in agricultural statistical systems, survey methodology and statistical innovation."
 permalink: /experience/

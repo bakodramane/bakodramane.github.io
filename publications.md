@@ -1,5 +1,6 @@
 ---
 layout: page
+eyebrow: "Scholarly & professional bibliography"
 title: "Research & Publications"
 permalink: /publications/
 description: "Selected academic articles, survey methodology papers, institutional guidelines and professional research contributions by Dramane Bako."
